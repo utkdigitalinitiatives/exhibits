@@ -34,9 +34,7 @@ const Layout = ({ children }) => {
       <main>
         <article>{children}</article>
       </main>
-      <footer>
-        {/*{data.site.siteMetadata.footer}*/}
-      </footer>
+      <footer id="utk-lib-footer"></footer>
     </>
   )
 }
