@@ -7,12 +7,8 @@ const Header = ({ siteTitle }) => (
   <>
     <Helmet>
       <title>Exhibits Demo</title>
-      <script crossOrigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-      <script crossOrigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-      <script defer src="https://www.lib.utk.edu/assets/universal-header.js?v=1.3.0" async type="text/javascript" />
       <script src="https://yith.netlify.app/yith.js" async type="text/javascript" />
     </Helmet>
-    <header id="utk-lib-header" data-page-title="Exhibits | Libraries at University of Tennessee, Knoxville" />
     <div
       style={{
         background: `rebeccapurple`,
