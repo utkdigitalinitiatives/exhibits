@@ -1,5 +1,13 @@
+// layout
+@import "global/variables";
+
 // components
+@import "components/header";
 @import "components/headings";
+@import "components/navigation";
+@import "components/section";
+@import "components/yith";
 
 // layout
 @import "layout/layout";
+@import "layout/main";

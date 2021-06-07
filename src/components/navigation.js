@@ -1,14 +1,46 @@
 import * as React from "react"
+import Link from "gatsby-link"
 
 const Navigation = () => (
   <>
-    <ul>
-      <li><a href="/">Introduction</a></li>
-      <li><a href="/studienbuch">The Studienbuch</a></li>
-      <li><a href="/galston">Gottfried Galston</a></li>
-      <li><a href="/concert-programs">Concert Programs</a></li>
-      <li><a href="/resources">Resources</a></li>
-    </ul>
+    <nav>
+
+      <Link
+        to="/"
+        activeClassName="active"
+      >
+        Introduction
+      </Link>
+
+      <Link
+        to="/studienbuch"
+        activeClassName="active"
+      >
+        The Studienbuch
+      </Link>
+
+      <Link
+        to="/galston"
+        activeClassName="active"
+      >
+        Gottfried Galston
+      </Link>
+
+      <Link
+        to="/concert-programs"
+        activeClassName="active"
+      >
+        Concert Programs
+      </Link>
+
+      <Link
+        to="/resources"
+        activeClassName="active"
+      >
+        Resources
+      </Link>
+
+    </nav>
   </>
 )
 

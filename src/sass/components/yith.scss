@@ -1,0 +1,10 @@
+.yith {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0 !important;
+
+  &.yith-comparison {
+    display: flex;
+    box-shadow: 5px 5px 15px rgba($primary, 0.2);
+  }
+}
