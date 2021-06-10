@@ -1,0 +1,19 @@
+{
+  "slug": "apartheid",
+  "title": "The Anti-Apartheid Movement of the 1970s",
+  "path": "/apartheid",
+  "navigation": [
+    {
+      "to": "/",
+      "text": "Introduction"
+    },
+    {
+      "to": "/boycotts",
+      "text": "Boycotts"
+    },
+    {
+      "to": "/human-element",
+      "text": "The Human Element"
+    }
+  ]
+}

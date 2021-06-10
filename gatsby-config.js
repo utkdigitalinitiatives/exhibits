@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Galston Studienbuch`,
-    description: `---`,
-    footer: `nada`,
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -14,6 +9,14 @@ module.exports = {
         name: `media`,
         path: `${__dirname}/src/media`,
       },
+    },
+    "gatsby-transformer-json",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

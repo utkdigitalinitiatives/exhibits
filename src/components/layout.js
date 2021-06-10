@@ -10,27 +10,35 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Navigation from "./navigation"
 import "../sass/styles.scss"
+import { Helmet } from "react-helmet"
 
-const Layout = ({ children }) => {
+const Layout = ({ exhibit, children }) => {
+
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          description
-          footer
+    query ExhibitDataQuery {
+      allDataJson {
+        edges {
+          node {
+            slug,
+            title,
+            navigation {
+              to
+              text
+            },
+            styles
+          }
         }
       }
     }
   `)
 
-  console.log(data)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Helmet>
+        <title>Thing 1</title>
+      </Helmet>
+      <Header siteTitle="placeholder" />
       <main>
         <article>{children}</article>
       </main>
