@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../sass/styles.scss"
 import { Helmet } from "react-helmet"
+import _ from "lodash"
 
 const Layout = ({ exhibit, children }) => {
 
@@ -32,6 +33,13 @@ const Layout = ({ exhibit, children }) => {
       }
     }
   `)
+
+  console.log(
+    _.find(data.allDataJson.edges, {
+        'slug': exhibit
+      }
+    )
+  )
 
   return (
     <>
