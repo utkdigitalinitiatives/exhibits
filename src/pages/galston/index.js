@@ -183,7 +183,7 @@ const GalstonIndex = () => (
       </div>
       <div>
         <h2>Gottfried Galston</h2>
-        <p>Donec eu nibh neque. Duis bibendum leo vitae est fermentum, id tristique dolor vulputate. <Link to="/galston/gottfied-galston" activeClassName="active">Morbi id est elementum</Link>, bibendum felis vel, venenatis metus. Donec interdum, lorem sit amet cursus blandit, nisi purus consequat est, lacinia ultricies leo enim eget felis. Aenean ut enim elit. Praesent eget ipsum accumsan, egestas enim a, ullamcorper mi. Etiam eget lectus in erat tincidunt eleifend.</p>
+        <p>Donec eu nibh neque. Duis bibendum leo vitae est fermentum, id tristique dolor vulputate. <Link to="/galston/gottfried-galston" activeClassName="active">Morbi id est elementum</Link>, bibendum felis vel, venenatis metus. Donec interdum, lorem sit amet cursus blandit, nisi purus consequat est, lacinia ultricies leo enim eget felis. Aenean ut enim elit. Praesent eget ipsum accumsan, egestas enim a, ullamcorper mi. Etiam eget lectus in erat tincidunt eleifend.</p>
         <p>Nam gravida elit risus, aliquam tempus odio pulvinar eu. Donec nec erat nisl. Duis finibus rutrum metus id semper. Pellentesque pellentesque est id mauris pulvinar cursus. Aenean finibus ullamcorper diam eu convallis. </p>
       </div>
     </section>
