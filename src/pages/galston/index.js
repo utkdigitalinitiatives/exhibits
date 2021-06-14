@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
+import Yith from "../../components/yith/Yith"
 
 const GalstonIndex = () => (
 
@@ -12,149 +13,19 @@ const GalstonIndex = () => (
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
-        <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - <Link to="/galston/studienbuch" activeClassName="active">Gottfried Galston’s Studienbuch</Link>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation.</p>
-        <div className="yith yith-projection" id="stuidenbuch-projection" data-mode="projection">
-          <a className="yith-expand" href="#">Guided Tour of the Studienbuch</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch-guided-tour.json">
-              <figcaption>
-                <strong>Galston</strong>
-                <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin
-                  ipsum quam a nibh. Nullam et accumsan ligula.</p>
-              </figcaption>
-              <div className="yith-items">
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
-                  <figcaption>
-                    <strong>The Studienbuch</strong>
-                    <p>Purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin ipsum quam a
-                      nibh.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/2">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/1">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/2">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/3">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/1">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694">
-              <figcaption>
-                <strong>Galston</strong>
-                <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin
-                  ipsum quam a nibh. Nullam et accumsan ligula.</p>
-              </figcaption>
-            </figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch-guided-tour.json">
-              <div className="yith-items">
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/1">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/2">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/1">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-                <figure className="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
-                  <figcaption>
-                    <strong>Proin in tincidunt leo</strong>
-                    <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                      sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/703">
-              <figcaption>
-                <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
-      </div>
-      <div>
-        <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
-          <a className="yith-expand" href="#">View English Translation</a>
+        <Yith mode="comparison">
+          <a className="yith-expand" href="#">Expand for Comparative Analysis</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
           </div>
-        </div>
+        </Yith>
+        <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - <Link to="/galston/studienbuch" activeClassName="active">Gottfried Galston’s Studienbuch</Link>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation.</p>
+        <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
+      </div>
+      <div>
       </div>
     </section>
 
@@ -171,15 +42,6 @@ const GalstonIndex = () => (
 
     <section className="exhibits-section">
       <div>
-        <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
-          <a className="yith-expand" href="#">Galston, 1924</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/686"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/687"></figure>
-          </div>
-        </div>
       </div>
       <div>
         <h2>Gottfried Galston</h2>

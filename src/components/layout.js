@@ -40,8 +40,7 @@ const Layout = ({ exhibit, children }) => {
 
   const data = _.find(items, {
       'slug': exhibit
-    }
-  )
+    })
 
   return (
     <>
