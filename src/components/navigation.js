@@ -1,21 +1,23 @@
 import * as React from "react"
 import Link from "gatsby-link"
 
-function mapNav ({items}) {
-  return (
-    <Link
-      to="/"
-      activeClassName="active"
-    >
-    Introduction
-    </Link>
-  )
+function mapNav (items) {
+  return items.map(function(el){
+    return (
+      <Link
+        to={el.to}
+        activeClassName="active"
+      >
+        {el.text}
+      </Link>
+    )
+  });
 }
 
-const Navigation = () => (
+const Navigation = (items) => (
   <>
     <nav>
-      {mapNav({})}
+      {mapNav(items.items)}
     </nav>
   </>
 )

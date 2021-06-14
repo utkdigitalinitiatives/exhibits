@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const GalstonPage = () => (
-  <Layout>
+  <Layout exhibit="galston">
     <Seo title="Gottfried Galston" />
     <h1>Gottfried Galston</h1>
     <div className="yith yith-chronology" id="galston-chronology" data-mode="chronology">

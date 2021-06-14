@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const ConcertProgramsPage = () => (
-  <Layout>
+  <Layout exhibit="galston">
     <Seo title="Concert Programs" />
     <h1>Concert Programs</h1>
   </Layout>

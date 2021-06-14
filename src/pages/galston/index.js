@@ -5,7 +5,8 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const GalstonIndex = () => (
-  <Layout>
+
+  <Layout exhibit="galston">
     <Seo title="Galston Studienbuch" />
 
     <section className="exhibits-section">
@@ -37,6 +38,7 @@ const GalstonIndex = () => (
       </figure>
     </section>
   </Layout>
+
 )
 
 export default GalstonIndex

@@ -16,14 +16,14 @@ import _ from "lodash"
 
 const Layout = ({ exhibit, children }) => {
 
-  const data = useStaticQuery(graphql`
+  const results = useStaticQuery(graphql`
     query ExhibitDataQuery {
       allDataJson {
         edges {
           node {
             slug,
             title,
-            navigation {
+            nav {
               to
               text
             },
@@ -34,11 +34,13 @@ const Layout = ({ exhibit, children }) => {
     }
   `)
 
-  console.log(
-    _.find(data.allDataJson.edges, {
-        'slug': exhibit
-      }
-    )
+  const items = results.allDataJson.edges.map(function(el){
+    return el.node
+  });
+
+  const data = _.find(items, {
+      'slug': exhibit
+    }
   )
 
   return (
@@ -46,7 +48,7 @@ const Layout = ({ exhibit, children }) => {
       <Helmet>
         <title>Thing 1</title>
       </Helmet>
-      <Header siteTitle="placeholder" />
+      <Header structure={data} />
       <main>
         <article>{children}</article>
       </main>

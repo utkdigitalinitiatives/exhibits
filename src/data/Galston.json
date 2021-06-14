@@ -1,18 +1,23 @@
 {
   "slug": "galston",
   "title": "Galston Studienbuch",
-  "navigation": [
+  "path": "/galston",
+  "nav": [
     {
-      "to": "/",
+      "to": "/galston",
       "text": "Introduction"
     },
     {
-      "to": "/studienbuch",
+      "to": "/galston/studienbuch",
       "text": "The Studienbuch"
     },
     {
-      "to": "/concert-programs",
+      "to": "/galston/concert-programs",
       "text": "Concert Programs"
+    },
+    {
+      "to": "/galston/resources",
+      "text": "Resources"
     }
   ],
   "styles": "exhibits/galston.scss"

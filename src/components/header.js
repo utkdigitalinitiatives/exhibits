@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import Navigation from "./navigation"
 
-const Header = ({ title }) => (
+const Header = ({ structure }) => (
+
   <>
     <div className="exhibits-header">
       <div>
@@ -12,21 +13,13 @@ const Header = ({ title }) => (
           <Link
             to="/"
           >
-            {title}
+            {structure.title}
           </Link>
         </h1>
       </div>
-      <Navigation />
+      <Navigation items={structure.nav} />
     </div>
   </>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

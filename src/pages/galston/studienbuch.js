@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const StudienbuchPage = () => (
-  <Layout>
+  <Layout exhibit="galston">
     <Seo title="Guided Tour" />
     <h1>The Studienbuch</h1>
     <div className="yith yith-projection" id="stuidenbuch-projection" data-mode="projection">

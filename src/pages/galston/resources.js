@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const ResourcesPage = () => (
-  <Layout>
+  <Layout exhibit="galston">
     <Seo title="Available Resources" />
     <h1>Available Resources</h1>
   </Layout>
