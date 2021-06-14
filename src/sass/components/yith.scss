@@ -1,10 +1,16 @@
 .yith {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
 
   &.yith-comparison {
     display: flex;
-    box-shadow: 5px 5px 15px rgba($primary, 0.2);
+  }
+
+  .yith-expand {
+    font-family: $sans;
+    background-color: $accent;
   }
 }

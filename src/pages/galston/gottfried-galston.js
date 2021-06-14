@@ -7,7 +7,6 @@ import Seo from "../../components/seo"
 const GalstonPage = () => (
   <Layout exhibit="galston">
     <Seo title="Gottfried Galston" />
-    <h1>Gottfried Galston</h1>
     <div className="yith yith-chronology" id="galston-chronology" data-mode="chronology">
       <div className="yith-structure">
         <span>1900</span>

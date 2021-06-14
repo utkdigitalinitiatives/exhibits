@@ -1,19 +1,22 @@
-nav {
-  padding: 0;
-  margin-left: 2rem;
+.exhibits-header > nav {
+  padding: 1rem 2rem;
+  margin-left: 0rem;
   background-color: transparent;
   transition: all 200ms ease-in-out;
-  display: inline-flex !important;
+  display: flex !important;
   width: auto;
+  text-transform: uppercase;
 
   a,
   a:visited {
     padding: 0.75rem 1rem;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 0.8333em;
     position: relative;
     background-color: transparent;
     transition: all 200ms ease-in-out;
-    color: white !important;
+    color: $primary !important;
+    letter-spacing: 0.1em;
 
     &:last-child {
       margin-right: 0;
@@ -44,8 +47,11 @@ nav {
   }
 
   &:hover {
+    background-color: white;
+    box-shadow: $box-shadow;
+
     a.active::after {
-      background-color: lighten($primary, 10);
+      background-color: lighten($white, 10);
     }
   }
 }
