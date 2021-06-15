@@ -10,17 +10,8 @@ const GalstonIndex = () => (
   <Layout exhibit="galston">
     <Seo title="Galston Studienbuch" />
 
-    <Yith mode="comparison">
-      <a className="yith-expand" href="#">Expand for Comparative Analysis</a>
-      <div className="yith-structure">
-        <figure className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
-        <figure className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
-      </div>
-    </Yith>
-
-    <Yith mode="chronology">
+    <Yith id="studienbuch-chronology"
+          mode="chronology">
       <div className="yith-structure">
         <span>1900</span>
         <span>1901</span>

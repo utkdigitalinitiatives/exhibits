@@ -52,6 +52,8 @@ class Yith extends Component {
       item.value = null
       item.data = {};
 
+      console.log(el)
+
       if (el.props.className != '') {
         item.class = el.props.className
       }
@@ -70,6 +72,12 @@ class Yith extends Component {
 
       if (el.props['data-autozoom']) {
         item.data.autozoom = el.props['data-autozoom']
+      }
+
+      if (Array.isArray(el.props.children)) {
+        item.value = null
+      } else {
+        item.value = el.props.children
       }
 
       return item
@@ -172,9 +180,13 @@ class Yith extends Component {
   render() {
 
     if (this.state.structure) {
-      return <Mode expand={this.state.expand}
-                   structure={this.state.structure}
-                   mode={this.props.mode} />
+      return (
+        <div className={`yith yith-${this.props.mode}`}>
+          <Mode expand={this.state.expand}
+                structure={this.state.structure}
+                mode={this.props.mode} />
+        </div>
+      )
     } else {
       return null
     }

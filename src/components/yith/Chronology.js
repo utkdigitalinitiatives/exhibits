@@ -5,10 +5,10 @@ class Chronology extends Component {
 
   mapStructure = (sequence) => {
 
-    return sequence.map((element) => {
+    return sequence.map((element, index) => {
       if (element.tag === 'span') {
         return (
-          <React.Fragment>
+          <React.Fragment key={index}>
             <span className={element.class}>{element.value}</span>
           </React.Fragment>
         )
@@ -27,12 +27,12 @@ class Chronology extends Component {
         }
 
         return (
-          <React.Fragment>
+          <React.Fragment key={index}>
             <div className={element.class}>
               <Manifest
                 manifest={element.manifest}
-                region={region}
-                autozoom={autozoom}  />
+                region={null}
+                autozoom={false} />
             </div>
           </React.Fragment>
         )
