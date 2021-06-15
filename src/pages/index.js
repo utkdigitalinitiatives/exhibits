@@ -9,7 +9,7 @@ const exhibit  = 'default'
 const ExhibitsIndex = () => (
   <Layout exhibit={exhibit}>
     <Seo title="Exhibits Demo" />
-    <div>z</div>
+    <div>xyz</div>
   </Layout>
 )
 
