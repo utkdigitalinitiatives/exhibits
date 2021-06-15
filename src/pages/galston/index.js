@@ -26,6 +26,16 @@ const GalstonIndex = () => (
         <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
       </div>
       <div>
+        <div className="yith yith-comparison" id="studienbuch-comparison-3" data-mode="comparison">
+          <a className="yith-expand" href="#">A Look Inside</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498"></figure>
+          </div>
+        </div>
       </div>
     </section>
 
