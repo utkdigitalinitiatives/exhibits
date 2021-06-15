@@ -31,6 +31,7 @@ const GalstonPage = () => (
           <span>1920</span>
           <span>1930</span>
           <span>1940</span>
+          <span>1950</span>
         </div>
       </div>
     </section>

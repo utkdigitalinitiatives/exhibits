@@ -21,6 +21,7 @@ section.exhibits-section {
       letter-spacing: -0.01em;
       font-family: $serif;
       font-weight: 400;
+      color: $primary;
 
       &:first-child {
         margin-top: 0;
@@ -50,7 +51,7 @@ section.exhibits-section {
       margin: 0 0 0 40px;
       font-family: $sans;
       font-weight: 700;
-      color: $accent;
+      color: $secondary;
       text-transform: uppercase;
       font-size: 0.8333rem;
     }
