@@ -31,34 +31,52 @@ class Yith extends Component {
 
   buildStructure(items) {
 
-    // const children = source.querySelector('div.yith-structure').children;
-    //
+    let children = {};
 
-    let key = _.findIndex(items, function(o) {
-      return o.props.className == 'yith-structure';
-    });
+    if (Array.isArray(items)) {
+      let key = _.findIndex(items, function(o) {
+        return o.props.className == 'yith-structure';
+      });
+      children = items[key].props.children;
+    } else {
+      children = items.props.children;
+    }
 
-    let children = items[key].props.children;
+    console.log(children)
 
-    return children.map(function(el){
+    const structure = children.map(function(el){
 
-      let item = {};
+      let item = {}
 
       item.tag = el.type
       item.value = null
+      item.data = {};
 
       if (el.props.className != '') {
-        item.itemClass = el.props.className
+        item.class = el.props.className
       }
 
-      console.log(el)
+      if (el.props['data-manifest']) {
+        item.data.manifest = el.props['data-manifest']
+      }
 
-      // if (el.props['data-manifest']) {
-      //   item.itemManifest = el.props['data-manifest']
-      // }
+      if (el.props['data-canvas']) {
+        item.data.canvas = el.props['data-canvas']
+      }
+
+      if (el.props['data-region']) {
+        item.data.region = el.props['data-region']
+      }
+
+      if (el.props['data-autozoom']) {
+        item.data.autozoom = el.props['data-autozoom']
+      }
 
       return item
+
     });
+
+    return structure
 
 
     // while(items[key].props.children.length > structure.length) {

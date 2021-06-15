@@ -10,55 +10,44 @@ const GalstonIndex = () => (
   <Layout exhibit="galston">
     <Seo title="Galston Studienbuch" />
 
-    <section className="exhibits-section">
-      <div>
-        <h2>The Studienbuch</h2>
-        <Yith mode="comparison">
-          <a className="yith-expand" href="#">Expand for Comparative Analysis</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
-          </div>
-        </Yith>
-        <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - <Link to="/galston/studienbuch" activeClassName="active">Gottfried Galston’s Studienbuch</Link>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation.</p>
-        <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
+    <Yith mode="comparison">
+      <a className="yith-expand" href="#">Expand for Comparative Analysis</a>
+      <div className="yith-structure">
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
       </div>
-      <div>
-        <div className="yith yith-comparison" id="studienbuch-comparison-3" data-mode="comparison">
-          <a className="yith-expand" href="#">A Look Inside</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498"></figure>
-          </div>
-        </div>
-      </div>
-    </section>
+    </Yith>
 
-    <section className="exhibits-section">
-      <figure className="exhibits-blockquote">
-        <blockquote>
-          [Galston] tells you everything about the work, technically, musically, historically, sentimentally. He has no secrets from you.
-        </blockquote>
-        <figcaption>
-          Leonard Liebling
-        </figcaption>
-      </figure>
-    </section>
+    <Yith mode="chronology">
+      <div className="yith-structure">
+        <span>1900</span>
+        <span>1901</span>
+        <span className="yith-date">1902</span>
+        <span className="yith-emblem">1902</span>
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/710"></figure>
+        <span>1903</span>
+        <span>1904</span>
+        <span className="yith-date">1905</span>
+        <span className="yith-emblem">1905</span>
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/700"
+                data-region="2450,1400,3000,2300"
+                data-autozoom="true"></figure>
+        <span>1906</span>
+        <span>1907</span>
+        <span className="yith-date">1908</span>
+        <span className="yith-emblem">1908</span>
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/703"
+                data-region="1050,600,2000,1400"></figure>
+        <span>1909</span>
+        <span>1910</span>
+      </div>
+    </Yith>
 
-    <section className="exhibits-section">
-      <div>
-      </div>
-      <div>
-        <h2>Gottfried Galston</h2>
-        <p>Donec eu nibh neque. Duis bibendum leo vitae est fermentum, id tristique dolor vulputate. <Link to="/galston/gottfried-galston" activeClassName="active">Morbi id est elementum</Link>, bibendum felis vel, venenatis metus. Donec interdum, lorem sit amet cursus blandit, nisi purus consequat est, lacinia ultricies leo enim eget felis. Aenean ut enim elit. Praesent eget ipsum accumsan, egestas enim a, ullamcorper mi. Etiam eget lectus in erat tincidunt eleifend.</p>
-        <p>Nam gravida elit risus, aliquam tempus odio pulvinar eu. Donec nec erat nisl. Duis finibus rutrum metus id semper. Pellentesque pellentesque est id mauris pulvinar cursus. Aenean finibus ullamcorper diam eu convallis. </p>
-      </div>
-    </section>
   </Layout>
 
 )
