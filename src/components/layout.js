@@ -46,7 +46,6 @@ const Layout = ({ exhibit, children }) => {
     <>
       <Helmet>
         <title>Thing 1</title>
-        <script src="https://yith.netlify.app/yith.js" async type="text/javascript" />
       </Helmet>
       <Header structure={data} />
       <main>
