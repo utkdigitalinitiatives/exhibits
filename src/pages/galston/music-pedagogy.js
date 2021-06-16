@@ -15,38 +15,36 @@ const StudienbuchPage = () => (
         <p>Galston’s musical interpretations established the young pianist as one of the most gifted and sensitive interpreters of his day, but his gift to the musical world during this time was not limited to his inspired interpretations. In the spirit of scholarship and a willingness to share his musical ideas with future generations of pianists, Galston published his journey through his interpretative processes by analyzing the composers’ texts to capture, as one reviewer put it, the true character of each work. Therein lies the birth of Studienbuch, Galston's unparalleled gift to musicians and pedagogues for generations to come. </p>
       </div>
       <div>
-        <div>
-          <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
-            <a className="yith-expand" href="#">Galston</a>
-            <div className="yith-structure">
-              <figure className="yith-manifest"
-                      data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                      data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/103"></figure>
-              <figure className="yith-manifest"
-                      data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                      data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/104"></figure>
-            </div>
+        <Yith id="studienbuch-notes-1"
+              mode="comparison">
+          <a className="yith-expand" href="#">Galston</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/103"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/104"></figure>
           </div>
-        </div>
+        </Yith>
       </div>
     </section>
 
 
     <section className="exhibits-section">
       <div>
-        <div>
-          <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
-            <a className="yith-expand" href="#">Galston</a>
-            <div className="yith-structure">
-              <figure className="yith-manifest"
-                      data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                      data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/173"></figure>
-              <figure className="yith-manifest"
-                      data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                      data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/174"></figure>
-            </div>
+        <Yith id="galston-notes-2"
+              mode="comparison">
+          <a className="yith-expand" href="#">Galston</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/173"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/174"></figure>
           </div>
-        </div>
+        </Yith>
       </div>
       <div>
         <h2>Lipsum lorem</h2>
@@ -62,7 +60,8 @@ const StudienbuchPage = () => (
       </div>
       <div>
         <div>
-          <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
+          <Yith id="galston-notes-3"
+                mode="comparison">
             <a className="yith-expand" href="#">Galston</a>
             <div className="yith-structure">
               <figure className="yith-manifest"
@@ -72,7 +71,7 @@ const StudienbuchPage = () => (
                       data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                       data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/154"></figure>
             </div>
-          </div>
+          </Yith>
         </div>
       </div>
     </section>

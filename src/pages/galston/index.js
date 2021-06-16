@@ -17,7 +17,8 @@ const GalstonIndex = () => (
         <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
       </div>
       <div>
-        <div className="yith yith-comparison" id="studienbuch-comparison-3" data-mode="comparison">
+        <Yith id="studienbuch-explore"
+              mode="comparison">
           <a className="yith-expand" href="#">Explore the Volume</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
@@ -26,10 +27,11 @@ const GalstonIndex = () => (
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498"></figure>
           </div>
-        </div>
+        </Yith>
       </div>
       <div>
-        <div className="yith yith-comparison" id="studienbuch-comparison-3" data-mode="comparison">
+        <Yith id="studienbuch-translation"
+              mode="comparison">
           <a className="yith-expand" href="#">Studienbuch & Translation</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
@@ -38,7 +40,7 @@ const GalstonIndex = () => (
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
           </div>
-        </div>
+        </Yith>
       </div>
     </section>
 
@@ -55,7 +57,8 @@ const GalstonIndex = () => (
 
     <section className="exhibits-section">
       <div>
-        <div className="yith yith-comparison" id="studienbuch-comaparison" data-mode="comparison">
+        <Yith id="galston-bio"
+              mode="comparison">
           <a className="yith-expand" href="#">Galston</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
@@ -63,7 +66,7 @@ const GalstonIndex = () => (
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/687"></figure>
           </div>
-        </div>
+        </Yith>
       </div>
       <div>
         <h2>Gottfried Galston</h2>
