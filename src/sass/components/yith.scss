@@ -1,3 +1,19 @@
+// global
+@import "yith/global/varables";
+
+// components
+@import "yith/components/expand";
+@import "yith/components/figure";
+@import "yith/components/modal";
+
+// layout
+@import "yith/layout/chronology";
+@import "yith/layout/comparison";
+@import "yith/layout/present";
+@import "yith/layout/projection";
+@import "yith/layout/yith";
+
+
 .yith {
   display: block;
   margin: 0;
