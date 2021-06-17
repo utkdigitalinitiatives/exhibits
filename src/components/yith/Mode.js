@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Chronology from "./Chronology";
 import Projection from "./Projection";
+import Present from "./Present";
 import Comparison from "./Comparison";
 import Teaser from "./Teaser";
 
@@ -65,6 +66,10 @@ class Mode extends Component {
         <div className={`yith-modal-wrapper yith-modal-${active}`}>
           <Comparison sequence={this.state.sequence} active={active} showModal={this.showModal}  />
         </div>
+      )
+    } else if (mode === 'present') {
+      return (
+        <Present sequence={this.state.sequence} />
       )
     } else if (mode === 'projection' && this.state.data.length > 0) {
       return (

@@ -42,7 +42,9 @@ class Yith extends Component {
       children = items.props.children;
     }
 
-    console.log(children)
+    if (!Array.isArray(children)) {
+      children = [children]
+    }
 
     const structure = children.map(function(el){
 
@@ -51,8 +53,6 @@ class Yith extends Component {
       item.tag = el.type
       item.value = null
       item.data = {};
-
-      console.log(el)
 
       if (el.props.className != '') {
         item.class = el.props.className
