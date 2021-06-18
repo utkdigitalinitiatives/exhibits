@@ -8,14 +8,15 @@ class FigureScreen extends Component {
     super(props);
 
     this.state = {
-      active: false
+      active: false,
+      activeId: null
     }
 
     this.handleClick = this.handleClick.bind(this);
     this.showModal = this.showModal.bind(this);
   }
 
-  componentDidMount() {
+  handleComponent () {
     const { manifest } = this.props;
 
     let region = 'full';
@@ -23,13 +24,24 @@ class FigureScreen extends Component {
       region = this.props.region
     }
 
-    this.setState({
-      label: manifest.label.en[0],
-      summary: manifest.summary.en[0],
-      requiredStatementLabel: manifest.requiredStatement.label.en[0],
-      requiredStatementValue: manifest.requiredStatement.value.en[0],
-      media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!640,640/0/default.jpg'
-    })
+    if (manifest.id !== this.state.activeId) {
+      this.setState({
+        activeId: manifest.id,
+        label: manifest.label.en[0],
+        summary: manifest.summary.en[0],
+        requiredStatementLabel: manifest.requiredStatement.label.en[0],
+        requiredStatementValue: manifest.requiredStatement.value.en[0],
+        media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!640,640/0/default.jpg'
+      })
+    }
+  }
+
+  componentDidMount() {
+    this.handleComponent()
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    this.handleComponent()
   }
 
   yithModal() {
@@ -62,9 +74,7 @@ class FigureScreen extends Component {
         <figure className="yith-figure-screen">
           <div className="yith-figure-screen--preview">
             <div className="yith-figure-screen--preview--inner">
-              <LazyLoad>
-                <img src={media} />
-              </LazyLoad>
+              <img src={media} />
               <a tabIndex="0"
                  href="#"
                  aria-label={`Expand ${label} in Viewer`}

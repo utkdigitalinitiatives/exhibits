@@ -9,6 +9,11 @@
     background-color: $muted;
     box-shadow: $box-shadow;
     height: 76px;
+    position: relative;
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
   }
 
   .yith-structure-wrapper  {
@@ -23,7 +28,7 @@
     > .yith-manifest {
       display: flex;
       padding: 3em;
-      min-height: 900px;
+      height: 100vh;
     }
 
     .yith-fixed {

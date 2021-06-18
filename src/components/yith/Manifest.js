@@ -8,6 +8,7 @@ class Manifest extends Component {
     super(props);
 
     this.state ={
+      activeIndex: null,
       data: null
     }
   }
@@ -23,7 +24,8 @@ class Manifest extends Component {
       .then(response => response.json())
       .then(data => {
         this.setState({
-          data
+          activeIndex: data.id,
+          data: data
         });
       })
       .catch(err => console.error(this.props.url, err.toString()));
@@ -33,6 +35,10 @@ class Manifest extends Component {
 
   componentDidMount() {
     this.getManifest(this.props.manifest)
+  }
+
+  componentDidUpdate() {
+    // this.getManifest(this.props.manifest)
   }
 
   render() {
