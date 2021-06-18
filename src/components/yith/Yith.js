@@ -74,6 +74,10 @@ class Yith extends Component {
         item.data.autozoom = el.props['data-autozoom']
       }
 
+      if (el.props['data-year']) {
+        item.data.year = el.props['data-year']
+      }
+
       if (Array.isArray(el.props.children)) {
         item.value = null
       } else {

@@ -108,6 +108,7 @@ class Mode extends Component {
             "value": item.value,
             "mIndex": mIndex,
             "manifest": item.data.manifest,
+            "year": item.data.year,
             "canvas": item.data.canvas,
             "region": item.data.region,
             "autozoom": item.data.autozoom,
