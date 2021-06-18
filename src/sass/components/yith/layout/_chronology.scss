@@ -11,28 +11,33 @@
     height: 76px;
   }
 
+  .yith-structure-wrapper  {
+    display: flex;
+    position: relative;
+    height: 100%;
+  }
+
   .yith-structure {
+    width: 25%;
+
     > .yith-manifest {
       display: flex;
-
-      > aside {
-        width: 25%;
-        padding: 3em;
-        min-height: 900px;
-      }
-
-      > div {
-        width: 75%;
-        background-color: aquamarine;
-        right: 0;
-        position: absolute;
-        top: 76px;
-      }
+      padding: 3em;
+      min-height: 900px;
     }
 
     .yith-fixed {
       background-color: yellow;
       margin: 0;
     }
+  }
+
+  .yith-screen {
+    width: 75%;
+    height: 60vh;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }

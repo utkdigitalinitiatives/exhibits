@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Manifest from "./Manifest";
 import Index from "./Index"
+import Screen from "./Screen"
 
 class Chronology extends Component {
 
@@ -8,11 +9,7 @@ class Chronology extends Component {
 
     return sequence.map((element, index) => {
       if (element.tag === 'span') {
-        return (
-          <React.Fragment key={index}>
-            <span className={element.class}>{element.value}</span>
-          </React.Fragment>
-        )
+        return <span className={element.class} key={index}>{element.value}</span>
       } else if (element.tag === 'figure') {
 
         let region = null
@@ -28,20 +25,9 @@ class Chronology extends Component {
         }
 
         return (
-          <React.Fragment key={index}>
-            <article className={element.class}>
-              <aside>
-                {element.label}
-              </aside>
-              <div>
-                <Manifest
-                  mode="chronology"
-                  manifest={element.manifest}
-                  region={null}
-                  autozoom={false} />
-              </div>
-            </article>
-          </React.Fragment>
+          <article className={element.class} key={index}>
+            {element.label}
+          </article>
         )
       } else {
         return null
@@ -58,8 +44,13 @@ class Chronology extends Component {
         <div className="yith-index">
           <Index items={sequence} />
         </div>
-        <div className="yith-structure">
-          {this.mapStructure(sequence)}
+        <div className="yith-structure-wrapper">
+          <aside className="yith-structure">
+            {this.mapStructure(sequence)}
+          </aside>
+          <div className="yith-screen">
+            <Screen activeScreen={sequence[2]} />
+          </div>
         </div>
       </React.Fragment>
     )
