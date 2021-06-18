@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Figure from "./Figure";
+import FigureFixed from "./FigureFixed"
 
 class Manifest extends Component {
 
@@ -36,13 +37,23 @@ class Manifest extends Component {
 
   render() {
     if (this.state.data) {
-      return (
-        <React.Fragment>
-          <Figure manifest={this.state.data}
-                  region={this.props.region}
-                  autozoom={this.props.autozoom} />
-        </React.Fragment>
-      )
+      if (this.props.mode === 'chronology') {
+        return (
+          <React.Fragment>
+            <FigureFixed manifest={this.state.data}
+                    region={this.props.region}
+                    autozoom={this.props.autozoom} />
+          </React.Fragment>
+        )
+      } else if (this.props.mode === 'present') {
+        return (
+          <React.Fragment>
+            <Figure manifest={this.state.data}
+                    region={this.props.region}
+                    autozoom={this.props.autozoom} />
+          </React.Fragment>
+        )
+      }
     } else {
       return null
     }

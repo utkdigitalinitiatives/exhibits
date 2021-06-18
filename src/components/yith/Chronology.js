@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Manifest from "./Manifest";
+import Index from "./Index"
 
 class Chronology extends Component {
 
@@ -26,17 +27,20 @@ class Chronology extends Component {
           }
         }
 
-        console.log(element);
-
         return (
           <React.Fragment key={index}>
-            <div className={element.class}>
-              <span>{element.label}</span>
-              <Manifest
-                manifest={element.manifest}
-                region={null}
-                autozoom={false} />
-            </div>
+            <article className={element.class}>
+              <aside>
+                {element.label}
+              </aside>
+              <div>
+                <Manifest
+                  mode="chronology"
+                  manifest={element.manifest}
+                  region={null}
+                  autozoom={false} />
+              </div>
+            </article>
           </React.Fragment>
         )
       } else {
@@ -51,6 +55,9 @@ class Chronology extends Component {
 
     return (
       <React.Fragment>
+        <div className="yith-index">
+          <Index items={sequence} />
+        </div>
         <div className="yith-structure">
           {this.mapStructure(sequence)}
         </div>
