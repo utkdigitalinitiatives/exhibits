@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import LazyLoad from 'react-lazyload';
 import Modal from "./Modal";
 
-class FigureFixed extends Component {
+class FigureScreen extends Component {
 
   constructor(props) {
     super(props);
@@ -59,9 +59,9 @@ class FigureFixed extends Component {
 
     return (
       <React.Fragment>
-        <figure className="yith-fixed">
-          <div className="yith-fixed--preview">
-            <div className="yith-fixed--preview--inner">
+        <figure className="yith-figure-screen">
+          <div className="yith-figure-screen--preview">
+            <div className="yith-figure-screen--preview--inner">
               <LazyLoad>
                 <img src={media} />
               </LazyLoad>
@@ -84,4 +84,4 @@ class FigureFixed extends Component {
   }
 }
 
-export default FigureFixed;
+export default FigureScreen;

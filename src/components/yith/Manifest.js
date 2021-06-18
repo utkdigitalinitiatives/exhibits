@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Figure from "./Figure";
-import FigureFixed from "./FigureFixed"
+import FigureScreen from "./FigureScreen"
 
 class Manifest extends Component {
 
@@ -39,19 +39,15 @@ class Manifest extends Component {
     if (this.state.data) {
       if (this.props.mode === 'chronology') {
         return (
-          <React.Fragment>
-            <FigureFixed manifest={this.state.data}
-                    region={this.props.region}
-                    autozoom={this.props.autozoom} />
-          </React.Fragment>
+          <FigureScreen manifest={this.state.data}
+                        region={this.props.region}
+                        autozoom={this.props.autozoom} />
         )
       } else if (this.props.mode === 'present') {
         return (
-          <React.Fragment>
-            <Figure manifest={this.state.data}
-                    region={this.props.region}
-                    autozoom={this.props.autozoom} />
-          </React.Fragment>
+          <Figure manifest={this.state.data}
+                  region={this.props.region}
+                  autozoom={this.props.autozoom} />
         )
       }
     } else {
