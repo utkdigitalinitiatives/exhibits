@@ -6,7 +6,7 @@
   margin-bottom: 0;
 
   .yith-index {
-    background-color: white;
+    background-color: $muted;
     box-shadow: $box-shadow;
     height: 76px;
   }
@@ -34,10 +34,10 @@
 
   .yith-screen {
     width: 75%;
-    height: 60vh;
+    height: calc(80vh - 76px);
     background-color: red;
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 0;
+    bottom: 0;
   }
 }
