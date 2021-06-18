@@ -31,7 +31,7 @@ class Chronology extends Component {
         return (
           <React.Fragment key={index}>
             <div className={element.class}>
-              <span>{element.year}</span>
+              <span>{element.label}</span>
               <Manifest
                 manifest={element.manifest}
                 region={null}
