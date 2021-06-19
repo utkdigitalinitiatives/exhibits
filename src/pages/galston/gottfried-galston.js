@@ -13,6 +13,9 @@ const GalstonPage = () => (
           mode="chronology">
 			<div className="yith-structure">
 				<figure className="yith-manifest"
+								data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
+								data-label="Gottfried Galston"></figure>
+				<figure className="yith-manifest"
 						data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/692"
 						data-label="1900"></figure>
 				<figure className="yith-manifest"
