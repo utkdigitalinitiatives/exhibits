@@ -26,7 +26,7 @@ const GalstonPage = () => (
 						data-region="2450,1400,3000,2300"
 						data-autozoom="true"></figure>
 				<figure className="yith-manifest"
-						data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/696"
+						data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694"
 						data-label="1907"
 						data-region="2168,729,3947,2732"
 						data-autozoom="true"></figure>

@@ -96,16 +96,16 @@ class Chronology extends Component {
     return (
       <React.Fragment>
         <div className="yith-index">
-          <Link to="0" spy={true} duration={200} onSetActive={this.handleSetActive}>
+          <Link to="0" spy={true} onSetActive={this.handleSetActive}>
             Test 1
           </Link>
-          <Link to="1" spy={true} duration={200} onSetActive={this.handleSetActive}>
+          <Link to="1" spy={true} onSetActive={this.handleSetActive}>
             Test 2
           </Link>
-          <Link to="2" spy={true} duration={200} onSetActive={this.handleSetActive}>
+          <Link to="2" spy={true} onSetActive={this.handleSetActive}>
             Test 3
           </Link>
-          <Link to="3" spy={true} duration={200} onSetActive={this.handleSetActive()}>
+          <Link to="3" spy={true} onSetActive={this.handleSetActive()}>
             Test 4
           </Link>
         </div>

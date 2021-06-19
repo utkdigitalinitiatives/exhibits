@@ -8,29 +8,30 @@ class Manifest extends Component {
     super(props);
 
     this.state ={
-      activeIndex: null,
-      data: null
+      activeIndex: null
     }
   }
 
   getManifest = (uri) => {
-
-    fetch(uri, {
-      headers : {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
-    })
-      .then(response => response.json())
-      .then(data => {
-        this.setState({
-          activeIndex: data.id,
-          data: data
-        });
+    if (this.state.activeIndex !== this.props.activeIndex) {
+      console.log(uri)
+      fetch(uri, {
+        headers : {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
       })
-      .catch(err => console.error(this.props.url, err.toString()));
+        .then(response => response.json())
+        .then(data => {
+          this.setState({
+            activeIndex: this.props.activeIndex,
+            data: data
+          });
+        })
+        .catch(err => console.error(this.props.url, err.toString()));
 
-    return null
+      return null
+    }
   }
 
   componentDidMount() {
@@ -38,7 +39,7 @@ class Manifest extends Component {
   }
 
   componentDidUpdate() {
-    // this.getManifest(this.props.manifest)
+    this.getManifest(this.props.manifest)
   }
 
   render() {

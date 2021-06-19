@@ -6,12 +6,10 @@
   margin-bottom: 0;
 
   .yith-index {
-    background-color: $muted;
+    background-color: $white;
     box-shadow: $box-shadow;
     height: 76px;
     position: relative;
-    position: fixed !important;
-    top: 0;
     z-index: 100;
     width: 100%;
   }
@@ -29,6 +27,8 @@
       display: flex;
       padding: 3em;
       height: 100vh;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .yith-fixed {

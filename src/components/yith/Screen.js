@@ -25,6 +25,7 @@ class Screen extends Component {
       <React.Fragment>
         <Manifest
           mode="chronology"
+          activeIndex={this.props.activeIndex}
           manifest={this.props.data[this.state.activeIndex].manifest}
           region={null}
           autozoom={false} />
