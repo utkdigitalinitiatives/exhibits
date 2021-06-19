@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
+import Sticky from 'react-sticky-el';
 
 import Index from "./Index"
 import Screen from "./Screen"
+
+// var top = document.getElementById('yith-index').offsetTop;
+//
+// window.onscroll = function() {
+//   var y = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+//   if (y >= top) {
+//     document.getElementById('yith-index').className = 'stick';
+//   }
+//   else {
+//     document.getElementById('yith-index').className = '';
+//   }
+// };
 
 class Chronology extends Component {
 
@@ -95,20 +108,22 @@ class Chronology extends Component {
 
     return (
       <React.Fragment>
-        <div className="yith-index">
-          <Link to="0" spy={true} onSetActive={this.handleSetActive}>
-            Test 1
-          </Link>
-          <Link to="1" spy={true} onSetActive={this.handleSetActive}>
-            Test 2
-          </Link>
-          <Link to="2" spy={true} onSetActive={this.handleSetActive}>
-            Test 3
-          </Link>
-          <Link to="3" spy={true} onSetActive={this.handleSetActive()}>
-            Test 4
-          </Link>
-        </div>
+        <Sticky>
+          <div id="yith-index" className="yith-index">
+            <Link to="0" spy={true} onSetActive={this.handleSetActive}>
+              Test 1
+            </Link>
+            <Link to="1" spy={true} onSetActive={this.handleSetActive}>
+              Test 2
+            </Link>
+            <Link to="2" spy={true} onSetActive={this.handleSetActive}>
+              Test 3
+            </Link>
+            <Link to="3" spy={true} onSetActive={this.handleSetActive()}>
+              Test 4
+            </Link>
+          </div>
+        </Sticky>
         <div className="yith-structure-wrapper">
           <aside className="yith-structure">
             <Element name="0" className="yith-manifest">
