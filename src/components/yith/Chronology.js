@@ -5,18 +5,6 @@ import Sticky from 'react-sticky-el';
 import Index from "./Index"
 import Screen from "./Screen"
 
-// var top = document.getElementById('yith-index').offsetTop;
-//
-// window.onscroll = function() {
-//   var y = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-//   if (y >= top) {
-//     document.getElementById('yith-index').className = 'stick';
-//   }
-//   else {
-//     document.getElementById('yith-index').className = '';
-//   }
-// };
-
 class Chronology extends Component {
 
   constructor(props) {
@@ -47,14 +35,11 @@ class Chronology extends Component {
         const name = 'chronology' + index
 
         return (
-          <article className="item"
-                   name={name}
-                   key={index}>
-            <div className={element.class}>
-              {element.label}
-              a bunch of stuff
-            </div>
-          </article>
+
+          <Element name={index} key={index} className={element.class}>
+            <h4>{element.label}</h4>
+            <p>a bunch of stuff</p>
+          </Element>
         )
       } else {
         return null
@@ -65,10 +50,11 @@ class Chronology extends Component {
   mapIndex = (sequence) => {
     return sequence.map((element, index) => {
       if (element.tag === 'figure') {
-        return {
-          label: element.label,
-          target: 'chronology' + index
-        }
+        return (
+          <Link to={index} spy={true} onSetActive={this.handleSetActive}>
+            {element.label}
+          </Link>
+        )
       }
     });
   }
@@ -104,43 +90,17 @@ class Chronology extends Component {
   render() {
 
     const {sequence} = this.props
-    const indexItems = this.mapIndex(sequence);
 
     return (
       <React.Fragment>
         <Sticky>
           <div id="yith-index" className="yith-index">
-            <Link to="0" spy={true} onSetActive={this.handleSetActive}>
-              Test 1
-            </Link>
-            <Link to="1" spy={true} onSetActive={this.handleSetActive}>
-              Test 2
-            </Link>
-            <Link to="2" spy={true} onSetActive={this.handleSetActive}>
-              Test 3
-            </Link>
-            <Link to="3" spy={true} onSetActive={this.handleSetActive()}>
-              Test 4
-            </Link>
+            {this.mapIndex(sequence)}
           </div>
         </Sticky>
         <div className="yith-structure-wrapper">
           <aside className="yith-structure">
-            <Element name="0" className="yith-manifest">
-              test 1
-            </Element>
-            <Element name="1" className="yith-manifest">
-              test 2
-            </Element>
-            <Element name="2" className="yith-manifest">
-              test 3
-            </Element>
-            <Element name="3" className="yith-manifest">
-              test 4
-            </Element>
-            {/*<ElementsWrapper items={indexItems}>*/}
-              {/*{this.mapStructure(sequence)}*/}
-            {/*</ElementsWrapper>*/}
+            {this.mapStructure(sequence)}
           </aside>
           <div className="yith-screen">
             <Screen activeIndex={this.state.activeIndex}
