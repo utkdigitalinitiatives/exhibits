@@ -11,7 +11,8 @@ class Chronology extends Component {
     super(props);
 
     this.state = {
-      activeIndex: 0
+      activeIndex: 0,
+      screenTop: 300
     };
   }
 
@@ -72,14 +73,24 @@ class Chronology extends Component {
 
   componentDidMount() {
     Events.scrollEvent.register('begin', function(to, element) {
-      console.log('begin', arguments);
+      // console.log('begin', arguments);
     });
 
     Events.scrollEvent.register('end', function(to, element) {
-      console.log('end', arguments);
+      // console.log('end', arguments);
     });
 
     scrollSpy.update();
+
+    window.addEventListener("scroll", ()=> {
+      var yithIndex = document.getElementById('yith-index');
+      var distanceToTop = yithIndex.getBoundingClientRect().top;
+
+      this.setState({
+        screenTop: distanceToTop + yithIndex.offsetHeight
+      })
+    });
+
   }
 
   componentWillUnmount() {
@@ -90,6 +101,8 @@ class Chronology extends Component {
   render() {
 
     const {sequence} = this.props
+
+    let screenHeight = 'calc(100% - ' + this.state.screenTop + 'px)';
 
     return (
       <React.Fragment>
@@ -102,7 +115,8 @@ class Chronology extends Component {
           <aside className="yith-structure">
             {this.mapStructure(sequence)}
           </aside>
-          <div className="yith-screen">
+          <div className="yith-screen"
+               style={{height: screenHeight}}>
             <Screen activeIndex={this.state.activeIndex}
                     data={sequence} />
           </div>
