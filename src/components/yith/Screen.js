@@ -20,7 +20,6 @@ class Screen extends Component {
   }
 
   render() {
-
     return (
       <React.Fragment>
         <Manifest

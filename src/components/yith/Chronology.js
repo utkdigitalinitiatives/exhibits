@@ -18,7 +18,7 @@ class Chronology extends Component {
 
     this.state = {
       activeIndex: 0,
-      screenTop: 300,
+      screenTop: 1000000,
     }
   }
 
@@ -53,10 +53,9 @@ class Chronology extends Component {
 
   handleSetActive = index => {
     if (typeof index !== "undefined") {
-      let activeIndex = parseInt(index)
-      if (Number.isInteger(activeIndex)) {
+      if (index) {
         this.setState({
-          activeIndex: activeIndex
+          activeIndex: parseInt(index.replace('chronology_', ''))
         })
       }
     }
