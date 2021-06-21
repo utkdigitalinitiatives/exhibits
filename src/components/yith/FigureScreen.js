@@ -74,7 +74,7 @@ class FigureScreen extends Component {
         <figure className="yith-figure-screen">
           <div className="yith-figure-screen--preview">
             <div className="yith-figure-screen--preview--inner">
-              <img src={media} />
+              <img src={media} style={{opacity: this.props.opacity}} />
               <a tabIndex="0"
                  href="#"
                  aria-label={`Expand ${label} in Viewer`}

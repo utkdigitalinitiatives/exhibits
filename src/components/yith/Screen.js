@@ -25,6 +25,7 @@ class Screen extends Component {
         <Manifest
           mode="chronology"
           activeIndex={this.props.activeIndex}
+          opacity={this.props.opacity}
           manifest={this.props.data[this.state.activeIndex].manifest}
           region={null}
           autozoom={false} />

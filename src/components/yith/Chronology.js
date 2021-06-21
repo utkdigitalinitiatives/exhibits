@@ -74,10 +74,13 @@ class Chronology extends Component {
 
     window.addEventListener("scroll", () => {
       var yithIndex = document.getElementById("yith-index")
-      var distanceToTop = yithIndex.getBoundingClientRect().top
+      var yithScreen = document.getElementById("yith-screen")
+      var distanceToTop = yithIndex.getBoundingClientRect().top + yithIndex.offsetHeight
+      var screenOpacity = yithScreen.getBoundingClientRect().height / (window.innerHeight - yithIndex.offsetHeight)
 
       this.setState({
-        screenTop: distanceToTop + yithIndex.offsetHeight,
+        screenTop: distanceToTop,
+        screenOpacity: screenOpacity
       })
     })
   }
@@ -103,8 +106,8 @@ class Chronology extends Component {
           <aside className="yith-structure">
             {this.mapStructure(sequence)}
           </aside>
-          <div className="yith-screen" style={{ height: screenHeight }}>
-            <Screen activeIndex={this.state.activeIndex} data={sequence} />
+          <div id="yith-screen" className="yith-screen" style={{ height: screenHeight }}>
+            <Screen opacity={this.state.screenOpacity} activeIndex={this.state.activeIndex} data={sequence} />
           </div>
         </div>
       </React.Fragment>

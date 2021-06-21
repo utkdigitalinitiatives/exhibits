@@ -48,6 +48,7 @@ class Manifest extends Component {
         return (
           <FigureScreen manifest={this.state.data}
                         region={this.props.region}
+                        opacity={this.props.opacity}
                         autozoom={this.props.autozoom} />
         )
       } else if (this.props.mode === 'present') {
