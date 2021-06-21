@@ -26,8 +26,6 @@ class Chronology extends Component {
           }
         }
 
-        console.log(element);
-
         return (
           <React.Fragment key={index}>
             <div className={element.class}>
