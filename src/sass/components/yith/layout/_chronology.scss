@@ -2,77 +2,57 @@
   position: relative;
   width: calc(100% + 6em) !important;
   margin-left: -3em !important;
-  margin-top: -3em;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  background-color: white;
 
   .sticky {
     z-index: 1;
+    box-shadow: none;
 
     .yith-index {
+      background-color: white;
       box-shadow: $box-shadow;
       opacity: 1;
     }
   }
 
   .yith-index {
-    background-color: $white;
-    box-shadow: none;
+    background-color: white;
+    box-shadow: $box-shadow;
     height: auto;
     position: relative;
     z-index: 1;
     width: calc(100% - 4em);
-    padding: 0 2em;
+    padding: 1rem 2rem;
     display: flex;
     transition: all 200ms ease-in-out;
     opacity: 0;
 
-    &::before {
-      height: 6px;
-      width: 100%;
-      position: absolute;
-      background-color: $white;
-      content: '';
-      display: block;
-      left: 0;
-      bottom: 0;
-    }
-
     a,
     a:visited {
-      padding: 1em;
+      padding: 0.75rem 1rem;
       display: block;
       cursor: pointer;
       position: relative;
       font-weight: 700;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.1em;
       font-size: 0.8333em;
 
       &::before {
-        height: 4px;
-        width: 100%;
+        height: 3px;
         position: absolute;
         background-color: $white;
         content: '';
         display: block;
-        left: 0;
-        bottom: 0;
+        bottom: 5px;
+        width: 0;
+        transition: all 200ms ease-in-out;
       }
     }
 
     a:hover,
     a:focus {
       color: $secondary;
-
-      &::before {
-        height: 4px;
-        width: 100%;
-        position: absolute;
-        background-color: $white;
-        content: '';
-        display: block;
-        left: 0;
-        bottom: 0;
-      }
     }
 
     a.active {
@@ -81,6 +61,7 @@
 
       &::before {
         background-color: $secondary !important;
+        width: calc(100% - 2rem);
       }
     }
   }
@@ -90,12 +71,11 @@
     position: relative;
     height: 100%;
     z-index: 0;
-    background-color: $muted;
+    background-color: white;
   }
 
   .yith-structure {
     width: 25%;
-    margin-top: -3em;
     margin-bottom: 35vh;
 
     > .yith-manifest {
@@ -104,10 +84,6 @@
       height: 100vh;
       flex-direction: column;
       justify-content: flex-end;
-    }
-
-    .yith-fixed {
-      margin: 0;
     }
   }
 
