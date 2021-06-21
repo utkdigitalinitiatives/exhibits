@@ -4,6 +4,7 @@
 // components
 @import "yith/components/expand";
 @import "yith/components/figure";
+@import "yith/components/figure-screen";
 @import "yith/components/modal";
 
 // layout
@@ -16,10 +17,7 @@
 
 .yith {
   display: block;
-  margin: 0;
   padding-bottom: 0 !important;
-  max-width: 100% !important;
-  width: 100% !important;
 
   &.yith-comparison {
     display: flex;
