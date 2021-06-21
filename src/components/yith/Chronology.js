@@ -25,22 +25,9 @@ class Chronology extends Component {
   mapStructure = sequence => {
     return sequence.map((element, index) => {
       if (element.tag === "figure") {
-        let region = null
-        if (typeof element.region === "string") {
-          region = element.region
-        }
-
-        let autozoom = false
-        if (typeof element.autozoom === "string") {
-          if (element.autozoom === "true") {
-            autozoom = true
-          }
-        }
-
-        const name = "chronology" + index
-
+        const name = "chronology_" + index
         return (
-          <Element name={index} key={index} className={element.class}>
+          <Element name={name} key={index} className={element.class}>
             <h4>{element.label}</h4>
             <p>a bunch of stuff</p>
           </Element>
@@ -54,8 +41,9 @@ class Chronology extends Component {
   mapIndex = sequence => {
     return sequence.map((element, index) => {
       if (element.tag === "figure") {
+        const to = "chronology_" + index
         return (
-          <Link to={index} spy={true} onSetActive={this.handleSetActive}>
+          <Link to={to} spy={true} onSetActive={this.handleSetActive}>
             {element.label}
           </Link>
         )
@@ -68,7 +56,7 @@ class Chronology extends Component {
       let activeIndex = parseInt(index)
       if (Number.isInteger(activeIndex)) {
         this.setState({
-          activeIndex: activeIndex,
+          activeIndex: activeIndex
         })
       }
     }
