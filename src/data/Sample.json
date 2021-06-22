@@ -1,0 +1,28 @@
+{
+  "slug": "sample",
+  "title": "Sample Exhibit",
+  "path": "/sample",
+  "nav": [
+    {
+      "to": "/sample",
+      "text": "Sample"
+    },
+    {
+      "to": "/sample/present",
+      "text": "Present"
+    },
+    {
+      "to": "/sample/comparison",
+      "text": "Comparison"
+    },
+    {
+      "to": "/sample/chronology",
+      "text": "Chronology"
+    },
+    {
+      "to": "/sample/projection",
+      "text": "Projection"
+    }
+  ],
+  "styles": "exhibits/sample.scss"
+}
