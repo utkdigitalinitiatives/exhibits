@@ -9,7 +9,6 @@ import {
 } from "react-scroll"
 import Sticky from "react-sticky-el"
 
-import Index from "./Index"
 import Screen from "./Screen"
 
 class Chronology extends Component {

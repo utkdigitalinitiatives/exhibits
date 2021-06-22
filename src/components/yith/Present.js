@@ -13,8 +13,8 @@ class Present extends Component {
           <Manifest
             mode="present"
             manifest={sequence[0].manifest}
-            region={null}
-            autozoom={false} />
+            region={sequence[0].region}
+            autozoom={sequence[0].autozoom} />
         </div>
       </div>
     )
