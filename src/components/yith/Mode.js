@@ -59,7 +59,7 @@ class Mode extends Component {
   renderStructure = (structure, active, mode) => {
     if (mode === 'chronology') {
       return (
-        <Chronology sequence={this.state.sequence}  />
+        <Chronology sequence={this.state.sequence} description={this.props.description}  />
       )
     } else if (mode === 'comparison') {
       return (

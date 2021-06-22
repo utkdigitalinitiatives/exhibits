@@ -40,7 +40,7 @@ const GalstonPage = () => (
         </Yith>
       </div>
     </section>
-    <Yith id="studienbuch-chronology" mode="chronology">
+    <Yith id="studienbuch-chronology" mode="chronology" description="The life and career of Gottfried Galston">
       <div className="yith-structure">
         <figure
           className="yith-manifest"

@@ -3,7 +3,7 @@
   width: calc(100% + 6em) !important;
   margin-left: -3em !important;
   margin-bottom: 0 !important;
-  background-color: $muted;
+  background-color: $primary;
 
   .sticky {
     z-index: 1;
@@ -75,13 +75,23 @@
   .yith-structure {
     width: 25%;
     margin-bottom: 35vh;
+    color: $white;
+
+    .yith-description {
+      position: absolute;
+      padding: 3rem;
+      width: calc(25% - 6rem);
+      font-family: $serif;
+      margin-top: 5vh;
+      font-size: 1.25rem;
+    }
 
     > .yith-manifest {
       display: flex;
       padding: 3em;
       height: 100vh;
       flex-direction: column;
-      justify-content: flex-end;
+      justify-content: center;
 
       h4 {
         font-family: $serif;

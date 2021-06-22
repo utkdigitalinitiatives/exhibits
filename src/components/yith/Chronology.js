@@ -61,33 +61,26 @@ class Chronology extends Component {
     }
   }
 
-  componentDidMount() {
-    Events.scrollEvent.register("begin", function (to, element) {
-      // console.log('begin', arguments);
-    })
+  handleScroll = () => {
+    var yithIndex = document.getElementById("yith-index")
+    var yithScreen = document.getElementById("yith-screen")
+    var distanceToTop = yithIndex.getBoundingClientRect().top + yithIndex.offsetHeight
+    var screenOpacity = yithScreen.getBoundingClientRect().height / (window.innerHeight - yithIndex.offsetHeight)
 
-    Events.scrollEvent.register("end", function (to, element) {
-      // console.log('end', arguments);
-    })
-
-    scrollSpy.update()
-
-    window.addEventListener("scroll", () => {
-      var yithIndex = document.getElementById("yith-index")
-      var yithScreen = document.getElementById("yith-screen")
-      var distanceToTop = yithIndex.getBoundingClientRect().top + yithIndex.offsetHeight
-      var screenOpacity = yithScreen.getBoundingClientRect().height / (window.innerHeight - yithIndex.offsetHeight)
-
-      this.setState({
-        screenTop: distanceToTop,
-        screenOpacity: screenOpacity
-      })
+    this.setState({
+      screenTop: distanceToTop,
+      screenOpacity: screenOpacity
     })
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, true);
+
+    scrollSpy.update()
+  }
+
   componentWillUnmount() {
-    Events.scrollEvent.remove("begin")
-    Events.scrollEvent.remove("end")
+    window.removeEventListener('scroll', this.handleScroll, true);
   }
 
   render() {
@@ -104,6 +97,7 @@ class Chronology extends Component {
         </Sticky>
         <div className="yith-structure-wrapper">
           <aside className="yith-structure">
+            <span className="yith-description">{this.props.description}</span>
             {this.mapStructure(sequence)}
           </aside>
           <div id="yith-screen" className="yith-screen" style={{ height: screenHeight }}>
