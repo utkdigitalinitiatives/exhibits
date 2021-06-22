@@ -1,4 +1,7 @@
-## �Development
+# Exhibits
+Prototype for a Gatsby and React based exhibit application showcasing IIIF sourced resources.
+
+## Development
 
 ```shell
 yarn && yarn start
