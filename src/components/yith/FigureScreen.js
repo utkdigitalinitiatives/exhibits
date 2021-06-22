@@ -71,15 +71,16 @@ class FigureScreen extends Component {
 
     return (
       <React.Fragment>
-        <figure className="yith-figure-screen">
-          <div className="yith-figure-screen--preview">
-            <div className="yith-figure-screen--preview--inner">
-              <img src={media} style={{opacity: this.props.opacity}} />
+        <figure className="yith-figure yith-figure-screen">
+          <div className="yith-figure--preview">
+            <div className="yith-figure--preview--inner">
               <a tabIndex="0"
                  href="#"
                  aria-label={`Expand ${label} in Viewer`}
                  onClick={this.handleClick}>
-                Expand in Viewer
+                <LazyLoad>
+                  <img src={media} />
+                </LazyLoad>
                 {this.state.active ? true : false}
               </a>
             </div>

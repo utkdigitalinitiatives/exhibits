@@ -62,14 +62,13 @@ class Figure extends Component {
         <figure className="yith-figure">
           <div className="yith-figure--preview">
             <div className="yith-figure--preview--inner">
-              <LazyLoad>
-                <img src={media} />
-              </LazyLoad>
               <a tabIndex="0"
                  href="#"
                  aria-label={`Expand ${label} in Viewer`}
                  onClick={this.handleClick}>
-                Expand in Viewer
+                <LazyLoad>
+                  <img src={media} />
+                </LazyLoad>
                 {this.state.active ? true : false}
               </a>
             </div>
