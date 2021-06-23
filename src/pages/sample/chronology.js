@@ -22,7 +22,7 @@ const Chronology = () => (
         >
           Aenean congue dui lacus, vitae fringilla mi tristique at. Duis
           condimentum rutrum velit, eget tincidunt justo ultricies in. Aenean
-          sit amet orci ut tellus semper sollicitudin in at sapien.{" "}
+          sit amet orci ut tellus semper sollicitudin in at sapien.
         </figure>
         <figure
           className="yith-manifest"
@@ -31,7 +31,7 @@ const Chronology = () => (
         >
           Mauris convallis mattis aliquet. Maecenas aliquet lectus in massa
           lacinia tincidunt. Aliquam vitae semper est. Mauris sollicitudin
-          posuere nunc in fringilla.{" "}
+          posuere nunc in fringilla.
         </figure>
         <figure
           className="yith-manifest"
@@ -41,7 +41,7 @@ const Chronology = () => (
           Sed vitae dui ut urna suscipit lobortis id ac magna. Donec velit ex,
           dapibus a maximus vel, feugiat vel lacus. Maecenas maximus, lorem in
           aliquet ultricies, nisi metus tincidunt ligula, eget viverra massa
-          metus at sapien.{" "}
+          metus at sapien.
         </figure>
         <figure
           className="yith-manifest"
@@ -52,18 +52,17 @@ const Chronology = () => (
           diam nisl, tempor in pellentesque vitae, ornare ut lorem. Ut malesuada
           vitae urna nec pellentesque. Vestibulum aliquet venenatis magna, sed
           ornare odio mattis malesuada. Nulla facilisi. Pellentesque ac commodo
-          enim.{" "}
+          enim.
         </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/390"
           data-label="The River"
         >
-          {" "}
           Pellentesque semper risus vel erat condimentum, ut lobortis ligula
           sagittis. Pellentesque habitant morbi tristique senectus et netus et
           malesuada fames ac turpis egestas. Aliquam sed tortor aliquet,
-          pulvinar risus id, iaculis massa.{" "}
+          pulvinar risus id, iaculis massa.
         </figure>
       </div>
     </Yith>
