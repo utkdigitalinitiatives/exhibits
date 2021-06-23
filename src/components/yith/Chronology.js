@@ -28,7 +28,9 @@ class Chronology extends Component {
 
         return (
           <Element name={name} key={index} className={element.class}>
-            <h4>{element.label}</h4>
+            <header>
+              <span>{element.label}</span>
+            add</header>
             <div>{element.value}</div>
           </Element>
         )
