@@ -40,6 +40,8 @@
     }
 
     &.active {
+      color: $accent !important;
+
       &::after {
         width: calc(100% - 1.5rem);
       }
