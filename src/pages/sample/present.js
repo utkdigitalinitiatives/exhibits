@@ -37,6 +37,7 @@ const Present = () => (
             <figure
               className="yith-manifest"
               data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/474"
+              data-region="252,263,3556,2157"
             ></figure>
           </div>
         </Yith>
