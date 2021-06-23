@@ -1,5 +1,10 @@
 .yith-projection {
   position: relative;
+  margin-bottom: 3em;
+
+  &:first-child {
+    margin-top: -3em;
+  }
 
   .yith-projection-teaser {
     &--inner {
