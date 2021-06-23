@@ -30,7 +30,7 @@ class Chronology extends Component {
           <Element name={name} key={index} className={element.class}>
             <header>
               <span>{element.label}</span>
-            add</header>
+            </header>
             <div>{element.value}</div>
           </Element>
         )
