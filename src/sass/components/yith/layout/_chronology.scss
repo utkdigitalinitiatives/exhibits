@@ -4,21 +4,23 @@
   margin-left: -3em !important;
   margin-bottom: 0 !important;
   background-color: $primary;
-  margin-top: 3em;
+
+  &:first-child {
+    margin-top: -3em;
+  }
 
   .sticky {
     z-index: 1;
     box-shadow: none;
 
     .yith-index {
-      background-color: white;
       box-shadow: $box-shadow;
       opacity: 1;
     }
   }
 
   .yith-index {
-    background-color: white;
+    background-color: $secondary;
     box-shadow: $box-shadow;
     height: auto;
     position: relative;
@@ -36,6 +38,7 @@
       position: relative;
       font-weight: 700;
       font-size: 0.8333em;
+      color: $white;
 
       &::before {
         height: 3px;
@@ -51,15 +54,15 @@
 
     a:hover,
     a:focus {
-      color: $secondary;
+      color: $white;
     }
 
     a.active {
       font-weight: 700;
-      color: $secondary !important;
+      color: $white !important;
 
       &::before {
-        background-color: $secondary !important;
+        background-color: $white !important;
         width: calc(100% - 2rem);
       }
     }

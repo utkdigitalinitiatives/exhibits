@@ -51,6 +51,15 @@ class Comparison extends Component {
                     canvasId: this.props.sequence[1].canvas
                   }
                 ],
+                thumbnailNavigation: {
+                  defaultPosition: 'far-bottom', // Which position for the thumbnail navigation to be be displayed. Other possible values are "far-bottom" or "far-right"
+                  displaySettings: true, // Display the settings for this in WindowTopMenu
+                  height: 100, // height of entire ThumbnailNavigation area when position is "far-bottom"
+                  width: 100, // width of one canvas (doubled for book view) in ThumbnailNavigation area when position is "far-right"
+                },
+                osdConfig: { // Default config used for OpenSeadragon
+                  showNavigationControl: false,
+                },
                 workspaceControlPanel: {
                   enabled: false,
                 },

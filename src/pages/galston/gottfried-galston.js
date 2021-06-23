@@ -74,6 +74,13 @@ const GalstonPage = () => (
           data-region="1135,400,1850,2318"
         >Throughout 1912 and 1913, Galston undertook a coast to coast tour of the United State, accompanied by symphony orchestras including Chicago, Detroit, San Francisco, and St Louis. During this tour, Galston visited Wilcox & White in Meridien, Connecticut, to record paino rolls for the Artrio-Angelus and Voltem player pianos and organs.
         </figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/680"
+          data-label="1910"
+          data-region="1064,1191,3480,2430"
+        >The first edition of Galston's Studienbuch is published by Bruno Cassirer, Berlin. In this breakthrough publication, Galston offers the world of piano pedagogy the first guide to teaching musical interpretation. By documenting an artist’s thought processes while examining several of the tenets of the piano literature, Galston leads his readers through the mind of an interpreter as he analyzes the various motives, phrases, and musical nuances of Bach, Beethoven, Chopin, Liszt, and Brahms. Following Galston through his own study of selected musical works, students can learn to approach a new composition more intelligently by thinking about passages in different ways and considering a multitude of options.
+        </figure>
       </div>
     </Yith>
   </Layout>
