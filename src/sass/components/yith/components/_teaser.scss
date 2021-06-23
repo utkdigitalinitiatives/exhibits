@@ -34,6 +34,10 @@
         margin: 3em;
         height: calc(100% - 6em);
         box-shadow: $box-shadow;
+        transition: all 200ms ease-in-out;
+        transform: scale3d(1, 1, 1);
+        filter: blur(0);
+        border-radius: 5px;
       }
     }
   }
@@ -53,6 +57,7 @@
       filter: blur(76px);
       object-fit: cover;
       opacity: 0.618;
+      transition: all 200ms ease-in-out;
     }
   }
 }

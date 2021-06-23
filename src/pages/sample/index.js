@@ -37,6 +37,7 @@ const SampleIndex = () => (
             <figure
               className="yith-manifest"
               data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/482"
+              data-region="400,400,3000,1800"
             ></figure>
           </div>
         </Yith>
@@ -52,6 +53,15 @@ const SampleIndex = () => (
         Take a Guided Tour of Knoxville
       </a>
       <div className="yith-structure">
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/474"
+        >
+          <p>
+            Duis finibus dui lectus, id aliquam dolor ornare eu. Curabitur ut
+            pellentesque nisi, at pretium odio.
+          </p>
+        </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/482"

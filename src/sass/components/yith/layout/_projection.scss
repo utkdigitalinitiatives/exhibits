@@ -7,6 +7,18 @@
   }
 
   .yith-projection-teaser {
+
+    &:hover,
+    &:focus {
+      .yith-teaser-figure img {
+        transform: scale3d(1.06, 1.06, 1.06);
+      }
+
+      .yith-teaser--background img {
+        opacity: 0.382;
+      }
+    }
+
     &--inner {
       position: absolute;
       z-index: 1;
