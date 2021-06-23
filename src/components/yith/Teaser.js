@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TeaserFigure from "./TeaserFigure";
+import TeaserBackground from "./TeaserBackground"
 
 class Teaser extends Component {
 
@@ -16,8 +17,6 @@ class Teaser extends Component {
     const manifest = await response.json();
     return manifest;
   }
-
-
 
   componentDidMount() {
     this.props.sequence.map((item, index) => {
@@ -39,12 +38,21 @@ class Teaser extends Component {
           let region = 'full';
           let size = '!700,700';
 
-          return (
-            <div className="yith-teaser">
-              <TeaserFigure data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
-              <TeaserFigure data={this.state.data[1]} canvas={this.props.sequence[1].canvas} region={region} size={size} />
-            </div>
-          )
+          if (this.props.mode === 'comparison') {
+            return (
+              <div className="yith-teaser">
+                <TeaserFigure data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
+                <TeaserFigure data={this.state.data[1]} canvas={this.props.sequence[1].canvas} region={region} size={size} />
+              </div>
+            )
+          } else {
+            return (
+              <div className="yith-teaser yith-teaser-background">
+                <TeaserFigure data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
+                <TeaserBackground data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
+              </div>
+            )
+          }
 
         } else {
           return null

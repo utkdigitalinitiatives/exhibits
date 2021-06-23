@@ -9,39 +9,6 @@ const GalstonPage = () => (
   <Layout exhibit="galston">
     <Seo title="Gottfried Galston" />
 
-    <section className="exhibits-section">
-      <div>
-        <h2>Gottfied Galston, 1879-1950</h2>
-        <p>
-          At the heart of this exhibit is a unique, bound volume of a
-          groundbreaking publication in music pedagogy -{" "}
-          <Link to="/galston/studienbuch" activeClassName="active">
-            Gottfried Galston’s Studienbuch
-          </Link>
-          . The exhibit features the first edition of the Austrian-born
-          pianist’s German-language book (1910), accompanied by a
-          specially-commissioned--and previously unpublished--English
-          translation.
-        </p>
-        <p>
-          In his pioneering study book, Galston provides a thorough record of
-          his thought processes and musical interpretations for the works of
-          five composers - Bach, Beethoven, Liszt, Brahms, and Chopin.{" "}
-        </p>
-      </div>
-      <div>
-        <Yith id="galston-intro" mode="present">
-          <div className="yith-structure">
-            <figure
-              className="yith-manifest"
-              data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
-              data-autozoom="true"
-              data-region="990,846,3881,4500"
-            ></figure>
-          </div>
-        </Yith>
-      </div>
-    </section>
     <Yith id="studienbuch-chronology" mode="chronology" description="The Life and Career of Gottfried Galston">
       <div className="yith-structure">
         <figure

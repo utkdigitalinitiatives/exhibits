@@ -39,10 +39,24 @@ class Mode extends Component {
              className="yith-comparison-teaser"
              onClick={this.isActive}>
             <span className="yith-expand">{data.value}</span>
-            <Teaser sequence={this.state.sequence} />
+            <Teaser sequence={this.state.sequence} mode={mode} />
           </a>
         )
       }
+    } else if (mode === 'projection') {
+        if (data) {
+          return (
+            <a href="#"
+               className="yith-projection-teaser"
+               onClick={this.isActive}>
+              <div className="yith-projection-teaser--inner">
+                <div className="yith-description">{this.props.description}</div>
+                <span className="yith-expand">{data.value}</span>
+              </div>
+              <Teaser sequence={this.state.sequence} mode={mode} />
+            </a>
+          )
+        }
     } else {
       if (data) {
         return (

@@ -17,19 +17,6 @@ const GalstonIndex = () => (
         <p>In his pioneering study book, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. </p>
       </div>
       <div>
-        <Yith id="studienbuch-explore"
-              mode="comparison">
-          <a className="yith-expand" href="#">Explore the Volume</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498"></figure>
-          </div>
-        </Yith>
-      </div>
-      <div>
         <Yith id="studienbuch-translation"
               mode="comparison">
           <a className="yith-expand" href="#">Studienbuch & Translation</a>
@@ -44,10 +31,24 @@ const GalstonIndex = () => (
       </div>
     </section>
 
+    <Yith id="sample-projection" mode="projection" description="Duis finibus dui lectus, id aliquam dolor ornare eu.">
+      <a className="yith-expand" href="#">Aliquam dolor ornare eu.</a>
+      <div className="yith-structure">
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+        ><p>Duis finibus dui lectus, id aliquam dolor ornare eu. Curabitur ut pellentesque nisi, at pretium odio.</p></figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+        ><p>Cras condimentum ornare velit, nec malesuada augue efficitur a.</p></figure>
+      </div>
+    </Yith>
+
     <section className="exhibits-section">
       <figure className="exhibits-blockquote">
         <blockquote>
-          [Galston] tells you everything about the work, technically, musically, historically, sentimentally. He has no secrets from you.
+          [Galston] tells you everxything about the work, technically, musically, historically, sentimentally. He has no secrets from you.
         </blockquote>
         <figcaption>
           Leonard Liebling
@@ -58,13 +59,10 @@ const GalstonIndex = () => (
     <section className="exhibits-section">
       <div>
         <Yith id="galston-bio"
-              mode="comparison">
-          <a className="yith-expand" href="#">Galston</a>
+              mode="present">
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/680"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/687"></figure>
           </div>
         </Yith>
       </div>

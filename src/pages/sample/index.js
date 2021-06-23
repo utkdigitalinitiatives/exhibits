@@ -29,8 +29,8 @@ const SampleIndex = () => (
       </div>
     </section>
 
-    <Yith id="sample-projection" mode="projection">
-      <a className="yith-expand" href="#">Tour of Knoxville</a>
+    <Yith id="sample-projection" mode="projection" description="Curabitur ut pellentesque metus, nisi 1865 at 1932 pretium odio.">
+      <a className="yith-expand" href="#">Take a Guided Tour of Knoxville</a>
       <div className="yith-structure">
         <figure
           className="yith-manifest"

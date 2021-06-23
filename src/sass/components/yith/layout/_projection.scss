@@ -1,6 +1,29 @@
 .yith-projection {
   position: relative;
 
+  .yith-projection-teaser {
+    &--inner {
+      position: absolute;
+      z-index: 1;
+      width: 50%;
+      margin-top: 6em;
+    }
+
+    .yith-description {
+      color: $white;
+      padding: 0 3em 1em 0;
+      font-family: $serif;
+      font-size: 2rem;
+      line-height: 1.25em;
+    }
+
+    .yith-expand {
+      z-index: 1;
+      width: auto;
+      text-align: center;
+    }
+  }
+
   .yith-structure {
     width: 100%;
     height: 100vh;
