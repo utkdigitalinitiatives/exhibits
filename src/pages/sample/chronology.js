@@ -12,7 +12,7 @@ const Chronology = () => (
 
     <section className="exhibits-section">
       <div>
-        <h2>Tennessee, The Early Years</h2>
+        <h2>Knoxville, Tennessee</h2>
         <p>Sed vitae dui ut urna suscipit lobortis id ac magna. Donec velit ex, dapibus a maximus vel, feugiat vel lacus. Maecenas maximus, lorem in aliquet ultricies, nisi metus tincidunt ligula, eget viverra massa metus at sapien. Ut ullamcorper id mauris luctus maximus. Nulla maximus lectus dui. Phasellus blandit tristique sem. Etiam et ex vel metus mattis rutrum.</p>
         <p>Cras condimentum ornare velit, nec malesuada augue efficitur a. Donec mi orci, eleifend eget laoreet sit amet, consectetur in quam. Vivamus eleifend nunc nec ante porta, et consequat est semper. Aliquam ullamcorper dui quis diam mollis, sed posuere est efficitur.</p>
         <p>Duis finibus dui lectus, id aliquam dolor ornare eu. Curabitur ut pellentesque nisi, at pretium odio.</p>
@@ -22,12 +22,13 @@ const Chronology = () => (
           <div className="yith-structure">
             <figure
               className="yith-manifest"
-              data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/472"
+              data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/437"
             ></figure>
           </div>
         </Yith>
       </div>
     </section>
+
     <Yith id="sample-chronology" mode="chronology" description="An untold story and the humble origins of Knoxville, Tennessee.">
       <div className="yith-structure">
         <figure
@@ -37,12 +38,12 @@ const Chronology = () => (
         >Aenean congue dui lacus, vitae fringilla mi tristique at. Duis condimentum rutrum velit, eget tincidunt justo ultricies in. Aenean sit amet orci ut tellus semper sollicitudin in at sapien. </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/340"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/435"
           data-label="Emergence"
         >Mauris convallis mattis aliquet. Maecenas aliquet lectus in massa lacinia tincidunt. Aliquam vitae semper est. Mauris sollicitudin posuere nunc in fringilla. </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/400"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/461"
           data-label="Turn of the Century"
         >Sed vitae dui ut urna suscipit lobortis id ac magna. Donec velit ex, dapibus a maximus vel, feugiat vel lacus. Maecenas maximus, lorem in aliquet ultricies, nisi metus tincidunt ligula, eget viverra massa metus at sapien. </figure>
         <figure
