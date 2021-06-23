@@ -14,19 +14,19 @@ const GalstonPage = () => (
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/static/iiif/vienna_1880.json"
-          data-label="Early Life"
+          data-label="1879"
         >Gottfried Galston was born in Vienna in 1879. His musical training began in early childhood under the supervision of his governesses. By the time he was seven, he began private lessons with various teachers in Vienna, including Professor Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor Leschetizky, one the most influential piano teachers of the time, and his assistant, Malwine Bree.
         </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus.json"
-          data-label="1899-1900"
+          data-label="1899"
         >Galston entered the Leipzig Conservatory where he studied theory and composition with Carl Reinecke and Salomon Jadassohn. Training with such renowned pianist-composer teachers developed Galston’s ability to analyze music in such a way that he could easily discern a composer’s intention from a complex and heavily textured musical score. Galston was a pianist made not only by talent and hard work, but by critical thinking and scholarship. After graduating from the Conservatory, Galston performed his first professional debut in Leipzig’s Gewandhaus Hall.
         </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/692"
-          data-label="1900-1902"
+          data-label="1900"
           data-region="78,106,2700,3200"
         >The success of this debut led to other engagements in Berlin and London, as well as tours throughout Europe, the United States, Russia, Australia, and New Zealand.
         </figure>
@@ -47,7 +47,7 @@ const GalstonPage = () => (
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/696"
-          data-label="1907-1908"
+          data-label="1907"
           data-region="2168,729,3947,2732"
         >In 1907, Galston’s performance career was launched to new heights by a series of concerts which included some of the most monumental piano works by Bach, Beethoven, Chopin, Liszt, and Brahms.
           Galston’s first concert series began with ten performances in just over eight weeks: five in London and five in Paris (and later in Berlin, Vienna, and Amsterdam). In this short period of time, he covered an impressive amount of repertoire consisting of some of the most difficult piano works of all time. He also supplied extensive program notes for every work placing each in historical and musical context.
@@ -70,7 +70,7 @@ const GalstonPage = () => (
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912.json"
-          data-label="1912-1913"
+          data-label="1912"
           data-region="1135,400,1850,2318"
         >Throughout 1912 and 1913, Galston undertook a coast to coast tour of the United State, accompanied by symphony orchestras including Chicago, Detroit, San Francisco, and St Louis. During this tour, Galston visited Wilcox & White in Meridien, Connecticut, to record paino rolls for the Artrio-Angelus and Voltem player pianos and organs.
         </figure>
