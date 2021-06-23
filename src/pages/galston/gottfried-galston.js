@@ -36,7 +36,7 @@ const GalstonPage = () => (
               className="yith-manifest"
               data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
               data-autozoom="true"
-              data-region="0,0,500,500"
+              data-region="990,846,3881,4500"
             ></figure>
           </div>
         </Yith>
