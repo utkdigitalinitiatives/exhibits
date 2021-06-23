@@ -34,7 +34,6 @@
       cursor: pointer;
       position: relative;
       font-weight: 700;
-      letter-spacing: 0.1em;
       font-size: 0.8333em;
 
       &::before {
@@ -73,17 +72,18 @@
   }
 
   .yith-structure {
-    width: 25%;
+    width: 38.2%;
     margin-bottom: 35vh;
     color: $white;
 
     .yith-description {
       position: absolute;
       padding: 3rem;
-      width: calc(25% - 6rem);
+      width: calc(38.2% - 8rem);
       font-family: $serif;
       margin-top: 5vh;
-      font-size: 1.25rem;
+      font-size: 2.5rem;
+      line-height: 1.25em;
     }
 
     > .yith-manifest {
@@ -93,20 +93,47 @@
       flex-direction: column;
       justify-content: center;
 
-      h4 {
+      > header {
         font-family: $serif;
         font-size: 2em;
-        margin: 0;
+        margin: 0 0 1em;
         letter-spacing: -0.02em;
         text-rendering: optimizeLegibility;
-        font-weight: 400
-      ;
+        font-weight: 700;
+        color: $muted;
+        width: auto;
+        display: inline-flex;
+
+        span {
+          position: relative;
+
+          &::after {
+            position: absolute;
+            bottom: -0.25em;
+            left: 0;
+            display: block;
+            content: '';
+            width: 100%;
+            height: 3px;
+            background-color: $accent;
+          }
+        }
+      }
+
+      > div {
+        font-size: 1em;
+        line-height: 1.45em;
+
+        p {
+          font-size: inherit;
+          line-height: inherit;
+        }
       }
     }
   }
 
   .yith-screen {
-    width: 75%;
+    width: 61.8%;
     height: 0;
     position: fixed;
     right: 0;

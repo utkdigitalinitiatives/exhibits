@@ -25,10 +25,11 @@ class Chronology extends Component {
     return sequence.map((element, index) => {
       if (element.tag === "figure") {
         const name = "chronology_" + index
+
         return (
           <Element name={name} key={index} className={element.class}>
             <h4>{element.label}</h4>
-            <p>a bunch of stuff</p>
+            <div>{element.value}</div>
           </Element>
         )
       } else {

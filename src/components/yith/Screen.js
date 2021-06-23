@@ -20,6 +20,18 @@ class Screen extends Component {
   }
 
   render() {
+
+    let region = null
+    let autozoom = false
+
+    if (this.props.data[this.state.activeIndex].region !== undefined) {
+      region = this.props.data[this.state.activeIndex].region
+    }
+
+    if (this.props.data[this.state.activeIndex].region !== undefined) {
+      autozoom = this.props.data[this.state.activeIndex].autozoom
+    }
+
     return (
       <React.Fragment>
         <Manifest
@@ -27,8 +39,8 @@ class Screen extends Component {
           activeIndex={this.props.activeIndex}
           opacity={this.props.opacity}
           manifest={this.props.data[this.state.activeIndex].manifest}
-          region={this.props.data[this.state.activeIndex].region}
-          autozoom={this.props.data[this.state.activeIndex].autozoom} />
+          region={region}
+          autozoom={autozoom} />
       </React.Fragment>
     )
 

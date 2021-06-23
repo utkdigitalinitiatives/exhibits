@@ -48,7 +48,8 @@ const GalstonPage = () => (
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
           data-label="1879"
-        ></figure>
+        >Gottfried Galston was born in Vienna in 1879. His musical training began in early childhood under the supervision of his governesses. By the time he was seven, he began private lessons with various teachers in Vienna, including Professor Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor Leschetizky, one the most influential piano teachers of the time, and his assistant, Malwine Bree.
+        </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/692"
