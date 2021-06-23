@@ -13,67 +13,48 @@ const Chronology = () => (
     <section className="exhibits-section">
       <div>
         <h2>Tennessee, The Early Years</h2>
-        <p>
-          At the heart of this exhibit is a unique, bound volume of a
-          groundbreaking publication in music pedagogy -{" "}
-          <Link to="/galston/studienbuch" activeClassName="active">
-            Gottfried Galston’s Studienbuch
-          </Link>
-          . The exhibit features the first edition of the Austrian-born
-          pianist’s German-language book (1910), accompanied by a
-          specially-commissioned--and previously unpublished--English
-          translation.
-        </p>
-        <p>
-          In his pioneering study book, Galston provides a thorough record of
-          his thought processes and musical interpretations for the works of
-          five composers - Bach, Beethoven, Liszt, Brahms, and Chopin.{" "}
-        </p>
+        <p>Sed vitae dui ut urna suscipit lobortis id ac magna. Donec velit ex, dapibus a maximus vel, feugiat vel lacus. Maecenas maximus, lorem in aliquet ultricies, nisi metus tincidunt ligula, eget viverra massa metus at sapien. Ut ullamcorper id mauris luctus maximus. Nulla maximus lectus dui. Phasellus blandit tristique sem. Etiam et ex vel metus mattis rutrum.</p>
+        <p>Cras condimentum ornare velit, nec malesuada augue efficitur a. Donec mi orci, eleifend eget laoreet sit amet, consectetur in quam. Vivamus eleifend nunc nec ante porta, et consequat est semper. Aliquam ullamcorper dui quis diam mollis, sed posuere est efficitur.</p>
+        <p>Duis finibus dui lectus, id aliquam dolor ornare eu. Curabitur ut pellentesque nisi, at pretium odio.</p>
       </div>
       <div>
         <Yith id="galston-intro" mode="present">
           <div className="yith-structure">
             <figure
               className="yith-manifest"
-              data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/390"
+              data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/472"
             ></figure>
           </div>
         </Yith>
       </div>
     </section>
-    <Yith id="studienbuch-chronology" mode="chronology" description="An untold story and the humble origins of Knoxville, Tennessee.">
+    <Yith id="sample-chronology" mode="chronology" description="An untold story and the humble origins of Knoxville, Tennessee.">
       <div className="yith-structure">
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/376"
-          data-label="A Beginning"
-        ></figure>
-        <figure
-          className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/343"
+          data-label="A Beginning"
+        >Aenean congue dui lacus, vitae fringilla mi tristique at. Duis condimentum rutrum velit, eget tincidunt justo ultricies in. Aenean sit amet orci ut tellus semper sollicitudin in at sapien. </figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/340"
           data-label="Emergence"
-        ></figure>
+        >Mauris convallis mattis aliquet. Maecenas aliquet lectus in massa lacinia tincidunt. Aliquam vitae semper est. Mauris sollicitudin posuere nunc in fringilla. </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/410"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/400"
           data-label="Turn of the Century"
-          data-region="1338,1238,2902,3479"
-          data-autozoom="true"
-        ></figure>
+        >Sed vitae dui ut urna suscipit lobortis id ac magna. Donec velit ex, dapibus a maximus vel, feugiat vel lacus. Maecenas maximus, lorem in aliquet ultricies, nisi metus tincidunt ligula, eget viverra massa metus at sapien. </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/375"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/354"
           data-label="Transition"
-          data-region="2450,1400,3000,2300"
-          data-autozoom="true"
-        ></figure>
+        >Vivamus id arcu semper, efficitur augue sed, blandit velit. Aenean diam nisl, tempor in pellentesque vitae, ornare ut lorem. Ut malesuada vitae urna nec pellentesque. Vestibulum aliquet venenatis magna, sed ornare odio mattis malesuada. Nulla facilisi. Pellentesque ac commodo enim. </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/309"
-          data-label="The Demise"
-          data-region="2168,729,3947,2732"
-          data-autozoom="true"
-        ></figure>
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/tenncities/390"
+          data-label="The River"
+        > Pellentesque semper risus vel erat condimentum, ut lobortis ligula sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sed tortor aliquet, pulvinar risus id, iaculis massa. </figure>
       </div>
     </Yith>
 

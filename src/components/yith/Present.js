@@ -24,8 +24,8 @@ class Present extends Component {
           <Manifest
             mode="present"
             manifest={sequence[0].manifest}
-            region={sequence[0].region}
-            autozoom={sequence[0].autozoom} />
+            region={region}
+            autozoom={autozoom} />
         </div>
       </div>
     )
