@@ -13,8 +13,9 @@ const GalstonPage = () => (
       <div className="yith-structure">
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/701"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/710"
           data-label="Childhood"
+          data-region="1338,1238,2902,3479"
         >Born in Vienna in 1879, Galston's musical training began in early childhood under the supervision of his governesses. At age seven, he began private lessons with various teachers in Vienna, including Professor Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor Leschetizky and his assistant, Malwine Bree.
         </figure>
         <figure
@@ -26,9 +27,9 @@ const GalstonPage = () => (
         </figure>
         <figure
           className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/710"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/692"
           data-label="Early Career"
-          data-region="1338,1238,2902,3479"
+          data-region="104,127,2616,3250"
         >The success of this debut led to other performances in Berlin and London, as well as tours throughout Europe, the United States, Russia, Australia, and New Zealand. In 1903, Galston was appointed Professor of Advanced Class at the Stern Conservatory, Berlin, where he taught until 1907.
         </figure>
         <figure
