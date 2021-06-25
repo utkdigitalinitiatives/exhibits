@@ -31,8 +31,8 @@ const GalstonIndex = () => (
       </div>
     </section>
 
-    <Yith id="sample-projection" mode="projection" description="Duis finibus dui lectus, id aliquam dolor ornare eu.">
-      <a className="yith-expand" href="#">Aliquam dolor ornare eu.</a>
+    <Yith id="sample-projection" mode="projection" description="Explore features of UT’s unique bound volume of Galston’s <em>Studienbuch</em> (1910)">
+      <a className="yith-expand" href="#">Take the Tour</a>
       <div className="yith-structure">
         <figure
           className="yith-manifest"
@@ -46,31 +46,18 @@ const GalstonIndex = () => (
     </Yith>
 
     <section className="exhibits-section">
-      <figure className="exhibits-blockquote">
-        <blockquote>
-          [Galston] tells you everxything about the work, technically, musically, historically, sentimentally. He has no secrets from you.
-        </blockquote>
-        <figcaption>
-          Leonard Liebling
-        </figcaption>
-      </figure>
-    </section>
-
-    <section className="exhibits-section">
       <div>
         <Yith id="galston-bio"
               mode="present">
           <div className="yith-structure">
             <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/680"></figure>
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694"></figure>
           </div>
         </Yith>
       </div>
       <div>
         <h2>Gottfried Galston</h2>
-        <p>[Louisa to write]</p>
-        <p>Donec eu nibh neque. Duis bibendum leo vitae est fermentum, id tristique dolor vulputate. <Link to="/galston/gottfried-galston" activeClassName="active">Morbi id est elementum</Link>, bibendum felis vel, venenatis metus. Donec interdum, lorem sit amet cursus blandit, nisi purus consequat est, lacinia ultricies leo enim eget felis. Aenean ut enim elit. Praesent eget ipsum accumsan, egestas enim a, ullamcorper mi. Etiam eget lectus in erat tincidunt eleifend.</p>
-        <p>Nam gravida elit risus, aliquam tempus odio pulvinar eu. Donec nec erat nisl. Duis finibus rutrum metus id semper. Pellentesque pellentesque est id mauris pulvinar cursus. Aenean finibus ullamcorper diam eu convallis. </p>
+        <p>A preeminent concert pianist of the early twentieth century,  <Link to="/galston/gottfried-galston" activeClassName="active">Gottfried Galston (1879-1950)</Link> studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances, but also by an innovative and insightful approach to piano pedagogy.</p>
       </div>
     </section>
   </Layout>
