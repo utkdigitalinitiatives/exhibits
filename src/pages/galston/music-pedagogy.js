@@ -11,22 +11,17 @@ const StudienbuchPage = () => (
     <h1>Significance of the book in music pedagogy</h1>
     <section className="exhibits-section">
       <div>
-        <h2>[Section Title] Lipsum lorem</h2>
+        <h2>Gift to musicians</h2>
         <p>Galston’s musical interpretations established the young pianist as one of the most gifted and sensitive interpreters of his day, but his gift to the musical world during this time was not limited to his inspired interpretations. In the spirit of scholarship and a willingness to share his musical ideas with future generations of pianists, Galston published his journey through his interpretative processes by analyzing the composers’ texts to capture, as one reviewer put it, the true character of each work. Therein lies the birth of Studienbuch, Galston's unparalleled gift to musicians and pedagogues for generations to come. </p>
       </div>
       <div>
-        <Yith id="studienbuch-notes-1"
-              mode="comparison">
-          <a className="yith-expand" href="#">Galston</a>
-          <div className="yith-structure">
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/103"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/104"></figure>
-          </div>
-        </Yith>
+      <Yith id="studienbuch-present-test"
+          mode="present">
+      <div className="yith-structure">
+        <figure className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/701"></figure>
+      </div>
+    </Yith>
       </div>
     </section>
 
@@ -48,13 +43,12 @@ const StudienbuchPage = () => (
               mode="present">
           <div className="yith-structure">
             <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-            ></figure>
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/322"></figure>
           </div>
         </Yith>
       </div>
       <div>
-        <h2>[Section Title] Lipsum lorem</h2>
+        <h2>Musicial interpretation</h2>
         <p>In the foreword to Galston’s Studienbuch, the author describes the musical journey every interpreter takes when learning a new work. He explains how “every thoughtful artist experiences a whole world of emotions, forms perceptions and makes decisions, finds and defines the points of attack, discovers hidden pivotal points around which the entire work turns, secretly identifies the treacherous spots in order to be armed against them, and much more.” Galston also believed that music students would benefit from experiencing these interpretive journeys that all great artists struggled through before realizing a powerful and suitably expressive interpretation. In his breakthrough publication, Studienbuch, Galston offers the world of piano pedagogy the first guide to teaching musical interpretation. By documenting an artist’s thought processes while examining several of the tenets of the piano literature, Galston leads his readers through the mind of an interpreter as he analyzes the various motives, phrases, and musical nuances of Bach, Beethoven, Chopin, Liszt, and Brahms. By following Galston through his own study of selected musical works, students can learn to approach a new composition more intelligently by thinking about passages in different ways and considering a multitude of options. </p>
       </div>
     </section>
