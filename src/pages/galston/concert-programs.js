@@ -14,14 +14,18 @@ const ConcertProgramsPage = () => (
 
     <p>The programs in this volume can be compared with the handwritten lists of each concert that Galston wrote in the back of the Studienbuch bound volume.</p>
 
-    <Yith id="studienbuch-present-test"
-          mode="present">
-      <div className="yith-structure">
-        <figure className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-                data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/175"></figure>
-      </div>
-    </Yith>
+    <Yith id="studienbuch-notes-1"
+              mode="comparison">
+          <a className="yith-expand" href="#">Galston</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/18"></figure>
+          </div>
+        </Yith>
   </Layout>
 )
 
