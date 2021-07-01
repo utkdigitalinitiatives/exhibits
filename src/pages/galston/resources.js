@@ -8,7 +8,7 @@ import Yith from "../../components/yith/Yith"
 const ResourcesPage = () => (
   <Layout exhibit="galston">
     <Seo title="Available Resources" />
-    <h1>Available Resources</h1>
+    <h1>Resources</h1>
 
     <Yith id="studienbuch-present-test"
           mode="present">
@@ -24,7 +24,7 @@ const ResourcesPage = () => (
     Galston’s Studienbuch and its English translation is to be published as a downloadable e-publication by the University of Tennessee Libraries’ Newfound Press (fall 2021).</p>
     <h2>Finding Aids and Catalog</h2>
     <ul>
-      <a href="https://scout.lib.utk.edu/repositories/2/resources/4827"><li>Gottfried Galston Music Collection and The Galston-Busoni Archive, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections.</li></a>
+      <li>Gottfried Galston Music Collection and The Galston-Busoni Archive, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections.</li><a href="https://scout.lib.utk.edu/repositories/2/resources/4827">https://scout.lib.utk.edu/repositories/2/resources/4827</a>
       <a href="https://scout.lib.utk.edu/repositories/2/resources/4861"><li>The Gottfried Galston Collection and Galston-Busoni Archive Proof Photographs, MS.3398. University of Tennessee, Knoxville, Special Collections Library.</li></a>
       <a href="http://www.worldcat.org/oclc/558187343"><li>Bayne, Pauline Shaw. The Gottfried Galston Music Collection and the Galston-Busoni Archive Knoxville: University of Tennessee Library, 1978.</li></a>
     </ul>
@@ -37,7 +37,7 @@ const ResourcesPage = () => (
       <li>Liebling, Leonard. "Variations." The Musical Courier. New York: Musical Courier, Inc., (July 3, 1912):27. A laudatory review of Galston's Studienbuch.</li>
     </ul>
 
-    <h2>Acknowledgements</h2>
+    <h2>Acknowledgments</h2>
       <h3>UT Project team</h3>
         <p>Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore; Meredith Hale; Nathalie Hristov; Colin Hudgins; Laura Romans; Louisa Trott</p>
 
@@ -45,13 +45,7 @@ const ResourcesPage = () => (
         <p>Rosemarie S. Greenman</p>
 
       <h3>Transcription/translation of handwritten notes</h3>
-        <ul>
-          <li>Will Eakin</li>
-          <li>Kathryn Shepas</li>
-          <li>Jeff Mellor</li>
-          <li>Peter Hoeyng</li>
-          <li>David Lee</li>
-        </ul>
+        <p></p>
   </Layout>
 )
 
