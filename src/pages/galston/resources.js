@@ -36,6 +36,22 @@ const ResourcesPage = () => (
       <li><a href="https://www.galerie-thomas.de/files/downloads/Paul-Klee.pdf">Hopfengart, Christine, ed. Paul Klee: Music and Theatre in Life and Work. Munich: Galerie Thomas, 2018.</a> This exhibition catalog provides some insight into Galston's (and Busoni's) life in Munich in relation to his friendship with Paul Klee and other artists.</li>
       <li>Liebling, Leonard. "Variations." The Musical Courier. New York: Musical Courier, Inc., (July 3, 1912):27. A laudatory review of Galston's Studienbuch.</li>
     </ul>
+
+    <h2>Acknowledgements</h2>
+      <h3>UT Project team</h3>
+        <p>Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore; Meredith Hale; Nathalie Hristov; Colin Hudgins; Laura Romans; Louisa Trott</p>
+
+      <h3>English translation of the Studienbuch</h3>
+        <p>Rosemarie S. Greenman</p>
+
+      <h3>Transcription/translation of handwritten notes</h3>
+        <ul>
+          <li>Will Eakin</li>
+          <li>Kathryn Shepas</li>
+          <li>Jeff Mellor</li>
+          <li>Peter Hoeyng</li>
+          <li>David Lee</li>
+        </ul>
   </Layout>
 )
 
