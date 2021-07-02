@@ -10,6 +10,7 @@ const ResourcesPage = () => (
     <Seo title="Available Resources" />
     <h1>Resources</h1>
 
+  <div className="resources-intro">
     <Yith id="studienbuch-present-test"
           mode="present">
       <div className="yith-structure">
@@ -22,6 +23,8 @@ const ResourcesPage = () => (
     The archive includes manuscripts - both musical and literary, letters, photographs, programs, musical scores, newspaper clippings, and other items documenting the lives and careers of Gottfried Galston and his friend and fellow pianist, Ferruccio Busoni. 
     Materials were donated to the university in the 1970s by Helen Galston Tibbe (Galston’s wife), and were comprehensively cataloged by music librarian Pauline Shaw Bayne in The Gottfried Galston Music Collection and the Galston-Busoni Archive, published by the University of Tennessee Library in 1978. 
     Galston’s Studienbuch and its English translation is to be published as a downloadable e-publication by the University of Tennessee Libraries’ Newfound Press (fall 2021).</p>
+
+    </div>
     <h2>Finding Aids and Catalog</h2>
     <ul>
       <li>Gottfried Galston Music Collection and The Galston-Busoni Archive, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections.</li><a href="https://scout.lib.utk.edu/repositories/2/resources/4827">https://scout.lib.utk.edu/repositories/2/resources/4827</a>
