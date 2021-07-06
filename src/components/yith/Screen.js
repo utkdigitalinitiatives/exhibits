@@ -25,13 +25,13 @@ class Screen extends Component {
       let region = null
       let autozoom = false
 
-      // if (data[active].region !== undefined) {
-      //   region = data[active].region
-      // }
-      //
-      // if (this.data[active].region !== undefined) {
-      //   autozoom = data[active].autozoom
-      // }
+      if (item.region !== undefined) {
+        region = item.region
+      }
+
+      if (item.region !== undefined) {
+        autozoom = item.autozoom
+      }
 
       return (
         <Manifest

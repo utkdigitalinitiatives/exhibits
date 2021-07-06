@@ -76,6 +76,7 @@ class Chronology extends Component {
   }
 
   componentDidMount() {
+    this.handleScroll()
     window.addEventListener('scroll', this.handleScroll, true);
 
     scrollSpy.update()
