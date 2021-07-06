@@ -9,7 +9,8 @@ class FigureScreen extends Component {
 
     this.state = {
       active: false,
-      activeId: null
+      activeId: null,
+      loaded: false,
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -24,16 +25,12 @@ class FigureScreen extends Component {
       region = this.props.region
     }
 
-    if (manifest.id !== this.state.activeId) {
-      this.setState({
-        activeId: manifest.id,
-        label: manifest.label.en[0],
-        summary: manifest.summary.en[0],
-        requiredStatementLabel: manifest.requiredStatement.label.en[0],
-        requiredStatementValue: manifest.requiredStatement.value.en[0],
-        media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!1200,1200/0/default.jpg'
-      })
-    }
+    this.setState({
+      loaded: true,
+      activeId: manifest.id,
+      label: manifest.label.en[0],
+      media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!1200,1200/0/default.jpg'
+    })
   }
 
   componentDidMount() {
@@ -68,35 +65,39 @@ class FigureScreen extends Component {
 
   render() {
 
-    let {label, summary, requiredStatementLabel, requiredStatementValue, media} = this.state
+    let {label, media, loaded} = this.state
 
     let active = ''
     if (this.props.index === this.props.activeIndex) {
       active = 'yith-figure-screen-active'
     }
 
-    return (
-      <React.Fragment>
-        <figure className={`yith-figure yith-figure-screen ${active}`}>
-          <div className="yith-figure--preview">
-            <div className="yith-figure--preview--inner">
-              <a tabIndex="0"
-                 href="#"
-                 aria-label={`Expand ${label} in Viewer`}
-                 onClick={this.handleClick}>
-                <LazyLoad>
-                  <img src={media} />
-                </LazyLoad>
-                {this.state.active ? true : false}
-              </a>
+    if (loaded) {
+      return (
+        <React.Fragment>
+          <figure className={`yith-figure yith-figure-screen ${active}`}>
+            <div className="yith-figure--preview">
+              <div className="yith-figure--preview--inner">
+                <a tabIndex="0"
+                   href="#"
+                   aria-label={`Expand ${label} in Viewer`}
+                   onClick={this.handleClick}>
+                  <LazyLoad>
+                    <img src={media} />
+                  </LazyLoad>
+                  {this.state.active ? true : false}
+                </a>
+              </div>
             </div>
+          </figure>
+          <div className={`yith-modal-wrapper yith-modal-${this.state.active}`}>
+            {this.yithModal()}
           </div>
-        </figure>
-        <div className={`yith-modal-wrapper yith-modal-${this.state.active}`}>
-          {this.yithModal()}
-        </div>
-      </React.Fragment>
-    )
+        </React.Fragment>
+      )
+    } else {
+      return null
+    }
 
   }
 }
