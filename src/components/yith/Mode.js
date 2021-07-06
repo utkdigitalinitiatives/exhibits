@@ -115,7 +115,6 @@ class Mode extends Component {
     dom.map((item, mIndex) => {
       if (item.tag === 'figure') {
         this.getManifest(item.data.manifest, mIndex);
-        console.log(item)
         if (!item.annotations) {
           sequence.push({
             "type": "manifest",

@@ -14,7 +14,6 @@ class Manifest extends Component {
 
   getManifest = (uri) => {
     if (this.state.activeIndex !== this.props.activeIndex) {
-      console.log(uri)
       fetch(uri, {
         headers : {
           'Content-Type': 'application/json',
