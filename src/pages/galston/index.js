@@ -37,6 +37,7 @@ const GalstonIndex = () => (
       <div className="yith-structure">
         <figure
           className="yith-manifest"
+          data-region="80,112,5392,8096"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
         ><p>Duis finibus dui lectus, id aliquam dolor ornare eu. Curabitur ut pellentesque nisi, at pretium odio.</p></figure>
         <figure

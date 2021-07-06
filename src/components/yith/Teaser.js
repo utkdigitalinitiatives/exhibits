@@ -38,7 +38,7 @@ class Teaser extends Component {
           let region = 'full';
           let size = '!700,700';
 
-          if (this.props.sequence[0].region !== 'undefined') {
+          if (this.props.sequence[0].region !== undefined) {
             region = this.props.sequence[0].region
           }
 
