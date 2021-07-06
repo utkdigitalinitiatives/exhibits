@@ -40,10 +40,6 @@ class FigureScreen extends Component {
     this.handleComponent()
   }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    this.handleComponent()
-  }
-
   yithModal() {
     if (this.state.active) {
       return <Modal iiif={this.props.manifest}
@@ -60,6 +56,11 @@ class FigureScreen extends Component {
   }
 
   showModal() {
+    if (!this.state.active) {
+      document.body.classList.add('modal-active')
+    } else {
+      document.body.classList.remove('modal-active')
+    }
     this.setState(state => ({
       active: !state.active
     }));
