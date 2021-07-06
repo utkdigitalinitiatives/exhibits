@@ -69,9 +69,14 @@ class FigureScreen extends Component {
 
     let {label, summary, requiredStatementLabel, requiredStatementValue, media} = this.state
 
+    let active = ''
+    if (this.props.index === this.props.activeIndex) {
+      active = 'yith-figure-screen-active'
+    }
+
     return (
       <React.Fragment>
-        <figure className="yith-figure yith-figure-screen">
+        <figure className={`yith-figure yith-figure-screen ${active}`}>
           <div className="yith-figure--preview">
             <div className="yith-figure--preview--inner">
               <a tabIndex="0"

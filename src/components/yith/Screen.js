@@ -19,29 +19,38 @@ class Screen extends Component {
     }
   }
 
-  render() {
+  renderScreen = (data, active) => {
+    return data.map((item, index) => {
 
-    let region = null
-    let autozoom = false
+      let region = null
+      let autozoom = false
 
-    if (this.props.data[this.state.activeIndex].region !== undefined) {
-      region = this.props.data[this.state.activeIndex].region
-    }
+      // if (data[active].region !== undefined) {
+      //   region = data[active].region
+      // }
+      //
+      // if (this.data[active].region !== undefined) {
+      //   autozoom = data[active].autozoom
+      // }
 
-    if (this.props.data[this.state.activeIndex].region !== undefined) {
-      autozoom = this.props.data[this.state.activeIndex].autozoom
-    }
-
-    return (
-      <React.Fragment>
+      return (
         <Manifest
           mode="chronology"
-          activeIndex={this.props.activeIndex}
+          index={index}
+          activeIndex={active}
           opacity={this.props.opacity}
-          manifest={this.props.data[this.state.activeIndex].manifest}
+          manifest={data[index].manifest}
           region={region}
           autozoom={autozoom} />
-      </React.Fragment>
+      )
+    })
+  }
+
+  render() {
+    return (
+      <div>
+        {this.renderScreen(this.props.data, this.state.activeIndex)}
+      </div>
     )
 
   }

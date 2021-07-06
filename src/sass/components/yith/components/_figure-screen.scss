@@ -1,5 +1,11 @@
 .yith-figure.yith-figure-screen {
   height: 100%;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+
+  &.yith-figure-screen-active {
+    opacity: 1;
+  }
 
   .yith-figure--preview {
     height: inherit;
