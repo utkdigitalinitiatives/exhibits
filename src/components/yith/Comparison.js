@@ -69,10 +69,16 @@ class Comparison extends Component {
 
   renderNavigation = (activeWindows, sequence) => {
     return sequence.map((item, index) => {
+
+      let active = '';
+      if (activeWindows.includes(index)) {
+        active = 'active'
+      }
+
       return (
-        <a href="#" data-index={index} onClick={this.toggleWindow}>
+        <a href="#" className={active} data-index={index} onClick={this.toggleWindow}>
           <figure data-index={index}>
-            {index}
+            <img src="" />
           </figure>
         </a>
       )
