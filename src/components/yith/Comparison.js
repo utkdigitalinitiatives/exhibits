@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
+import _ from "lodash"
 
 class Comparison extends Component {
 
@@ -75,10 +76,21 @@ class Comparison extends Component {
         active = 'active'
       }
 
+      let canvas = _.findIndex(this.props.data[index].items, function (o) {
+        return o.id == sequence[index].canvasId
+      })
+      if (canvas == -1) {
+        canvas = 0
+      }
+
       return (
-        <a href="#" className={active} data-index={index} onClick={this.toggleWindow}>
+        <a href="#"
+           className={active}
+           data-index={index}
+           onClick={this.toggleWindow}>
           <figure data-index={index}>
-            <img src="" />
+            <img data-index={index}
+                  src={this.props.data[index].items[canvas].items[0].items[0].body[0].service['@id'] + '/full/!200,200/0/default.jpg'} />
           </figure>
         </a>
       )

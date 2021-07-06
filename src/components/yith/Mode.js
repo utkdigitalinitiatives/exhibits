@@ -83,7 +83,7 @@ class Mode extends Component {
     } else if (mode === 'comparison') {
       return (
         <div className={`yith-modal-wrapper yith-modal-${active}`}>
-          <Comparison sequence={this.state.sequence} active={active} showModal={this.showModal}  />
+          <Comparison data={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal}  />
         </div>
       )
     } else if (mode === 'present') {
