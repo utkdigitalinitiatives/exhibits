@@ -1,3 +1,9 @@
 .yith {
   margin-bottom: 2em;
 }
+
+
+body.modal-active {
+  height: 100vh;
+  overflow-y: hidden;
+}
