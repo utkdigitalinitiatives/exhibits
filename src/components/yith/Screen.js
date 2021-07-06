@@ -48,9 +48,9 @@ class Screen extends Component {
 
   render() {
     return (
-      <div>
+      <>
         {this.renderScreen(this.props.data, this.state.activeIndex)}
-      </div>
+      </>
     )
 
   }
