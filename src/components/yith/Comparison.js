@@ -51,6 +51,9 @@ class Comparison extends Component {
                     canvasId: this.props.sequence[1].canvas
                   }
                 ],
+                workspace: {
+                  showZoomControls: true, // Configure if zoom controls should be displayed by default
+                },
                 thumbnailNavigation: {
                   defaultPosition: 'far-bottom', // Which position for the thumbnail navigation to be be displayed. Other possible values are "far-bottom" or "far-right"
                   displaySettings: true, // Display the settings for this in WindowTopMenu
