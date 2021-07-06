@@ -38,11 +38,14 @@ class Teaser extends Component {
           let region = 'full';
           let size = '!700,700';
 
+          if (this.props.sequence[0].region !== 'undefined') {
+            region = this.props.sequence[0].region
+          }
+
           if (this.props.mode === 'comparison') {
             return (
               <div className="yith-teaser">
                 <TeaserFigure data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
-                <TeaserFigure data={this.state.data[1]} canvas={this.props.sequence[1].canvas} region={region} size={size} />
               </div>
             )
           } else {
