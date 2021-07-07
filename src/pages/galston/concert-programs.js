@@ -10,9 +10,12 @@ const ConcertProgramsPage = () => (
     <Seo title="Concert Programs" />
     <h1>Concert Programs</h1>
   <div>
-    <p>In Munich, between October 1919 and February 1921, Galston performed, from memory, a series of over 40 recitals. The performances encompassed an impressive representation of works by the most celebrated composers as well as works by his contemporaries. The concert programs declare that the entirety of significant piano literature from the beginning to the present is covered by these 40 concerts. By the end of the series, Galston had performed over 200 works in just over 70 weeks.
-This volume of individual printed programs was likely bound especially for Galston, and bears his “Ex Libris” plate on the inside front cover. The composers and works detailed in this volume echo the list of concerts written in Galston's hand at the end of the Studienbuch. The handwritten lists include a few additional details, but it is not known why Galston transcribed the concert series in detail at the back of the Studienbuch bound volume; it is not included in subsequent editions of the Studienbuch.</p>
+    <div className="concert-programs-flex">
+    <div className="concert-programs-description">
+    <p>In Munich, between October 1919 and February 1921, Galston performed, from memory, a series of over 40 recitals. The performances encompassed an impressive representation of works by the most celebrated composers as well as works by his contemporaries. The concert programs declare that the entirety of significant piano literature from the beginning to the present is covered by these 40 concerts. By the end of the series, Galston had performed over 200 works in just over 70 weeks.</p>
 
+    <p>This volume of individual printed programs was likely bound especially for Galston, and bears his “Ex Libris” plate on the inside front cover. The composers and works detailed in this volume echo the list of concerts written in Galston's hand at the end of the Studienbuch. The handwritten lists include a few additional details, but it is not known why Galston transcribed the concert series in detail at the back of the Studienbuch bound volume; it is not included in subsequent editions of the Studienbuch.</p>
+    </div>
     <Yith id="studienbuch-notes-1"
               mode="comparison">
           <a className="yith-expand" href="#">Expand in viewer</a>
@@ -26,6 +29,60 @@ This volume of individual printed programs was likely bound especially for Galst
           </div>
         </Yith>
         </div>
+      <div className="concert-programs-columns">
+        <ul>
+          <li>Concert program</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
   </Layout>
 )
 
