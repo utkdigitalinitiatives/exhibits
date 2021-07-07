@@ -57,7 +57,7 @@ const StudienbuchPage = () => (
 
 
     <section className="exhibits-section">
-      <div>
+      <div className="confessions">
         <h2>‘Confessions’</h2>
         <p>In a 1912 review of the newly published Studienbuch, Leonard Liebling described how “Gottfried Galston branches out into a new field of musico-literary endeavor, and gives a detailed record of his interpretations, with the reasons for the things he does, and the experiences and impressions undergone at the piano during his preparation of the five tremendous programs.” Liebling goes on to convey the unique value of Galston’s work by describing how, “these ‘confessions’ of Galston are to me the most interesting notes ever published on the art of piano playing, and if Liszt and Rubinstein had possessed sufficient moral courage to be as candid with their contemporaries as Galston is with his twentieth century confreres, the two masters would have left behind them a far truer picture of themselves and of their art than is contained in the newspapers of their day and in the books written about them by others.” </p>
       </div>
