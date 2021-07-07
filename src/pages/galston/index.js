@@ -19,7 +19,7 @@ const GalstonIndex = () => (
       <div>
         <Yith id="studienbuch-translation"
               mode="comparison">
-          <a className="yith-expand" href="#">Studienbuch & Translation</a>
+          <a className="yith-expand" href="#">Expand in Viewer</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -33,7 +33,7 @@ const GalstonIndex = () => (
     </section>
 
     <Yith id="sample-projection" mode="projection" description="Explore features of UT’s unique bound volume of Galston’s <em>Studienbuch</em> (1910)">
-      <a className="yith-expand" href="#">Take the Tour</a>
+      <a className="yith-expand" href="#">Explore Features</a>
       <div className="yith-structure">
         <figure
           className="yith-manifest"
