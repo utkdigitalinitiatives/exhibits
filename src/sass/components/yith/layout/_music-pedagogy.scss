@@ -1,0 +1,31 @@
+.yith-figure figcaption p {
+  display: none;
+}
+
+.yith figure figcaption {
+  strong {
+    display: block;
+  }
+}
+
+section.exhibits-section .exhibits-blockquote {
+  padding: 0 2em;
+  margin: 0 2em 2em 2em;
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.gift-to-musicians, .musical-interpretation, .confessions {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+
