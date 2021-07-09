@@ -18,6 +18,8 @@ class Present extends Component {
       autozoom = sequence[0].autozoom
     }
 
+    console.log(sequence)
+
     return (
       <div className="yith-structure">
         <div className={sequence[0].class}>
