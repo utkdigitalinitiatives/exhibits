@@ -159,6 +159,11 @@ class Mode extends Component {
       }
     });
 
+    // if (this.props.mode === 'projection') {
+    //   console.log(dom)
+    //   console.log(sequence)
+    // }
+
     this.setState(state => ({
       sequence: sequence
     }));

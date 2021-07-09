@@ -43,11 +43,6 @@ const GalstonIndex = () => (
       <div className="yith-structure">
         <figure class="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch-guided-tour.json">
-          <figcaption>
-            <strong>Galston</strong>
-            <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin
-              ipsum quam a nibh. Nullam et accumsan ligula.</p>
-          </figcaption>
           <div class="yith-items">
             <figure class="yith-annotation"
                     data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
