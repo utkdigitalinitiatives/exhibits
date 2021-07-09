@@ -23,9 +23,14 @@ class Figure extends Component {
       region = this.props.region
     }
 
+    if (manifest.summary.en !== null) {
+      this.setState({
+        summary: manifest.summary.en[0]
+      })
+    }
+
     this.setState({
       label: manifest.label.en[0],
-      summary: manifest.summary.en[0],
       requiredStatementLabel: manifest.requiredStatement.label.en[0],
       requiredStatementValue: manifest.requiredStatement.value.en[0],
       media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!640,640/0/default.jpg'
