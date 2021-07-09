@@ -8,8 +8,8 @@ const exhibit  = 'default'
 
 const ExhibitsIndex = () => (
   <Layout exhibit={exhibit}>
-    <Seo title="Exhibits Demo" />
-    <div>xyz</div>
+    <Seo title="Exhibits" />
+    <Link to="/galston">Galston Studienbuch</Link>
   </Layout>
 )
 

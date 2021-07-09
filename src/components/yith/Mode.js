@@ -55,7 +55,7 @@ class Mode extends Component {
                className="yith-projection-teaser"
                onClick={this.showModal}>
               <div className="yith-projection-teaser--inner">
-                <div className="yith-description">{this.props.description}</div>
+                <div className="yith-description" dangerouslySetInnerHTML={{__html:this.props.description}}></div>
                 <span className="yith-expand">{data.value}</span>
               </div>
               <Teaser sequence={this.state.sequence} mode={mode} />
@@ -158,6 +158,11 @@ class Mode extends Component {
         })
       }
     });
+
+    // if (this.props.mode === 'projection') {
+    //   console.log(dom)
+    //   console.log(sequence)
+    // }
 
     this.setState(state => ({
       sequence: sequence
