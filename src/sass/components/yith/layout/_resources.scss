@@ -1,0 +1,18 @@
+.resources-intro {
+  display: flex;
+
+  .resources-flex {
+    flex: 1;
+    margin-right: 2em;
+  }
+}
+
+.resources-header {
+    font-family: "DM Serif Display", Georgia, serif;
+    font-weight: normal;
+}
+
+.resources-header-large {
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: 38px;
+}
