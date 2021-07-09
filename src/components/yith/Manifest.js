@@ -8,36 +8,29 @@ class Manifest extends Component {
     super(props);
 
     this.state ={
-      activeIndex: null
+      data: null
     }
   }
 
   getManifest = (uri) => {
-    if (this.state.activeIndex !== this.props.activeIndex) {
-      fetch(uri, {
-        headers : {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
+    fetch(uri, {
+      headers : {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          data: data
+        });
       })
-        .then(response => response.json())
-        .then(data => {
-          this.setState({
-            activeIndex: this.props.activeIndex,
-            data: data
-          });
-        })
-        .catch(err => console.error(this.props.url, err.toString()));
+      .catch(err => console.error(this.props.url, err.toString()));
 
-      return null
-    }
+    return null
   }
 
   componentDidMount() {
-    this.getManifest(this.props.manifest)
-  }
-
-  componentDidUpdate() {
     this.getManifest(this.props.manifest)
   }
 
@@ -46,6 +39,8 @@ class Manifest extends Component {
       if (this.props.mode === 'chronology') {
         return (
           <FigureScreen manifest={this.state.data}
+                        index={this.props.index}
+                        activeIndex={this.props.activeIndex}
                         region={this.props.region}
                         opacity={this.props.opacity}
                         autozoom={this.props.autozoom} />

@@ -76,6 +76,7 @@ class Chronology extends Component {
   }
 
   componentDidMount() {
+    this.handleScroll()
     window.addEventListener('scroll', this.handleScroll, true);
 
     scrollSpy.update()
@@ -103,7 +104,7 @@ class Chronology extends Component {
             {this.mapStructure(sequence)}
           </aside>
           <div id="yith-screen" className="yith-screen" style={{ height: screenHeight }}>
-            <Screen opacity={this.state.screenOpacity} activeIndex={this.state.activeIndex} data={sequence} />
+            <Screen activeIndex={this.state.activeIndex} data={sequence} />
           </div>
         </div>
       </React.Fragment>
