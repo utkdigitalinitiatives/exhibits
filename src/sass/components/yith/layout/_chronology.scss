@@ -144,3 +144,26 @@
     bottom: 0;
   }
 }
+
+.call-to-action {
+  width: auto;
+  text-align: center;
+  margin: 0;
+  box-shadow: $box-shadow;
+  background-color: #be4d2a;
+  padding: 1em 2em;
+  font-size: 0.8333em;
+  width: 300px;
+  margin-top: 2em;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.studybook {
+  font-style: italic;
+}

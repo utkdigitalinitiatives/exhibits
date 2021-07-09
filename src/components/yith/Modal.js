@@ -41,6 +41,9 @@ class Modal extends Component {
                 allowClose: false,
                 forceDrawAnnotations: true
               },
+              workspace: {
+                showZoomControls: true, // Configure if zoom controls should be displayed by default
+              },
               windows: [{
                 manifestId: this.props.iiif.id
               }],

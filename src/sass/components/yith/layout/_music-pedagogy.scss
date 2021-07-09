@@ -1,0 +1,93 @@
+.music-pedagogy-wrapper {
+  display: flex;
+  width: 100% !important;
+  margin-left: 0 !important;
+
+  .gift-to-musicians {
+    flex: 1;
+    padding-right: 2em;
+  }
+
+  .yith-figure figcaption p {
+    display: none;
+  }
+
+  .yith figure figcaption {
+    strong {
+      display: block;
+    }
+  }
+
+  p {
+    line-height: 1.6em;
+    font-family: "Gotham", sans-serif;
+    font-weight: normal;
+  }
+}
+
+section.exhibits-section .exhibits-blockquote {
+  padding: 0 2em;
+  margin: 0 2em 2em 2em;
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.gift-to-musicians, .musical-interpretation, .confessions {
+  h2 {
+    font-family: "DM Serif Display", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin-bottom: 0;
+    }
+
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+.music-pedagogy-yith {
+  width: 38.2%;
+}
+
+.musical-interpretation-wrapper {
+  display: flex;
+  width: 100% !important;
+  margin-left: 0 !important;
+
+  .musical-interpretation {
+    flex: 1;
+  }
+
+  p {
+    font-family: "Gotham", sans-serif;
+  }
+}
+
+.musical-intepretation-yith {
+  width: 38.2%;
+}
+
+.studybook {
+  font-style: italic;
+}
+
+.yith-figure .yith-figure--preview .yith-figure--preview--inner a img, .yith-figure .yith-figure--preview .yith-figure--preview--inner a:visited img {
+  max-height: 350px;
+}
+
+.confessions-wrapper {
+  display: flex;
+
+  .confessions {
+    flex: 1;
+    width: 100% !important;
+  }
+
+  p {
+    line-height: 1.6em;
+    font-family: "Gotham", sans-serif;
+  }
+}

@@ -31,4 +31,54 @@
       box-shadow: $box-shadow;
     }
   }
+
+  .yith-modal {
+    display: flex;
+
+    .yith-modal--navigation {
+      background-color: #dcdcdc;
+      display: flex;
+      flex-direction: column;
+      padding-top: 2em;
+
+      > a {
+        display: block;
+        padding: 0 2em 2em 2em;
+        opacity: 0.5;
+        transition: all 200ms ease-in-out;
+
+        &.active {
+          opacity: 1;
+
+          figure {
+            outline: 6px solid white !important;
+          }
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+
+        figure {
+          margin: 0;
+          padding: 0;
+          width: 75px;
+          background-color: white;
+          box-shadow: $box-shadow;
+
+          img {
+            object-fit: cover;
+            max-width: 100%;
+            max-height: 100%;
+            display: flex;
+          }
+        }
+      }
+    }
+
+    .yith-modal--inner {
+      position: relative;
+      flex-grow: 1;
+    }
+  }
 }

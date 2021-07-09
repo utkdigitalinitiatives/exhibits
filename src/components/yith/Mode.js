@@ -26,6 +26,11 @@ class Mode extends Component {
   }
 
   showModal() {
+    if (!this.state.active) {
+      document.body.classList.add('modal-active')
+    } else {
+      document.body.classList.remove('modal-active')
+    }
     this.setState(state => ({
       active: !state.active
     }));
@@ -37,7 +42,7 @@ class Mode extends Component {
         return (
           <a href="#"
              className="yith-comparison-teaser"
-             onClick={this.isActive}>
+             onClick={this.showModal}>
             <span className="yith-expand">{data.value}</span>
             <Teaser sequence={this.state.sequence} mode={mode} />
           </a>
@@ -48,7 +53,7 @@ class Mode extends Component {
           return (
             <a href="#"
                className="yith-projection-teaser"
-               onClick={this.isActive}>
+               onClick={this.showModal}>
               <div className="yith-projection-teaser--inner">
                 <div className="yith-description">{this.props.description}</div>
                 <span className="yith-expand">{data.value}</span>
@@ -62,7 +67,7 @@ class Mode extends Component {
         return (
           <a href="#"
              className="yith-expand"
-             onClick={this.isActive}>
+             onClick={this.showModal}>
             {data.value}
           </a>
         )
@@ -78,7 +83,7 @@ class Mode extends Component {
     } else if (mode === 'comparison') {
       return (
         <div className={`yith-modal-wrapper yith-modal-${active}`}>
-          <Comparison sequence={this.state.sequence} active={active} showModal={this.showModal}  />
+          <Comparison data={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal}  />
         </div>
       )
     } else if (mode === 'present') {
