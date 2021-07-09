@@ -59,7 +59,10 @@ class Mirador extends Component {
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
-    this.handleInstance(this.props.mode)
+    console.log(this.props.mode )
+    if (this.props.mode !== 'initial') {
+      this.handleInstance(this.props.mode)
+    }
   }
 
   render() {
@@ -67,10 +70,5 @@ class Mirador extends Component {
     return <div id={config.id} />;
   }
 }
-
-Mirador.propTypes = {
-  config: PropTypes.string.isRequired,
-  plugins: PropTypes.string.isRequired,
-};
 
 export default Mirador;

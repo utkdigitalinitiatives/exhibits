@@ -35,6 +35,7 @@ class Screen extends Component {
 
       return (
         <Manifest
+          key={index}
           mode="chronology"
           index={index}
           activeIndex={active}

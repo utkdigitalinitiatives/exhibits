@@ -5,7 +5,6 @@ import PropTypes from "prop-types"
 import Navigation from "./navigation"
 
 const Header = ({ structure }) => (
-
   <>
     <div className="exhibits-header">
       <div>

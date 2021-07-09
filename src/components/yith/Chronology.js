@@ -45,7 +45,7 @@ class Chronology extends Component {
       if (element.tag === "figure") {
         const to = "chronology_" + index
         return (
-          <Link to={to} spy={true} onSetActive={this.handleSetActive}>
+          <Link key={index} to={to} spy={true} onSetActive={this.handleSetActive}>
             {element.label}
           </Link>
         )
