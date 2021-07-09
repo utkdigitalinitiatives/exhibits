@@ -19,10 +19,21 @@ class Projection extends Component {
     this.showModal = this.showModal.bind(this);
   }
 
-  showModal(e) {
-    e.stopPropagation();
-    e.preventDefault();
+  showModal() {
     this.props.showModal(false);
+  }
+
+  resetSequence = (e) => {
+    e.stopPropagation();
+    this.setState({
+      index: 0,
+      loaded: false,
+      autozoom: false,
+      region: null,
+      interaction: 'toggle',
+      slideMode: 'initial'
+    });
+    this.showModal();
   }
 
   selectPrev = (e) => {
@@ -195,7 +206,7 @@ class Projection extends Component {
                tabIndex="0"
                href="#"
                aria-label={`Close Viewer`}
-               onClick={this.showModal}
+               onClick={this.resetSequence}
             >
               Close Viewer
             </a>
@@ -213,7 +224,7 @@ class Projection extends Component {
                   <a href="#" className="yith-minimize-button" onClick={this.toggleContext}>{this.state.minimized ? "+" : "_"}</a>
                 </nav>
               </div>
-              
+
               {this.getMirador()}
             </div>
           </div>
