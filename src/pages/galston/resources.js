@@ -9,14 +9,17 @@ const ResourcesPage = () => (
   <Layout exhibit="galston">
     <Seo title="Available Resources" />
     <h1>Resources</h1>
+    <h2 className="resources-header">Gottfried Galston Collections at the University of Tennessee Libraries</h2>
+
 <div className="resources-wrapper">
   <div className="resources-intro">
     
-
-    <p className="resources-flex">The Galston-Busoni Archive and the Gottfried Galston Music Collection are held at the University of Tennessee Libraries’ Betsey B. Creekmore Special Collections and University Archives. 
-    The archive includes manuscripts - both musical and literary, letters, photographs, programs, musical scores, newspaper clippings, and other items documenting the lives and careers of Gottfried Galston and his friend and fellow pianist, Ferruccio Busoni. 
-    Materials were donated to the university in the 1970s by Helen Galston Tibbe (Galston’s wife), and were comprehensively cataloged by music librarian Pauline Shaw Bayne in The Gottfried Galston Music Collection and the Galston-Busoni Archive, published by the University of Tennessee Library in 1978. 
-    Galston’s Studienbuch and its English translation is to be published as a downloadable e-publication by the University of Tennessee Libraries’ Newfound Press (fall 2021).</p>
+    <div className="resources-flex">
+      <p>The Galston-Busoni Archive and the Gottfried Galston Music Collection are held at the University of Tennessee Libraries’ Betsey B. Creekmore Special Collections and University Archives. The archive includes manuscripts - both musical and literary, letters, photographs, programs, musical scores, newspaper clippings, and other items documenting the lives and careers of Gottfried Galston and his friend and fellow pianist, Ferruccio Busoni. The collections were comprehensively cataloged by music librarian (later Head of the Music Library, and Professor Emerita) Pauline Shaw Bayne in The Gottfried Galston Music Collection and the Galston-Busoni Archive, published by the University of Tennessee Library in 1978.</p>
+    
+<p>Professor Patricia Carter was instrumental in bringing Galston's archives to UT in the 1970s, and has been a driving force in efforts to make the materials available to the widest possible audience. She and her late husband Dr. William Carter encouraged Helen Galston Tibbe, Galston’s widow, to consider entrusting her late husband’s archives to the University of Tennessee Libraries. Recognizing the importance of the Studienbuch, Professor Patricia Carter commissioned Rosemarie Greenman to translate it into English, and later proposed that UT Libraries' Newfound Press publish the translation online alongside the original German text. 
+Professor Carter shared extensive information about Galston's life and career with music librarians Chris Durman and Nathalie Hristov, who wrote the preface and introduction to the Newfound Press publication, and from which much of the text for this digital exhibit has been drawn. </p>
+<p>A downloadable e-publication of Galston’s <span className="studybook">Studienbuch</span> and its English translation will be published by UT Libraries’ Newfound Press in fall 2021.</p></div>
 
 <div className="yith-wrapper">
     <Yith id="studienbuch-present-test"
