@@ -34,6 +34,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="98,760,3198,4511"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/8"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"

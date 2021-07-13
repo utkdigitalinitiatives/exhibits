@@ -90,7 +90,7 @@
 
   .yith-comparison {
     box-shadow: none !important;
-    width: auto;
+    width: calc(20% - 3em);
     margin-right: 3em;
   }
 
@@ -121,13 +121,15 @@
       background-color: transparent;
       color: $primary;
       text-decoration: none;
+      text-transform: none;
+      padding: 0.5em 0;
     }
 
     .yith-teaser {
-      height: 200px;
+      height: auto;
 
       img {
-        height: 200px;
+        height: unset;
         box-shadow: $box-shadow;
       }
     }
