@@ -27,7 +27,7 @@ const ConcertProgramsPage = () => (
           </p>
         </div>
       </div>
-      <div className="comparison-columns">
+      <div className="comparison-grid">
         <Yith id="concert-programs-comparison-1"
               mode="comparison">
           <a className="yith-expand" href="#">October 12, 1919</a>
