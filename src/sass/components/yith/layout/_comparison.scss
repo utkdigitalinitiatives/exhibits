@@ -82,3 +82,54 @@
     }
   }
 }
+
+.comparison-columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+
+  .yith-comparison {
+    box-shadow: none !important;
+    width: auto;
+    margin-right: 3em;
+  }
+
+  .yith-comparison-teaser {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-decoration: none !important;
+
+    &::after {
+      display: block;
+      width: 100%;
+      height: 61.8%;
+      content: '';
+      position: absolute;
+      bottom: 0;
+      background: unset !important;
+    }
+
+    .yith-expand {
+      z-index: 1;
+      width: auto;
+      bottom: unset;
+      margin: 0;
+      box-shadow: none;
+      position: relative;
+      background-color: transparent;
+      color: $primary;
+      text-decoration: none;
+    }
+
+    .yith-teaser {
+      height: 200px;
+
+      img {
+        height: 200px;
+        box-shadow: $box-shadow;
+      }
+    }
+  }
+}
