@@ -46,7 +46,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/8"></figure>
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/14"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477"></figure>
@@ -58,7 +58,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/8"></figure>
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/18"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477"></figure>
@@ -70,7 +70,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/8"></figure>
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/22"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477"></figure>
