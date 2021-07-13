@@ -144,7 +144,7 @@ class Comparison extends Component {
                   },
                 }}
                 plugins={[]}
-                mode="initial"
+                mode="nextManifest"
               />
             </div>
             <div className="yith-modal--navigation">
