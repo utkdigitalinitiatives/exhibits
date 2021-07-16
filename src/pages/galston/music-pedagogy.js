@@ -15,9 +15,7 @@ const StudienbuchPage = () => (
       <div className="music-pedagogy-wrapper">
         <div className="gift-to-musicians">
           <h2>Gift to musicians</h2>
-          <p>
-          Galston’s musical interpretations established the young pianist as one of the most gifted and sensitive interpreters of his day, but his gift to the musical world was not limited to his inspired interpretations. In the spirit of scholarship and a willingness to share his musical ideas with future generations of pianists, Galston published his journey through his interpretative processes by analyzing the composers’ texts to capture, as one reviewer put it, the true character of each work. </p>
-          <p>Galston’s Studienbuch was an unparalleled gift to musicians and pedagogues for generations to come.</p>       
+          <p>Galston's musical interpretations established the young pianist as one of the most gifted and sensitive interpreters of his day, but his gift to the musical world was not limited to his inspired interpretations. In the spirit of scholarship and a willingness to share his musical ideas with future generations of pianists, Galston published his journey through his interpretative processes by analyzing the composers’ texts to capture, as one reviewer put it, the true character of each work, establishing his Studienbuch as an unparalleled gift to musicians and pedagogues for generations to come.</p>       
         </div>
         <div className="music-pedagogy-yith">
         <Yith id="studienbuch-present-test"
@@ -39,7 +37,7 @@ const StudienbuchPage = () => (
           [Galston] tells you everything about the work, technically, musically, historically, sentimentally. He has no secrets from you.
         </blockquote>
         <figcaption>
-          Leonard Liebling
+          Leonard Liebling (Musical Courier, July 1912)
         </figcaption>
       </figure>
     </section>
