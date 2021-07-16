@@ -1,9 +1,19 @@
 .resources-intro {
   display: flex;
 
+  p {
+    line-height: 1.6em;
+    color: #1a181a;
+  }
+
   .resources-flex {
     flex: 1;
     margin-right: 2em;
+
+    p {
+      margin-top: 0;
+      color: #1a181a;
+    }
   }
 }
 
@@ -12,12 +22,23 @@
     font-weight: normal;
 }
 
+.resources-header-med {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .resources-header-large {
     font-family: "DM Serif Display", Georgia, serif;
-    font-size: 38px;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.1;
 }
 
 .studybook {
     font-style: italic;
+}
+
+.other-resources-list, #gatsby-focus-wrapper > main:nth-child(2) > article:nth-child(1) > p:nth-child(14) {
+  margin-bottom: 2em;
 }

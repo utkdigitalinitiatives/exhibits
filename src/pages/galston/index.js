@@ -19,7 +19,7 @@ const GalstonIndex = () => (
       <div>
         <Yith id="studienbuch-translation"
               mode="comparison">
-          <a className="yith-expand" href="#">Expand in Viewer</a>
+          <a className="yith-expand" href="#">Explore the Volume</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -161,7 +161,7 @@ const GalstonIndex = () => (
     </Yith>
 
     <section className="exhibits-section">
-      <div>
+      <div className="bio-figure">
         <Yith id="galston-bio"
               mode="present">
           <div className="yith-structure">
@@ -172,8 +172,9 @@ const GalstonIndex = () => (
       </div>
       <div>
         <h2>Gottfried Galston</h2>
-        <p>A preeminent concert pianist of the early twentieth century,  <Link to="/galston/gottfried-galston" activeClassName="active">Gottfried Galston (1879-1950)</Link> studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances, but also by an innovative and insightful approach to piano pedagogy.</p>
-        <div className="call-to-action"><Link to="/galston/gottfried-galston">Explore a Chronology of Galston's Life and Work</Link></div>
+        <p>A preeminent concert pianist of the early twentieth century,  <Link to="/galston/gottfried-galston" activeClassName="active">Gottfried Galston (1879-1950)</Link> studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances, but also by an innovative and insightful approach to piano pedagogy. His remarkable series of concert performances enthralled audiences around the world and were highly acclaimed by critics with the highest of praise, "[...] his superb playing [...] has been thoroughly artistic, without even being dry or pedantic, exquitite in tone, and well nigh perfect in technique." (Daily Telegraph, London, February 22, 1907) Galston's Studienbuch received an equally acclamatory response, "Galston's tremendous intellectual and musical grasp is evidenced this book [...]" (Musical Courier, July 3, 1912)</p>
+        <p>Galston taught at several notable institutions in Germany and toured extensively internationally, performing in Europe, Australasia, and the United States, where he later settled and taught at the St. Louis Institute of Music.</p>
+        <div className="call-to-action"><Link to="/galston/gottfried-galston">Life and Career</Link></div>
       </div>
     </section>
   </Layout>

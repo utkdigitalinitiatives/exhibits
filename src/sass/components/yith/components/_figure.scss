@@ -106,3 +106,12 @@
     }
   }
 }
+
+.yith-figure > figcaption:nth-child(2) > p:nth-child(2) {
+  display: none;
+}
+
+.yith-figure > figcaption:nth-child(2) > strong:nth-child(1) {
+  display: block;
+}
+

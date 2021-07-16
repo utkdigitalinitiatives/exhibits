@@ -30,42 +30,45 @@ const GalstonPage = () => (
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/692"
           data-label="Early Career"
           data-region="104,127,2616,3250"
-        >The success of this debut led to other performances in Berlin and London, as well as tours throughout Europe, the United States, Russia, Australia, and New Zealand. In 1903, Galston was appointed Professor of Advanced Class at the Stern Conservatory, Berlin, where he taught until 1907.
-        </figure>
-        <figure
-          className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/716"
-          data-label="Busoni"
-          data-region="351,359,3474,4506"
-        >Around this time, Galston began a life-long friendship with Berlin-based pianist, composer, teacher, Ferruccio Busoni, taking the form of a mentor-protégé relationship. The respect and admiration for each other is well-documented in their correspondence, their dedication of compostions to each other, and Galston's collection of Busoni-related memorabilia, all of which form part of the Galston-Busoni Collection at the University of Tennessee.
-        </figure>
-        <figure
-          className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/696"
-          data-label="Concert Series"
-          data-region="2168,729,3947,2732"
-        >Galston’s performance career was launched to new heights in 1907-08 with a series of concerts that included some of the most monumental piano works by Bach, Beethoven, Chopin, Liszt, and Brahms. In just eight weeks from January to March 1907, Galston performed ten concerts in London and Paris, followed by concerts in Berlin, Vienna, and Amsterdam later that year and early 1908. Galston also supplied extensive program notes for each of the works, placing each in historical and musical context.
-        </figure>
-        <figure
-          className="yith-manifest"
-          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
-          data-label="Honors"
-          data-region="559,439,4710,5978"
-        >In 1909, following the successful concert series in Europe, the faculty of the Imperial Conservatory at St. Petersburg--headed by Alexander Glazunov--offered Galston the position of Professor Extraordinaire, a title conferred by Imperial ""ukase"" (decree). The Conservory in Paris cast a silver medal in recognition of Galston's outstanding successful performance there.
+        >The success of this debut led to other performances in Berlin and London, as well as tours throughout Europe, the United States, Russia, Australia, and New Zealand. In 1903, Galston was appointed Professor of Advanced Class at the Stern Conservatory, Berlin, where he taught until 1906.
         </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/706"
           data-label="Marriage"
           data-region="1078,1503,3892,2943"
-        >In 1910, Galston married Sandra Droucker, a notable pianist, composer, and pedagogue.
+        >In 1905, Galston married Sandra Droucker, a favorite student of Anton Rubinstein, and later a renowned pianist, composer, and pedagogue. Galston and Droucker lived in Berlin, teaching students from all over the world and undertaking concert tours. 
+        </figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/716"
+          data-label="Busoni"
+          data-region="351,359,3474,4506"
+        >Around this time, Galston began a life-long friendship with Berlin-based pianist, composer, teacher, Ferruccio Busoni, taking the form of a mentor-protégé relationship. The respect and admiration for each other is well-documented in their correspondence, their dedication of compostions to each other, and Galston's collection of Busoni-related materials, all of which form part of the Galston-Busoni Collection at the University of Tennessee.
+        </figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/696"
+          data-label="Concert Series"
+          data-region="2168,729,3947,2732"
+        >Galston’s performance career was launched to new heights with a series of concerts that included some of the most monumental piano works by Bach, Beethoven, Chopin, Liszt, and Brahms. In just eight weeks from January to March 1907, Galston performed ten concerts in London and Paris, followed by concerts in Berlin, Vienna, and Amsterdam later that year and early 1908.
+        Galston supplied extensive program notes for each of the works, placing each in historical and musical context. 
+        </figure>
+        <figure
+          className="yith-manifest"
+          data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/684"
+          data-label="Honors"
+          data-region="559,439,4710,5978"
+        >In 1909, following the successful concert series in Europe, the faculty of the Imperial Conservatory at St. Petersburg--headed by Alexander Glazunov--offered Galston the honor of Professor Extraordinaire, a title conferred by Imperial "ukase" (decree), which he accepted as an honorary post.
+        Galston was invited, without having applied, to perform at the Conservory in Paris, March 7-14, 1909. In recognition of the concerts' outstanding success a special silver medal was cast for him.
         </figure>
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/680"
           data-label="Studienbuch"
           data-region="1000,1135,3576,2550"
-        >The first edition of Galston's (i)Studienbuch(/i) is published by Bruno Cassirer, Berlin.
+        >The first edition of Galston's Studienbuch was published by Bruno Cassirer, Berlin.
+        Based on his 1907-1908 concert series, the book intricately describes Galston's journey through his interpretative processes, analyzing the five composers’ texts to capture the true character of each work.
         </figure>
         <figure
           className="yith-manifest"
@@ -77,7 +80,7 @@ const GalstonPage = () => (
         <figure
           className="yith-manifest"
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/682"
-          data-label="WWI"
+          data-label="World War I"
           data-region="352,447,2968,4295"
         >From 1915 until the end of World War I, Galston served as a lieutenant in the Austrian cavalry. During this time, Galston had no access to a piano, and feared the loss of dexterity in his fingers. He endeavored to maintain dexterity in his fingers by practicing on any surface he could find. He also found that drawing objects with intricate details helped keep his fingers nimble. In 1918, Galston's marriage with Droucker ended.
         </figure>
@@ -86,7 +89,7 @@ const GalstonPage = () => (
           data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/700"
           data-label="Concert Cycles"
           data-region="1351,1215,4629,3366"
-        >The lack of access to a piano for three years did not prove detrimental to Galston's extraordinary talent.  From October 1919 through February 1921, Galston performed, from memory, over forty concerts in Munich that encompassed an impressive representation of the works by the most celebrated composers. By the end of the series, Galston had performed over 200 works in just over seventy weeks.
+        >The lack of access to a piano for three years did not prove detrimental to Galston's extraordinary talent. In October 1919, he embarked on a performance cycle of 40 recitals, which included works by little-known, contemporary composers as well as the most celebrated. By February 1921, he had performed over 200 works.
         </figure>
         <figure
           className="yith-manifest"
