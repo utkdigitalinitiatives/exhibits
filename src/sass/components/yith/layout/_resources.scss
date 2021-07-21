@@ -39,6 +39,10 @@
     font-style: italic;
 }
 
+.resources-list li, .other-resources-list li {
+  margin-bottom: 1em;
+}
+
 .other-resources-list, #gatsby-focus-wrapper > main:nth-child(2) > article:nth-child(1) > p:nth-child(14) {
   margin-bottom: 2em;
 }

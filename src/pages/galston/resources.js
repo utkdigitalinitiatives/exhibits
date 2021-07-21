@@ -33,22 +33,22 @@ const ResourcesPage = () => (
     </div>
     </div>
     <h2 className="resources-header">Finding Aids and Catalog</h2>
-    <ul>
-      <li>Gottfried Galston Music Collection and The Galston-Busoni Archive, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections. <a href="https://scout.lib.utk.edu/repositories/2/resources/4827 ">https://scout.lib.utk.edu/repositories/2/resources/4827</a></li>
-      <li>The Gottfried Galston Collection and Galston-Busoni Archive Proof Photographs, MS.3398. University of Tennessee, Knoxville, Special Collections Library. <a href="https://scout.lib.utk.edu/repositories/2/resources/4861">https://scout.lib.utk.edu/repositories/2/resources/4861</a></li>
-      <li>Bayne, Pauline Shaw. The Gottfried Galston Music Collection and the Galston-Busoni Archive Knoxville: University of Tennessee Library, 1978. <a href="http://www.worldcat.org/oclc/558187343">http://www.worldcat.org/oclc/558187343</a></li>
+    <ul className="resources-list">
+      <li><a href="https://scout.lib.utk.edu/repositories/2/resources/4827">Gottfried Galston Music Collection and The Galston-Busoni Archive</a>, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections.</li>
+      <li><a href="https://scout.lib.utk.edu/repositories/2/resources/4861">The Gottfried Galston Collection and Galston-Busoni Archive Proof Photographs</a>, MS.3398. University of Tennessee, Knoxville, Special Collections Library.</li>
+      <li>Bayne, Pauline Shaw. <a className="studybook" href="http://www.worldcat.org/oclc/558187343">The Gottfried Galston Music Collection and the Galston-Busoni Archive</a>, Knoxville: University of Tennessee Library, 1978.</li>
     </ul>
 
     <h2 className="resources-header">Other Resources</h2>
     <ul class="other-resources-list">
       <li>Cassirer collection, M0287, Dept. of Special Collections, Stanford University Libraries, Stanford, California. <a href="https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/">https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/</a> 
-      This collection provides more context about Cassirer, the publisher of the first edition of Galston's Studienbuch.</li>
-      <li>Galston, Gottfried. Studienbuch : 3 Klavier-Abend : "Frédéric Chopin". Munich: Otto Halbreiter, 1922. 
+      This collection provides more context about Cassirer, the publisher of the first edition of Galston's <span className="studybook">Studienbuch</span>.</li>
+      <li>Galston, Gottfried. <span className="studybook">Studienbuch : 3 Klavier-Abend : "Frédéric Chopin"</span>. Munich: Otto Halbreiter, 1922. 
       The Chopin section in the second edition of the Studienbuch incorporates Galston's editorial changes, handwritten in the University of Tennessee's bound volume of the first edition. 
       The second edition of the Chopin section is available online from the Pomeranian Digital Library, University of Gdansk, Poland: <a href="https://pbc.gda.pl/dlibra/doccontent?id=35368">https://pbc.gda.pl/dlibra/doccontent?id=35368</a></li>
-      <li>Hopfengart, Christine, ed. Paul Klee: Music and Theatre in Life and Work. Munich: Galerie Thomas, 2018.
+      <li>Hopfengart, Christine, ed. <span className="studybook">Paul Klee: Music and Theatre in Life and Work</span>. Munich: Galerie Thomas, 2018.
       This exhibition catalog provides some insight into Galston's (and Busoni's) life in Munich in relation to his friendship with Paul Klee and other artists. <a href="https://www.galerie-thomas.de/files/downloads/Paul-Klee.pdf">https://www.galerie-thomas.de/files/downloads/Paul-Klee.pdf</a></li>
-      <li>Liebling, Leonard. "Variations." The Musical Courier. New York: Musical Courier, Inc., (July 3, 1912):27.
+      <li>Liebling, Leonard. "Variations." <span className="studybook">The Musical Courier</span>. New York: Musical Courier, Inc., (July 3, 1912):27.
       A laudatory review of Galston's Studienbuch.</li>
     </ul>
 

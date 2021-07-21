@@ -76,14 +76,13 @@ section.exhibits-section .exhibits-blockquote {
 }
 
 .yith-figure .yith-figure--preview .yith-figure--preview--inner a img, .yith-figure .yith-figure--preview .yith-figure--preview--inner a:visited img {
-  max-height: 350px;
+  max-height: 300px;
 }
 
 .confessions-wrapper {
   display: flex;
 
   .confessions {
-    flex: 1;
     width: 100% !important;
   }
 
@@ -91,4 +90,9 @@ section.exhibits-section .exhibits-blockquote {
     line-height: 1.6em;
     font-family: "Gotham", sans-serif;
   }
+}
+
+section.exhibits-section:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  margin-left: 3em;
+  width: 38.2;
 }
