@@ -83,20 +83,28 @@ class Yith extends Component {
           if (el.props.children.type === 'div' && el.props.children.props.class === 'yith-items') {
             let annotations = el.props.children.props.children
 
-            annotationsStructure = annotations.map(function (el) {
+            annotationsStructure = annotations.map(function (aEl) {
 
               let aItem = {}
+              let html = null
 
-              aItem.tag = el.type
-              aItem.value = null
-              aItem.data = {}
-
-              if (el.props.className !== "") {
-                aItem.class = el.props.class
+              if (aEl.props.children.type === 'figcaption') {
+                html = "";
+                for (let item of aEl.props.children.props.children) {
+                  html += `<${item.type}>${item.props.children}</${item.type}>`;
+                }
               }
 
-              if (el.props["data-annotation"]) {
-                aItem.data.annotation = el.props["data-annotation"]
+              aItem.tag = aEl.type
+              aItem.value = html
+              aItem.data = {}
+
+              if (aEl.props.className !== "") {
+                aItem.class = aEl.props.class
+              }
+
+              if (aEl.props["data-annotation"]) {
+                aItem.data.annotation = aEl.props["data-annotation"]
               }
 
               return aItem;
