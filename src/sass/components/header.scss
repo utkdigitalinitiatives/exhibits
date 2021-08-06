@@ -17,10 +17,10 @@
 .universal-header-navigation {
   background-color: white;
   display: flex;
+  border-top: 7px solid #ff8200;
 
   img {
-    display: flex;
-    max-width: 275px;
+    max-width: 250px;
   }
 
   a {
