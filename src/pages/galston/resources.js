@@ -11,7 +11,7 @@ const ResourcesPage = () => (
     <h1>Resources</h1>
     <h2 className="resources-header">Gottfried Galston Collections at the University of Tennessee Libraries</h2>
 
-<div className="resources-wrapper">
+<div>
   <div className="resources-intro">
     
     <div className="resources-flex">
@@ -30,16 +30,18 @@ const ResourcesPage = () => (
       </div>
     </Yith>
     </div>
-    </div>
-    </div>
+  </div>
+</div>
+  <div className="resources-list-bg">
+    <ul>
     <h2 className="resources-header">Finding Aids and Catalog</h2>
-    <ul className="resources-list">
+
       <li><a href="https://scout.lib.utk.edu/repositories/2/resources/4827">Gottfried Galston Music Collection and The Galston-Busoni Archive</a>, MS.1072. University of Tennessee Libraries, Knoxville, Special Collections.</li>
       <li><a href="https://scout.lib.utk.edu/repositories/2/resources/4861">The Gottfried Galston Collection and Galston-Busoni Archive Proof Photographs</a>, MS.3398. University of Tennessee, Knoxville, Special Collections Library.</li>
       <li>Bayne, Pauline Shaw. <a className="studybook" href="http://www.worldcat.org/oclc/558187343">The Gottfried Galston Music Collection and the Galston-Busoni Archive</a>, Knoxville: University of Tennessee Library, 1978.</li>
     </ul>
 
-    <h2 className="resources-header">Other Resources</h2>
+    <h2 className="resources-header other-resources">Other Resources</h2>
     <ul class="other-resources-list">
       <li>Cassirer collection, M0287, Dept. of Special Collections, Stanford University Libraries, Stanford, California. <a href="https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/">https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/</a> 
       This collection provides more context about Cassirer, the publisher of the first edition of Galston's <span className="studybook">Studienbuch</span>.</li>
@@ -51,7 +53,9 @@ const ResourcesPage = () => (
       <li>Liebling, Leonard. "Variations." <span className="studybook">The Musical Courier</span>. New York: Musical Courier, Inc., (July 3, 1912):27.
       A laudatory review of Galston's Studienbuch.</li>
     </ul>
+  </div>
 
+<div className="acknowledgements-bg">
     <h2 className="resources-header-med">Acknowledgments</h2>
       <h3 className="resources-header">UT Project team</h3>
         <p>Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore; Meredith Hale; Nathalie Hristov; Colin Hudgins; Mat Jordan; Laura Romans; Louisa Trott</p>
@@ -61,6 +65,7 @@ const ResourcesPage = () => (
 
       <h3 className="resources-header">Transcription/translation of handwritten notes</h3>
         <p>Will Eakin; Kathryn Shepas; Jeff Mellor; Peter Hoeyng; David Lee</p>
+</div>
   </Layout>
 )
 

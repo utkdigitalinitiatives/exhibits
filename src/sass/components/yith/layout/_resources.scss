@@ -39,10 +39,32 @@
     font-style: italic;
 }
 
-.resources-list li, .other-resources-list li {
-  margin-bottom: 1em;
-}
-
 .other-resources-list, #gatsby-focus-wrapper > main:nth-child(2) > article:nth-child(1) > p:nth-child(14) {
   margin-bottom: 2em;
+}
+
+.resources-list-bg {
+  background-color: #00617e;
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 3em;
+
+  ul {
+    color: white;
+    line-height: 1.6rem;
+  }
+
+  a {
+    color: white;
+  }
+
+  .other-resources {
+    color: white;
+    margin-left: 40px;
+  }
 }

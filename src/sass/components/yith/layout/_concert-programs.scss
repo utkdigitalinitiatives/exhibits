@@ -1,7 +1,5 @@
 .concert-programs-columns {
   display: grid;
-  grid-template-columns: 4;
-  grid-template-rows: 10;
 }
 
 .concert-programs-wrapper {
@@ -18,4 +16,17 @@
 
 .studybook {
   font-style: italic;
+}
+
+.comparison-grid {
+  display: flex;
+
+  img {
+    max-width: 75px !important;
+    min-width: 75px;
+  }
+
+.yith.yith-comparison {
+  margin: 0;
+  }
 }

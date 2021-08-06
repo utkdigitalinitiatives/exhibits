@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Yith from "../../components/yith/Yith"
+import UniversalHeader from "../../components/yith/UniversalHeader"
 
 const GalstonIndex = () => (
 
   <Layout exhibit="galston">
     <Seo title="Galston Studienbuch" />
-
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
