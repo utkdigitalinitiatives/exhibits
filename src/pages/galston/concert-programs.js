@@ -266,6 +266,110 @@ const ConcertProgramsPage = () => (
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
           </div>
         </Yith>
+
+        <Yith id="concert-programs-comparison-19"
+              mode="comparison">
+          <a className="yith-expand" href="#">February 29, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/82"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-20"
+              mode="comparison">
+          <a className="yith-expand" href="#">March 7, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/86"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-21"
+              mode="comparison">
+          <a className="yith-expand" href="#">March 14, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/90"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-22"
+              mode="comparison">
+          <a className="yith-expand" href="#">March 21, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/94"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-23"
+              mode="comparison">
+          <a className="yith-expand" href="#">March 28, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/98"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-24"
+              mode="comparison">
+          <a className="yith-expand" href="#">April 4, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/102"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-25"
+              mode="comparison">
+          <a className="yith-expand" href="#">April 11, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/106"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-26"
+              mode="comparison">
+          <a className="yith-expand" href="#">April 18, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/110"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/479"></figure>
+          </div>
+        </Yith>
       </div>
     </div>
   </Layout>
