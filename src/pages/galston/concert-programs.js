@@ -129,13 +129,14 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
-                    data-range="240,520,4880,6880"
+                    data-region="256,496,4864,6800"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/38"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477"></figure>
           </div>
         </Yith>
+
       </div>
     </div>
   </Layout>
