@@ -521,6 +521,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="296,528,4864,6768"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/150"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -534,6 +535,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="552,576,4832,6640"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/154"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -547,6 +549,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="448,704,4880,6704"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/158"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -560,6 +563,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="344,640,4864,6704"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/162"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -573,6 +577,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="312,608,4864,6736"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/166"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
