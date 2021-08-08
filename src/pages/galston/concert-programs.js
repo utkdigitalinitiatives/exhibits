@@ -143,6 +143,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="264,528,4816,6720"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/42"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
@@ -156,6 +157,7 @@ const ConcertProgramsPage = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-region="312,464,4800,6736"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/46"></figure>
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
