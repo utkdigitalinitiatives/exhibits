@@ -474,6 +474,84 @@ const ConcertProgramsPage = () => (
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/480"></figure>
           </div>
         </Yith>
+
+        <Yith id="concert-programs-comparison-35"
+              mode="comparison">
+          <a className="yith-expand" href="#">November 21, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/146"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-36"
+              mode="comparison">
+          <a className="yith-expand" href="#">December 5, 1920</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/150"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-37"
+              mode="comparison">
+          <a className="yith-expand" href="#">January 16, 1921</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/154"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-38"
+              mode="comparison">
+          <a className="yith-expand" href="#">January 30, 1921</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/158"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-39"
+              mode="comparison">
+          <a className="yith-expand" href="#">February 13, 1921</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/162"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
+
+        <Yith id="concert-programs-comparison-40"
+              mode="comparison">
+          <a className="yith-expand" href="#">February 20, 1921</a>
+          <div className="yith-structure">
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/166"></figure>
+            <figure className="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/481"></figure>
+          </div>
+        </Yith>
       </div>
     </div>
   </Layout>
