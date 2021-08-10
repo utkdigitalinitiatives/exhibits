@@ -38,6 +38,7 @@
     white-space: nowrap;
     font-family: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
+    letter-spacing: -0.03rem;
   }
 }
 
@@ -110,5 +111,39 @@
         margin: 20px 3rem;
       }
     }
+  }
+}
+
+.utk-logo--smokey {
+  fill: #58595b;
+}
+
+.utk-logo--white {
+  fill: white;
+}
+
+.utk-logo--orange {
+  fill: #ff8200;
+}
+
+.svg-icon.search-icon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  fill: #58595b;
+  margin-right: 15px;
+}
+
+.utk-lib-links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #58595b;
   }
 }
