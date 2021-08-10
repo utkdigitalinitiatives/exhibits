@@ -13,6 +13,7 @@ import Header from "./header"
 import "../sass/styles.scss"
 import { Helmet } from "react-helmet"
 import _ from "lodash"
+import UniversalHeader from "./yith/UniversalHeader"
 
 const Layout = ({ exhibit, children }) => {
 
@@ -47,6 +48,7 @@ const Layout = ({ exhibit, children }) => {
       <Helmet>
         <title>Thing 1</title>
       </Helmet>
+      <UniversalHeader/>
       <Header structure={data} />
       <main>
         <article>{children}</article>

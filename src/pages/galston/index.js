@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Yith from "../../components/yith/Yith"
+import UniversalHeader from "../../components/yith/UniversalHeader"
 
 const GalstonIndex = () => (
 
   <Layout exhibit="galston">
     <Seo title="Galston Studienbuch" />
-
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
@@ -174,7 +174,7 @@ const GalstonIndex = () => (
         <h2>Gottfried Galston</h2>
         <p>A preeminent concert pianist of the early twentieth century,  <Link to="/galston/gottfried-galston" activeClassName="active">Gottfried Galston (1879-1950)</Link> studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances, but also by an innovative and insightful approach to piano pedagogy. His remarkable series of concert performances enthralled audiences around the world and were highly acclaimed by critics with the highest of praise, "[...] his superb playing [...] has been thoroughly artistic, without even being dry or pedantic, exquitite in tone, and well nigh perfect in technique." (Daily Telegraph, London, February 22, 1907) Galston's Studienbuch received an equally acclamatory response, "Galston's tremendous intellectual and musical grasp is evidenced this book [...]" (Musical Courier, July 3, 1912)</p>
         <p>Galston taught at several notable institutions in Germany and toured extensively internationally, performing in Europe, Australasia, and the United States, where he later settled and taught at the St. Louis Institute of Music. More about Galston's life and career, and the signicance of his Studienbuch in music pedagogy can be found in this exhibit.</p>
-        <div className="call-to-action"><Link to="/galston/gottfried-galston">Life and Career</Link></div>
+        <div className="call-to-action"><Link to="/galston/gottfried-galston">Galston's Life & Career</Link></div>
       </div>
     </section>
   </Layout>

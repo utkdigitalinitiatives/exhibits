@@ -13,3 +13,30 @@
     text-decoration: none;
   }
 }
+
+.universal-header-navigation {
+  background-color: white;
+  display: flex;
+  border-top: 7px solid #ff8200;
+
+  img {
+    max-width: 250px;
+  }
+
+  a {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2777rem;
+    line-height: 76px;
+    font-weight: 700 !important;
+    color: #58595b !important;
+    letter-spacing: -0.03em;
+    transition: all 290ms ease-in-out;
+    white-space: nowrap;
+    font-family: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+}
