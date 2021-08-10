@@ -8,7 +8,7 @@ class UniversalHeader extends Component {
     return (
       <div className="universal-header-navigation">
         <a href="https://utk.edu"><img src={logo}></img></a>
-        <a href="https://lib.utk.edu">Libraries</a>
+        <a className="libraries-link" href="https://lib.utk.edu">Libraries</a>
       </div>
     )
 

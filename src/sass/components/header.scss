@@ -23,7 +23,7 @@
     max-width: 250px;
   }
 
-  a {
+  .libraries-link {
     padding: 0;
     margin: 0;
     align-items: center;
@@ -40,3 +40,30 @@
     text-decoration: none;
   }
 }
+
+
+@media (max-width: $breakpoint-xs) {
+  .universal-header-navigation {
+      flex-direction: column !important;
+
+      img {
+        max-width: 200px;
+      }
+
+      .libraries-link {
+        line-height: 47px;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-small) {
+    .universal-header-navigation {  
+        img {
+          max-width: 200px;
+        }
+  
+        .libraries-link {
+          line-height: 47px;
+        }
+      }
+    }
