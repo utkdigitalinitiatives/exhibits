@@ -32,6 +32,7 @@ const ResourcesPage = () => (
     </div>
   </div>
 </div>
+<div className="resources-wrapper">
   <div className="resources-list-bg">
     <ul>
     <h2 className="resources-header">Finding Aids and Catalog</h2>
@@ -65,6 +66,7 @@ const ResourcesPage = () => (
 
       <h3 className="resources-header">Transcription/translation of handwritten notes</h3>
         <p>Will Eakin; Kathryn Shepas; Jeff Mellor; Peter Hoeyng; David Lee</p>
+</div>
 </div>
   </Layout>
 )
