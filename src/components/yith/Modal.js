@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
+import { v4 as uuid } from 'uuid';
 import _ from "lodash"
 
 class Modal extends Component {
@@ -42,7 +43,7 @@ class Modal extends Component {
         <div className="yith-modal">
           <Mirador
             config={{
-              id: `yith-mirador`,
+              id: `yith-mirador-${uuid()}`,
               window: {
                 hideWindowTitle: false,
                 sideBarOpen: true,
