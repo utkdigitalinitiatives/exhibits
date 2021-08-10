@@ -44,6 +44,9 @@ class Modal extends Component {
           <Mirador
             config={{
               id: `yith-mirador-${uuid()}`,
+              createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
+                productionPrefix: `mirador-${uuid()}`,
+              },
               window: {
                 hideWindowTitle: false,
                 sideBarOpen: true,
