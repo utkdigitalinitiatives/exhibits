@@ -118,7 +118,7 @@ class Comparison extends Component {
             <div className="yith-modal--inner">
               <Mirador
                 config={{
-                  id: `yith-mirador-${this.state.uuid}}`,
+                  id: `yith-mirador-${this.state.uuid}`,
                   createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
                     productionPrefix: `mirador-${this.state.uuid}`,
                   },
