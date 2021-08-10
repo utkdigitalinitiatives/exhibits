@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
 import _ from "lodash"
+import { v4 as uuid } from "uuid"
 
 class Comparison extends Component {
 
@@ -9,6 +10,7 @@ class Comparison extends Component {
 
     this.state ={
       windows: [0],
+      uuid: uuid(),
       activeWindows: [
         {
           manifestId: this.props.sequence[0].manifest,
@@ -116,7 +118,10 @@ class Comparison extends Component {
             <div className="yith-modal--inner">
               <Mirador
                 config={{
-                  id: 'yith-mirador-default',
+                  id: `yith-mirador-${this.state.uuid}}`,
+                  createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
+                    productionPrefix: `mirador-${this.state.uuid}`,
+                  },
                   window: {
                     hideWindowTitle: false,
                     sideBarOpen: false,

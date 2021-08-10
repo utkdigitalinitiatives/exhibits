@@ -9,7 +9,8 @@ class Modal extends Component {
     super(props);
 
     this.state = {
-      loaded: false
+      loaded: false,
+      uuid: uuid()
     }
 
     this.showModal = this.showModal.bind(this);
@@ -43,9 +44,9 @@ class Modal extends Component {
         <div className="yith-modal">
           <Mirador
             config={{
-              id: `yith-mirador-${uuid()}`,
+              id: `yith-mirador-${this.state.uuid}}`,
               createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
-                productionPrefix: `mirador-${uuid()}`,
+                productionPrefix: `mirador-${this.state.uuid}`,
               },
               window: {
                 hideWindowTitle: false,
