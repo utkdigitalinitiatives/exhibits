@@ -92,3 +92,23 @@
     }
   }
 }
+
+.utk-logo-exhibits-wrapper {
+  .utk-logo-exhibits {
+    svg {
+      height: 47px;
+      margin: 20px 3rem;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .utk-logo-exhibits-wrapper {
+    .utk-logo-exhibits {
+      svg {
+        height: 30px;
+        margin: 20px 3rem;
+      }
+    }
+  }
+}
