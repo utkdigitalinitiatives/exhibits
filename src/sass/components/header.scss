@@ -54,12 +54,16 @@
         line-height: 47px;
       }
     }
+
+    nav {
+      align-items: left;
+    }
   }
 
   @media (max-width: $breakpoint-small) {
     .universal-header-navigation {  
         img {
-          max-width: 200px;
+          max-width: 150px;
         }
   
         .libraries-link {
@@ -67,3 +71,24 @@
         }
       }
     }
+
+@media (max-width: $breakpoint-tablet) {
+  .exhibits-header h1 {  
+      padding: 1rem 3rem;
+      font-size: 2.5rem;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .exhibits-header > nav {
+    padding: 0 2rem 1rem 2rem !important;
+    align-items: left;
+  }
+
+  .universal-header-navigation {
+    img {
+      max-width: 175px;
+      margin-left: 1rem;
+    }
+  }
+}
