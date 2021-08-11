@@ -1,3 +1,9 @@
+/*
+ * Yith is the codebase that wraps the Mirador viewer and allows
+ * us to insert components into our exhibits application.
+ * All code included here should be global for all exhibits.
+ */
+
 // components
 @import "yith/components/expand";
 @import "yith/components/figure";
@@ -11,10 +17,6 @@
 @import "yith/layout/comparison";
 @import "yith/layout/present";
 @import "yith/layout/projection";
-@import "yith/layout/concert-programs";
-@import "yith/layout/music-pedagogy";
-@import "yith/layout/resources";
-
 
 .yith {
   display: block;
