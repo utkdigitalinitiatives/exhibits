@@ -60,6 +60,10 @@
 @media (max-width: $breakpoint-tablet) {
   .exhibits-header > nav {
     flex-direction: column;
+
+    a {
+      padding: 0.5rem 1rem;
+    }
   }
 
   .exhibits-header h1 {

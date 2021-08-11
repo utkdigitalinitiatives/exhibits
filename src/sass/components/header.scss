@@ -150,6 +150,8 @@
 
 .exhibits-search {
   margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .universal-header-top {
@@ -160,6 +162,22 @@
 @media (max-width: $breakpoint-small) {
   .universal-header-navigation {
     flex-direction: column;
+  }
+
+  .utk-lib-links span {
+    display: none;
+  }
+
+  .libraries-link {
+    line-height: 20px !important;
+  }
+
+  svg {
+    padding: 1rem 0;
+  }
+
+  .exhibits-search {
+    margin: 0;
   }
 }
 
