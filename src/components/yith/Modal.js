@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
+import { v4 as uuid } from 'uuid';
 import _ from "lodash"
 
 class Modal extends Component {
@@ -8,7 +9,8 @@ class Modal extends Component {
     super(props);
 
     this.state = {
-      loaded: false
+      loaded: false,
+      uuid: uuid()
     }
 
     this.showModal = this.showModal.bind(this);
@@ -42,7 +44,10 @@ class Modal extends Component {
         <div className="yith-modal">
           <Mirador
             config={{
-              id: `yith-mirador`,
+              id: `yith-mirador-${this.state.uuid}`,
+              createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
+                productionPrefix: `mirador-${this.state.uuid}`,
+              },
               window: {
                 hideWindowTitle: false,
                 sideBarOpen: true,
