@@ -165,7 +165,7 @@
 
 
 @media (max-width: 500px) {
-  .universal-header-navigation, .universal-header-top {
+  .universal-header-top {
     flex-direction: column;
   }
 
@@ -176,8 +176,7 @@
   }
 
   .utk-lib-links {
-    align-items: center;
-    margin-right: 3rem;
+    align-items: end;
     width: auto;
   }
 }
