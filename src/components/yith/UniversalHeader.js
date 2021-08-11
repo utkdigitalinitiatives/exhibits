@@ -7,6 +7,7 @@ class UniversalHeader extends Component {
 
     return (
       <div className="universal-header-navigation">
+        <div className="universal-header-top">
         <div className="utk-logo-exhibits-wrapper">
           <div className="utk-logo-exhibits">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 48.24" class="utk-logo utk-logo-primary">
@@ -26,9 +27,11 @@ class UniversalHeader extends Component {
         </div>
 
         <a className="libraries-link" href="https://lib.utk.edu">Libraries</a>
+        </div>
 
         <div className="utk-lib-links">
-          <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">A magnifying glass icon.</desc><g class="search-path" fill="none" stroke="#848F91"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+        
+        <a className="exhibits-search" href="">Search</a>
           <a href="https://lib.utk.edu">Home</a>
         </div>
       </div>

@@ -128,10 +128,10 @@
 
 .svg-icon.search-icon {
   display: inline-block;
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
   fill: #58595b;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .utk-lib-links {
@@ -145,5 +145,39 @@
     text-decoration: none;
     font-weight: 400;
     color: #58595b;
+  }
+}
+
+.exhibits-search {
+  margin-right: 20px;
+}
+
+.universal-header-top {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: $breakpoint-small) {
+  .universal-header-navigation {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .universal-header-navigation, .universal-header-top {
+    flex-direction: column;
+  }
+
+  .libraries-link {
+    line-height: 35px !important;
+    justify-content: flex-start !important;
+    margin-left: 3rem !important;
+  }
+
+  .utk-lib-links {
+    align-items: center;
+    margin-right: 3rem;
+    width: auto;
   }
 }
