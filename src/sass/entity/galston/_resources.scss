@@ -26,6 +26,7 @@
   font-family: "DM Serif Display", Georgia, serif;
   font-size: 2rem;
   font-weight: 400;
+  margin-top: 2em;
 }
 
 .resources-header-large {
@@ -43,27 +44,28 @@
   margin-bottom: 2em;
 }
 
-.resources-list-bg {
-  background-color: #00617e;
-  z-index: 0;
-  width: 100%;
-  overflow: hidden;
-  margin: 0;
+@media (max-width: 1000px) {
+  .resources-intro {
+    flex-direction: column;
+  }
+}
+
+.resources-wrapper ul {
+  line-height: 1.6em;
   padding: 0;
-  left: 0;
-  padding-top: 3em;
+}
 
-  ul {
-    color: white;
-    line-height: 1.6rem;
+.acknowledgements-bg {
+  margin-bottom: 3rem;
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+  h1 {
+    font-size: 2rem;
   }
 
-  a {
-    color: white;
-  }
-
-  .other-resources {
-    color: white;
-    margin-left: 40px;
+  .resources-header-med {
+    font-size: 1.8rem;
   }
 }
