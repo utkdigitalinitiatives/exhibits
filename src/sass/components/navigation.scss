@@ -61,8 +61,18 @@
   .exhibits-header > nav {
     flex-direction: column;
 
-    a {
+    a, a:visited {
       padding: 0.5rem 1rem;
+
+      &:hover {
+        &::after {
+          width: 180px;
+        }
+      }
+
+      &.active {
+        width: 180px;
+      }
     }
   }
 

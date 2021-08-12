@@ -30,9 +30,10 @@ class UniversalHeader extends Component {
         </div>
 
         <div className="utk-lib-links">
-        <a href="https://utk.primo.exlibrisgroup.com/discovery/login?vid=01UTN_KNOXVILLE:01UTK&lang=en">My Account</a>
+        <a href="https://utk.primo.exlibrisgroup.com/discovery/login?vid=01UTN_KNOXVILLE:01UTK&lang=en" target="_blank">My Account</a>
         <div className="exhibits-search" >
-          <a href="https://utk.primo.exlibrisgroup.com/discovery/search?vid=01UTN_KNOXVILLE:01UTK&lang=en"><span>Search</span></a></div>
+          <a href="https://utk.primo.exlibrisgroup.com/discovery/search?vid=01UTN_KNOXVILLE:01UTK&lang=en" target="_blank"><span>Search</span></a></div>
+          <a href="https://lib.utk.edu" target="_blank">Home</a>
         </div>
       </div>
     )
