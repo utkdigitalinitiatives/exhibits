@@ -73,3 +73,9 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .resources-flex {
+    margin-right: 0 !important;
+  }
+}
