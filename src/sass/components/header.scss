@@ -1,38 +1,40 @@
-.exhibits-header {
-  background-color: white;
-  box-shadow: $box-shadow;
-
-  h1 {
-    padding: 3rem 3rem;
-    margin: 0;
-  }
-
-  a,
-  a:visited {
-    color: $secondary;
-    text-decoration: none;
-  }
-}
-
 .universal-header-navigation {
   background-color: white;
   display: flex;
   border-top: 7px solid #ff8200;
+  flex-direction: column;
 
-  img {
-    max-width: 250px;
+  .universal-header-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .utk-logo-exhibits {
+    svg {
+      height: 30px;
+      margin: 10px 3rem 5px;
+    }
+
+    .utk-logo--smokey {
+      fill: #58595b;
+    }
+    
+    .utk-logo--white {
+      fill: white;
+    }
+    
+    .utk-logo--orange {
+      fill: #ff8200;
+    }
   }
 
   .libraries-link {
     padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
+    margin: 5px 3rem;
     display: flex;
     font-size: 1.2777rem;
-    line-height: 76px;
-    font-weight: 700 !important;
-    color: #58595b !important;
+    font-weight: 700;
+    color: $heading-grey;
     letter-spacing: -0.03em;
     transition: all 290ms ease-in-out;
     white-space: nowrap;
@@ -40,271 +42,53 @@
     text-decoration: none;
     letter-spacing: -0.03rem;
   }
-}
-
-
-@media (max-width: $breakpoint-xs) {
-  .universal-header-navigation {
-      flex-direction: column !important;
-
-      img {
-        max-width: 200px;
-      }
-
-      .libraries-link {
-        line-height: 47px;
-      }
-    }
-
-    nav {
-      align-items: left;
-    }
-  }
-
-  @media (max-width: $breakpoint-small) {
-    .universal-header-navigation {  
-        img {
-          max-width: 150px;
-        }
-  
-        .libraries-link {
-          line-height: 47px;
-        }
-      }
-    }
-
-@media (max-width: $breakpoint-tablet) {
-  .exhibits-header h1 {  
-      padding: 1rem 3rem;
-      font-size: 2.5rem;
-  }
 
   .utk-lib-links {
+    width: 100%;
+    display: flex;
+    margin: 5px 3rem 10px;
+    align-items: center;
+  
     a {
-      font-size: 0.9rem;
+      text-decoration: none;
+      font-weight: 400;
+      color: $heading-grey;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: $heading-grey-darker;
+      }
     }
   }
 }
 
-@media (max-width: $breakpoint-tablet) {
-  .exhibits-header > nav {
-    padding: 0 2rem 1rem 2rem !important;
-    align-items: left;
-  }
-
+@media (min-width: $breakpoint-tablet) {
   .universal-header-navigation {
-    img {
-      max-width: 175px;
-      margin-left: 1rem;
+    flex-direction: row;
+  
+    .universal-header-top {
+      flex-direction: row;
     }
-  }
-}
 
-.utk-logo-exhibits-wrapper {
-  .utk-logo-exhibits {
-    svg {
-      height: 47px;
-      margin: 20px 3rem;
-    }
-  }
-}
-
-@media (max-width: $breakpoint-tablet) {
-  .utk-logo-exhibits-wrapper {
     .utk-logo-exhibits {
       svg {
-        height: 30px;
-        margin: 20px 3rem;
+        height: 47px;
+        margin: 20px 3em;
       }
-    }
-  }
-}
 
-.utk-logo--smokey {
-  fill: #58595b;
-}
-
-.utk-logo--white {
-  fill: white;
-}
-
-.utk-logo--orange {
-  fill: #ff8200;
-}
-
-.utk-lib-links {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 3rem;
-  align-items: center;
-
-  a {
-    text-decoration: none;
-    font-weight: 400;
-    color: #58595b;
-  }
-}
-
-.exhibits-search {
-  display: flex;
-  align-items: center;
-
-  span {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-.universal-header-top {
-  display: flex;
-  flex-direction: row;
-}
-
-@media (max-width: $breakpoint-small) {
-  .universal-header-navigation {
-    flex-direction: column;
-    margin-bottom: 7px;
-  }
-
-  .utk-lib-links {
-    margin-right: 3rem;
-  }
-
-  .libraries-link {
-    line-height: 20px !important;
-  }
-
-  svg {
-    padding: 1rem 0;
-  }
-
-  .exhibits-search {
-    margin: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .universal-header-navigation {
-    margin-bottom: 5px;
-
-    .universal-header-top {
-      flex-direction: column;
     }
 
     .libraries-link {
-      line-height: 35px !important;
-      justify-content: flex-start !important;
-      margin-left: 3rem !important;
+      align-items: center;
+      margin-left: 0;
     }
 
     .utk-lib-links {
-      align-items: end;
-      margin-bottom: 6px;
-
-      a {
-        font-size: 0.8rem;
-      }
-
-      .my-account-mobile {
-        display: none;
-      }
+      justify-content: flex-end;
+      margin: 10px 3rem;
     }
   }
 }
-
-
-@media (max-width: 500px) {
-  .universal-header-navigation {
-    margin-bottom: 5px;
-
-    .universal-header-top {
-      flex-direction: column;
-    }
-
-    .libraries-link {
-      line-height: 35px !important;
-      justify-content: flex-start !important;
-      margin-left: 3rem !important;
-    }
-
-    .utk-lib-links {
-      align-items: end;
-      margin-bottom: 6px;
-
-      a {
-        font-size: 0.8rem;
-      }
-
-      .my-account-mobile {
-        display: none;
-      }
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .universal-header-navigation {
-    margin-bottom: 7px;
-
-    .universal-header-top {
-      flex-direction: column;
-    }
-
-    .libraries-link {
-      line-height: 30px !important;
-      justify-content: flex-start !important;
-      margin-left: 3rem !important;
-      margin-bottom: 2px;
-    }
-
-    .utk-lib-links {
-      display: flex;
-      margin-bottom: 6px;
-      margin-left: 3rem;
-      margin-right: 3rem;
-      justify-content: flex-start;
-
-      a {
-        font-size: 0.8rem;
-      }
-    }
-  }
-
-  .utk-logo-exhibits {
-    svg {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
-}
-
-  @media (max-width: 375px) {
-    .universal-header-navigation {
-      margin-bottom: 7px;
-      flex-direction: column;
-  
-      .universal-header-top {
-        flex-direction: column;
-      }
-  
-      .libraries-link {
-        line-height: 30px !important;
-        justify-content: flex-start !important;
-        margin-left: 3rem !important;
-        margin-bottom: 2px;
-      }
-  
-      .utk-lib-links {
-        display: flex;
-        margin-bottom: 6px;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        justify-content: flex-start;
-  
-        a {
-          font-size: 0.8rem;
-        }
-      }
-    }
-  }

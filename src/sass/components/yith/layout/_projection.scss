@@ -155,3 +155,20 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .yith-projection-teaser--inner {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: $breakpoint-small) {
+  .yith-projection {
+    position: inherit;
+
+    .yith-projection-teaser--inner {
+      width: 100% !important;
+      margin-top: 1rem;
+    }
+  }
+}

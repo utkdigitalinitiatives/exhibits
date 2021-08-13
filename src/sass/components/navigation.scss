@@ -1,112 +1,94 @@
-.exhibits-header > nav {
-  padding: 1rem 2rem;
-  margin-left: 0rem;
-  background-color: transparent;
-  transition: all 200ms ease-in-out;
-  display: flex !important;
-  width: auto;
-  text-transform: uppercase;
+.exhibits-header {
+  background-color: white;
+  box-shadow: $box-shadow;
 
   a,
   a:visited {
-    padding: 0.75rem 1rem;
-    font-weight: 700;
-    font-size: 0.8333em;
-    position: relative;
-    background-color: transparent;
+    color: $secondary;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    margin: 0;
+  }
+
+  nav {
+    padding: 1rem 2rem;
     transition: all 200ms ease-in-out;
-    color: $primary !important;
-    letter-spacing: 0.1em;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &::after {
-      width: 0;
-      height: 3px;
-      background-color: $accent;
-      content: ' ';
-      position: absolute;
-      left: 0.75rem;
-      bottom: 5px;
-      transition: all 200ms ease-in-out;
-    }
-
-    &:hover {
-      &::after {
-        width: calc(100% - 1.5rem);
-      }
-    }
-
-    &.active {
-      color: $accent !important;
-
-      &::after {
-        width: calc(100% - 1.5rem);
-      }
-    }
-  }
-
-  &:hover {
-    box-shadow: $box-shadow-top;
-
-    a.active::after {
-      background-color: lighten($white, 10);
-    }
-  }
-}
-
-@media (max-width: $breakpoint-tablet) {
-  .exhibits-header > nav {
+    display: flex;
     flex-direction: column;
+    text-transform: uppercase;
 
-    a, a:visited {
+    a,
+    a:visited {
       padding: 0.5rem 1rem;
+      font-weight: 700;
+      font-size: 0.8333em;
+      position: relative;
+      background-color: transparent;
+      transition: all 200ms ease-in-out;
+      color: $primary;
+      letter-spacing: 0.1em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &::after {
+        width: 0;
+        height: 3px;
+        background-color: $accent;
+        content: ' ';
+        position: absolute;
+        left: 0.75rem;
+        bottom: 5px;
+        transition: all 200ms ease-in-out;
+      }
 
       &:hover {
         &::after {
-          width: 180px;
+          width: calc(100% - 1.5rem);
         }
       }
 
       &.active {
-        width: 180px;
+        color: $accent;
+
+        &::after {
+          width: calc(100% - 1.5rem);
+        }
       }
     }
-  }
 
-  .exhibits-header h1 {
-    font-size: 2rem;
-  }
-}
+    &:hover {
+      box-shadow: $box-shadow-top;
 
-@media (max-width: $breakpoint-small) {
-.exhibits-header h1 {
-  font-size: 2rem;
-  }
+      a.active::after {
+        background-color: lighten($white, 10);
+      }
+    }
 
-  .exhibits-header > nav {
-    flex-direction: column;
   }
 }
 
-@media (max-width: $breakpoint-xs) {
-.exhibits-header h1 {
-  font-size: 1.5rem;
-  }
+@media (min-width: $breakpoint-tablet) {
+  .exhibits-header {
+    h1 {
+      font-size: 2.5rem;
+    }
 
-  .exhibits-header > nav {
-    flex-direction: column;
+    nav {
+      flex-direction: row;
+    }
   }
 }
 
-@media (max-width: $breakpoint-xxs) {
-.exhibits-header h1 {
-  font-size: 1.5rem;
-  }
-
-  .exhibits-header > nav {
-    flex-direction: column;
+@media (min-width: $breakpoint-desktop) {
+  .exhibits-header {
+    h1 {
+      font-size: 3rem;
+    }
   }
 }
