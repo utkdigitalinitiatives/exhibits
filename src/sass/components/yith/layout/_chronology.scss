@@ -25,31 +25,29 @@
     height: auto;
     position: relative;
     z-index: 1;
-    width: calc(100% - 4em);
-    padding: 1rem 2rem;
+    width: 100%;
+    padding: 0;
     display: flex;
     transition: all 200ms ease-in-out;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
     a,
     a:visited {
-      padding: 0.75rem 1rem;
-      display: block;
+      padding: 1rem 2rem;
       cursor: pointer;
       position: relative;
-      font-weight: 700;
-      font-size: 0.8333em;
+      font-weight: 400;
+      font-size: 1em;
+      letter-spacing: 0.01em;
       color: $white;
-
-      &::before {
-        height: 3px;
-        position: absolute;
-        background-color: $white;
-        content: '';
-        display: block;
-        bottom: 5px;
-        width: 0;
-        transition: all 200ms ease-in-out;
-      }
+      display: flex;
+      align-items: flex-end;
+      white-space: nowrap;
+      opacity: 0.85;
+      font-family: $serif;
+      background-color: $secondary;
+      -webkit-font-smoothing: none;
     }
 
     a:hover,
@@ -58,13 +56,9 @@
     }
 
     a.active {
-      font-weight: 700;
       color: $white !important;
-
-      &::before {
-        background-color: $white !important;
-        width: calc(100% - 2rem);
-      }
+      opacity: 1;
+      background-color: $highlight;
     }
   }
 
@@ -79,15 +73,25 @@
     width: 38.2%;
     margin-bottom: 35vh;
     color: $white;
+    background-color: $primary;
+
+    @include breakpoints(xs, sm) {
+      width: 100%;
+    }
 
     .yith-description {
-      position: absolute;
-      padding: 3rem;
-      width: calc(38.2% - 8rem);
+      padding: 4rem 2rem 0;
+      width: calc(100% - 6rem);
       font-family: $serif;
-      margin-top: 5vh;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       line-height: 1.25em;
+      display: flex;
+      font-style: italic;
+      margin-bottom: -2em;
+
+      @include breakpoints(xs, sm) {
+        width: calc(100% - 8rem);
+      }
     }
 
     > .yith-manifest {
@@ -96,6 +100,10 @@
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+
+      @include breakpoints(xs, sm) {
+        max-height: 61.8vh !important;
+      }
 
       > header {
         font-family: $serif;
@@ -142,6 +150,12 @@
     position: fixed;
     right: 0;
     bottom: 0;
+    background-color: $primary;
+
+    @include breakpoints(xs, sm) {
+      width: 100%;
+      max-height: 38.2vh !important;
+    }
   }
 }
 
@@ -150,12 +164,12 @@
   text-align: center;
   margin: 0;
   box-shadow: $box-shadow;
-  background-color: #be4d2a;
+  background-color: $highlight;
   padding: 1em 2em;
   font-size: 0.8333em;
   margin-top: 2em;
   line-height: 2em;
-  
+
   a {
     color: white;
     text-decoration: none;
