@@ -75,6 +75,10 @@
     color: $white;
     background-color: $primary;
 
+    @include breakpoints(xs, sm) {
+      width: 100%;
+    }
+
     .yith-description {
       position: absolute;
       padding: 3rem;
@@ -83,6 +87,10 @@
       margin-top: 4vh;
       font-size: 1.5rem;
       line-height: 1.25em;
+
+      @include breakpoints(xs, sm) {
+        width: calc(100% - 8rem);
+      }
     }
 
     > .yith-manifest {
@@ -137,6 +145,11 @@
     position: fixed;
     right: 0;
     bottom: 0;
+
+    @include breakpoints(xs, sm) {
+      width: 100%;
+      max-height: 38.2vh !important;
+    }
   }
 }
 
