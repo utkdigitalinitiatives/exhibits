@@ -34,32 +34,20 @@
 
     a,
     a:visited {
-      padding: 1rem 3rem;
+      padding: 1rem 2rem;
       cursor: pointer;
       position: relative;
-      font-weight: 700;
+      font-weight: 400;
       font-size: 1em;
+      letter-spacing: 0.01em;
       color: $white;
       display: flex;
       align-items: flex-end;
       white-space: nowrap;
       opacity: 0.85;
-
-      &::after {
-        width: 1px;
-        height: 100%;
-        content: '';
-        background-color: desaturate(lighten($secondary, 15), 50);
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
-
-      &:first-child {
-        &::after {
-          content: none;
-        }
-      }
+      font-family: $serif;
+      background-color: $secondary;
+      -webkit-font-smoothing: none;
     }
 
     a:hover,
@@ -70,8 +58,7 @@
     a.active {
       color: $white !important;
       opacity: 1;
-      background-color: darken($secondary, 5);
-      box-shadow: inset $box-shadow;
+      background-color: $highlight;
     }
   }
 
@@ -86,14 +73,15 @@
     width: 38.2%;
     margin-bottom: 35vh;
     color: $white;
+    background-color: $primary;
 
     .yith-description {
       position: absolute;
       padding: 3rem;
       width: calc(38.2% - 8rem);
       font-family: $serif;
-      margin-top: 5vh;
-      font-size: 2.5rem;
+      margin-top: 4vh;
+      font-size: 1.5rem;
       line-height: 1.25em;
     }
 
@@ -157,7 +145,7 @@
   text-align: center;
   margin: 0;
   box-shadow: $box-shadow;
-  background-color: #be4d2a;
+  background-color: $highlight;
   padding: 1em 2em;
   font-size: 0.8333em;
   margin-top: 2em;
