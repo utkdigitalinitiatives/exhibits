@@ -149,6 +149,7 @@
     position: fixed;
     right: 0;
     bottom: 0;
+    background-color: $primary;
 
     @include breakpoints(xs, sm) {
       width: 100%;
