@@ -47,18 +47,9 @@
         transition: all 200ms ease-in-out;
       }
 
-      &:hover {
-        &::after {
-          width: calc(100% - 1.5rem);
-        }
-      }
-
-      &.active {
-        color: $accent;
-
-        &::after {
-          width: calc(100% - 1.5rem);
-        }
+    &.active {
+      &::after {
+        width: calc(100% - 1.5rem);
       }
     }
 
@@ -91,4 +82,5 @@
       font-size: 3rem;
     }
   }
+}
 }

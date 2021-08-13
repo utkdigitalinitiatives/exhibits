@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "../../media/utk-logo.png"
 
 class UniversalHeader extends Component {
   render() {
