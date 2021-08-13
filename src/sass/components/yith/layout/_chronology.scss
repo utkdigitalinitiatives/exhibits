@@ -26,27 +26,33 @@
     position: relative;
     z-index: 1;
     width: calc(100% - 4em);
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     display: flex;
     transition: all 200ms ease-in-out;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
     a,
     a:visited {
-      padding: 0.75rem 1rem;
-      display: block;
+      padding: 1.5rem 1rem;
       cursor: pointer;
       position: relative;
-      font-weight: 700;
-      font-size: 0.8333em;
+      font-weight: 500;
+      font-size: 1em;
       color: $white;
+      display: flex;
+      align-items: flex-end;
+      white-space: nowrap;
+      opacity: 0.85;
+
 
       &::before {
-        height: 3px;
+        height: 6px;
         position: absolute;
         background-color: $white;
         content: '';
         display: block;
-        bottom: 5px;
+        bottom: 0;
         width: 0;
         transition: all 200ms ease-in-out;
       }
@@ -58,8 +64,9 @@
     }
 
     a.active {
-      font-weight: 700;
+      font-weight: 800;
       color: $white !important;
+      opacity: 1;
 
       &::before {
         background-color: $white !important;
@@ -155,7 +162,7 @@
   font-size: 0.8333em;
   margin-top: 2em;
   line-height: 2em;
-  
+
   a {
     color: white;
     text-decoration: none;
