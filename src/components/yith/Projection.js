@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
+import { v4 as uuid } from "uuid"
 
 class Projection extends Component {
 
@@ -13,7 +14,8 @@ class Projection extends Component {
       activeWindow: null,
       slideMode: 'initial',
       minimized: false,
-      contextLayout: 'default'
+      contextLayout: 'default',
+      uuid: uuid()
     }
 
     this.showModal = this.showModal.bind(this);
@@ -164,7 +166,10 @@ class Projection extends Component {
     return (
       <Mirador
         config={{
-          id: 'yith-projection',
+          id: `yith-mirador-${this.state.uuid}`,
+          createGenerateClassNameOptions: { // Options passed directly to createGenerateClassName in Material-UI https://material-ui.com/styles/api/#creategenerateclassname-options-class-name-generator
+            productionPrefix: `mirador-${this.state.uuid}`,
+          },
           selectedTheme: 'dark',
           window: {
             hideWindowTitle: true,
