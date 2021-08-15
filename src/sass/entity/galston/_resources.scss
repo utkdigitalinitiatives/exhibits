@@ -58,24 +58,6 @@ a {
   margin-bottom: 3rem;
 }
 
-@media (max-width: $breakpoint-desktop) {
-  .resources-intro {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: $breakpoint-tablet) {
-  .resources-heading {
-    &.resources-heading-large {
-      font-size: 2rem;
-    }
-  
-    &.resources-heading-med {
-      font-size: 1.8rem;
-    }
-  }
-
-  .resources-flex {
-    margin-right: 0 !important;
-  }
+.resources-flex {
+  margin-right: 0 !important;
 }

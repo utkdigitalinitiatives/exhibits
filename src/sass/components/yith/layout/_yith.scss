@@ -7,19 +7,3 @@ body.modal-active {
   height: 100vh;
   overflow-y: hidden;
 }
-
-@media (max-width: $breakpoint-tablet) {
-  .exhibits-section {
-    flex-direction: column;
-
-  .yith .yith-comparison {
-    width: 100%;
-  }
-}
-
-@media (max-width: $breakpoint-tablet) {
-  section.exhibits-section > div {
-    width: 100%;
-    }
-  }
-}

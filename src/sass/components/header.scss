@@ -4,15 +4,36 @@
   border-top: 7px solid #ff8200;
   flex-direction: column;
 
+  @include breakpoints(md, lg) {
+    flex-direction: row;
+  }
+
+  @include breakpoints(xs, sm) {
+    flex-direction: column;
+  }
+
   .universal-header-top {
     display: flex;
     flex-direction: column;
+
+    @include breakpoints(md, lg) {
+      flex-direction: row;
+    }
+
+    @include breakpoints(xs, sm) {
+      flex-direction: column;
+    }
   }
 
   .utk-logo-exhibits {
     svg {
-      height: 30px;
-      margin: 10px 3rem 5px;
+      height: 47px;
+      margin: 10px 3rem 10px;
+
+      @include breakpoints(xs, sm, md) {
+        height: 30px;
+        margin: 20px 3em;
+      }
     }
 
     .utk-logo--smokey {
@@ -41,6 +62,15 @@
     font-family: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     letter-spacing: -0.03rem;
+
+    @include breakpoints(md, lg) {
+      align-items: center;
+      margin-left: 0;
+    }
+
+    @include breakpoints(xs, sm) {
+      margin-left: 3rem;
+    }
   }
 
   .utk-lib-links {
@@ -55,40 +85,20 @@
       color: $heading-grey;
 
       &:not(:last-child) {
-        margin-right: 10px;
+        margin-right: 1rem;
       }
 
       &:hover {
         color: $heading-grey-darker;
       }
     }
-  }
-}
 
-@media (min-width: $breakpoint-tablet) {
-  .universal-header-navigation {
-    flex-direction: row;
-  
-    .universal-header-top {
-      flex-direction: row;
-    }
-
-    .utk-logo-exhibits {
-      svg {
-        height: 47px;
-        margin: 20px 3em;
-      }
-
-    }
-
-    .libraries-link {
-      align-items: center;
-      margin-left: 0;
-    }
-
-    .utk-lib-links {
+    @include breakpoints(md, lg) {
       justify-content: flex-end;
-      margin: 10px 3rem;
+    }
+
+    @include breakpoints(xs, sm) {
+      justify-content: flex-start;
     }
   }
 }
