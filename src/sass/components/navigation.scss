@@ -74,6 +74,10 @@
     &.active {
       &::after {
         width: calc(100% - 1.5rem);
+
+        @include breakpoints(xxs, xs, sm) {
+          width: calc(100% - 6rem);
+        }
       }
     }
 
