@@ -24,6 +24,16 @@
       z-index: 1;
       width: 50%;
       margin-top: 6em;
+
+      @include breakpoints(sm) {
+        width: 70%;
+        margin-top: 2rem;
+      }
+
+      @include breakpoints(xxs, xs) {
+        width: 100%;
+        margin-top: 1rem;
+      }
     }
 
     .yith-description {
@@ -152,6 +162,15 @@
           display: none;
         }
       }
+    }
+  }
+}
+
+#guided-tour {
+  @include breakpoints(xxs, xs) {
+    .yith-description {
+      font-size: 1.5rem;
+      padding: 1rem 0 2rem 0;
     }
   }
 }

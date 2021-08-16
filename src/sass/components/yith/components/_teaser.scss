@@ -3,6 +3,10 @@
   width: 100%;
   height: 400px;
 
+  @include breakpoints(xxs, xs) {
+    height: auto;
+  }
+
   .yith-teaser-figure {
     width: 100%;
   }
@@ -57,6 +61,56 @@
       object-fit: cover;
       opacity: 0.618;
       transition: all 200ms ease-in-out;
+    }
+  }
+}
+
+#guided-tour {
+  .yith-teaser {
+    @include breakpoints(xs) {
+      height: 400px;
+    }
+
+    @include breakpoints(xxs) {
+      height: 500px;
+    }
+  }
+
+  .yith-teaser .yith-teaser-background {
+    @include breakpoints(xxs, xs, sm) {
+      height: 700px !important;
+    }
+  }
+
+  .yith-teaser-figure {
+    @include breakpoints(xxs) {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    @include breakpoints(xxs) {
+      display: flex;
+      justify-content: center;
+    }
+
+    & img {
+      @include breakpoints(sm) {
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+      }
+
+      @include breakpoints(xs) {
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+      }
+
+      @include breakpoints(xxs) {
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
 }

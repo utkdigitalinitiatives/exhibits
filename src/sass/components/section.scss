@@ -2,8 +2,16 @@ section.exhibits-section {
   display: flex;
   margin-bottom: 2em;
 
+  @include breakpoints(xxs, xs, sm) {
+    flex-direction: column;
+  }
+
   > div {
     width: 50%;
+
+    @include breakpoints(xxs, xs, sm) {
+      width: 100%;
+    }
 
     &:first-child {
       margin-right: 2rem;
@@ -11,6 +19,10 @@ section.exhibits-section {
 
     &:last-child {
       margin-left: 2rem;
+
+      @include breakpoints(xxs, xs, sm) {
+        margin-left: 0;
+      }
     }
 
 
