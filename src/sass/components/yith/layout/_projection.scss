@@ -167,11 +167,23 @@
 }
 
 #guided-tour {
+  @include breakpoints(sm) {
+    .yith-description {
+      width: 70%;
+      text-align: left;
+    }
+
+    .yith-projection-teaser--inner {
+      margin-top: 6em;
+    }
+  }
+
   @include breakpoints(xxs, xs) {
     .yith-description {
       font-size: 1.5rem;
       padding: 1rem 0 2rem 0;
       text-align: center;
+      width: 100%;
     }
 
     .yith-expand {
@@ -185,6 +197,7 @@
           justify-content: center;
           align-items: center;
           flex-direction: column;
+          margin-top: 3em;
         }
       }
     }
