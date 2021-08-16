@@ -12,6 +12,7 @@
       position: relative;
       overflow: hidden;
       box-shadow: $box-shadow;
+      z-index: 0;
 
       a,
       a:visited {
@@ -71,7 +72,7 @@
 
           &::after {
             opacity: 1;
-            background-color: rgba($accent, 1);
+            background-color: rgba($highlight, 1);
           }
 
           img {

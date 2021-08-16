@@ -1,6 +1,9 @@
-// layout
+// google fonts
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+// global
 @import "global/variables";
+@import "global/mixins";
 
 // components
 @import "components/header";
