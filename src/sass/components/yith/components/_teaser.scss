@@ -95,7 +95,7 @@
 
     & img {
       @include breakpoints(sm) {
-        height: 250px;
+        height: 300px;
         position: absolute;
         bottom: 0;
       }
