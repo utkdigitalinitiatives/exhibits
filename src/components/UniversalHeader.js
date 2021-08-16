@@ -7,7 +7,7 @@ class UniversalHeader extends Component {
         <div className="universal-header-top">
           <div className="utk-logo-exhibits-wrapper">
             <div className="utk-logo-exhibits">
-              <svg
+              <svg id="utk-logo-svg"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 216 48.24"
                 class="utk-logo utk-logo-primary"
