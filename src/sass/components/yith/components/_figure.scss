@@ -105,7 +105,7 @@
       font-weight: 700;
 
       @include breakpoints(xxs, xs, sm) {
-        text-align: left;
+        text-align: center;
       }
     }
 
@@ -116,6 +116,11 @@
     em {
       font-size: 0.7222em;
       font-weight: 400;
+
+      @include breakpoints(xxs, xs, sm) {
+        display: block;
+        text-align: center;
+      }
     }
   }
 }

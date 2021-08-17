@@ -67,12 +67,12 @@
 
 #guided-tour {
   .yith-teaser {
-    @include breakpoints(xxs, xs) {
-      height: 550px;
+    @include breakpoints(xs) {
+      height: 600px;
     }
 
     @include breakpoints(xxs) {
-      height: 500px;
+      height: 550px;
     }
   }
 
@@ -96,7 +96,7 @@
       }
 
       @include breakpoints(xs) {
-        height: 250px;
+        height: 300px;
         position: absolute;
         bottom: 0;
       }
