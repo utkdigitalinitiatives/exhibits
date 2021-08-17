@@ -7,6 +7,10 @@
   .yith-figure--preview {
     display: flex;
 
+    @include breakpoints(xxs, xs, sm) {
+      justify-content: center;
+    }
+
     .yith-figure--preview--inner {
       display: flex;
       position: relative;
@@ -49,6 +53,10 @@
           transform: scale3d(1, 1, 1);
           filter: blur(0);
           opacity: 1;
+
+          @include breakpoints(xxs, xs, sm) {
+            max-height: 500px !important;
+          }
         }
 
         &::after {
@@ -95,6 +103,10 @@
     strong {
       font-size: 1em;
       font-weight: 700;
+
+      @include breakpoints(xxs, xs, sm) {
+        text-align: left;
+      }
     }
 
     p {

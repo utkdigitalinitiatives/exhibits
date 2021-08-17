@@ -16,7 +16,7 @@ const GalstonIndex = () => (
         <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - <Link to="/galston/studienbuch" activeClassName="active">Gottfried Galston’s <span className="studybook">Studienbuch</span></Link>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation. The bound volume includes several editorial changes -- handwritten by Galston -- later incorporated into the book's 2nd edition (1922).</p>
         <p>In this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation and the hope that it may contribute to music pedagogy in the U.S. and beyond. </p>
       </div>
-      <div>
+      <div id="comparison-teaser-wrapper">
         <Yith id="studienbuch-translation"
               mode="comparison">
           <a className="yith-expand" href="#">Expand in Viewer</a>

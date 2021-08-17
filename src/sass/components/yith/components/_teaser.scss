@@ -67,7 +67,7 @@
 
 #guided-tour {
   .yith-teaser {
-    @include breakpoints(xs) {
+    @include breakpoints(xxs, xs) {
       height: 550px;
     }
 
