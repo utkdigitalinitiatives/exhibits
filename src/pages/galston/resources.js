@@ -54,7 +54,7 @@ const ResourcesPage = () => (
           </p>
         </div>
 
-        <div className="yith-wrapper">
+        <div className="yith-wrapper-resources">
           <Yith id="studienbuch-present-test" mode="present">
             <div className="yith-structure">
               <figure

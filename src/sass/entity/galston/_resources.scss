@@ -1,9 +1,10 @@
-a {
-  color: #be4d2a;
-}
-
 .resources-intro {
   display: flex;
+
+  @include breakpoints(xxs, xs, sm) {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   p {
     line-height: 1.6em;
@@ -24,11 +25,6 @@ a {
 .resources-heading {
   font-family: "DM Serif Display", Georgia, serif;
   font-weight: 400;
-<<<<<<< HEAD
-  margin-top: 2em;
-}
-=======
->>>>>>> main
 
   &.resources-heading-small {
     font-weight: normal;
@@ -52,46 +48,6 @@ a {
   margin-bottom: 2em;
 }
 
-<<<<<<< HEAD
-@media (max-width: 1000px) {
-  .resources-intro {
-    flex-direction: column;
-  }
-}
-
-.resources-wrapper ul {
-  line-height: 1.6em;
-  padding: 0;
-}
-
-.acknowledgements-bg {
-  margin-bottom: 3rem;
-}
-
-
-@media (max-width: $breakpoint-tablet) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .resources-header-med {
-    font-size: 1.8rem;
-  }
-
-  .resources-header {
-    font-size: 1.3rem;
-  }
-}
-
-@media (max-width: $breakpoint-tablet) {
-  .resources-flex {
-    margin-right: 0 !important;
-  }
-}
-
-a {
-  color: #be4d2a;
-=======
 .resources-wrapper {
   ul {
     line-height: 1.6em;
@@ -104,6 +60,40 @@ a {
 }
 
 .resources-flex {
-  margin-right: 0 !important;
->>>>>>> main
+  margin-right: 2em;
+
+  @include breakpoints(xxs, xs, sm) {
+    margin-right: 0 !important;
+  }
+}
+
+.yith-wrapper-resources {
+  .yith-figure {
+    .yith-figure--preview {
+      @include breakpoints(xxs, xs, sm) {
+        justify-content: center;
+      }
+    }
+  }
+
+  figcaption {
+    strong {
+      @include breakpoints(xxs, xs, sm) {
+        text-align: center;
+      }
+    }
+
+    em {
+      @include breakpoints(xxs, xs, sm) {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.yith-figure .yith-figure--preview .yith-figure--preview--inner a img, .yith-figure .yith-figure--preview .yith-figure--preview--inner a:visited img {
+  @include breakpoints(xxs, xs, sm) {
+    max-height: 500px;
+  }
 }
