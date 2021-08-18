@@ -3,16 +3,14 @@ Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
 $serif: 'DM Serif Display', Georgia, serif;
 
-$primary: #1a181a;
-$accent: #be4d2a;
-$secondary: #00617e;
-$muted: #e3e3e3;
-$white: #FAF9F9;
+$primary: #313E48;
+$accent: #FF8200;
+$highlight: #1C7CD5;
+$secondary: #465866;
+$muted: #e0e0e0;
+$white: #fff;
+$heading-grey: #58595b;
+$heading-grey-darker: darken($heading-grey, 20%);
 
-$box-shadow: 8px 8px 23px rgba($primary, 0.15);
-$box-shadow-top: -4px -4px 8px rgba($primary, 0.08);
-
-$breakpoint-tablet: 768px;
-$breakpoint-small: 356px;
-$breakpoint-xs: 310px;
-$breakpoint-xxs: 270px;
+$box-shadow: 8px 8px 23px rgba(0, 0, 0, 0.15);
+$box-shadow-top: -4px -4px 8px rgba(0, 0, 0, 0.08);

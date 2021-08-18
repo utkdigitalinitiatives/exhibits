@@ -1,42 +1,104 @@
-.exhibits-header {
-  background-color: white;
-  box-shadow: $box-shadow;
-
-  h1 {
-    padding: 3rem 3rem;
-    margin: 0;
-  }
-
-  a,
-  a:visited {
-    color: $secondary;
-    text-decoration: none;
-  }
-}
-
 .universal-header-navigation {
   background-color: white;
   display: flex;
   border-top: 7px solid #ff8200;
+  flex-direction: column;
 
-  img {
-    max-width: 250px;
+  @include breakpoints(md, lg) {
+    flex-direction: row;
   }
 
-  a {
+  @include breakpoints(xs, sm) {
+    flex-direction: column;
+  }
+
+  .universal-header-top {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoints(md, lg) {
+      flex-direction: row;
+    }
+
+    @include breakpoints(xs, sm) {
+      flex-direction: column;
+    }
+  }
+
+  .utk-logo-exhibits {
+    #utk-logo-svg {
+      height: 47px;
+      margin: 10px 3rem 10px;
+
+      @include breakpoints(xs, sm, md) {
+        height: 30px;
+        margin: 20px 3em;
+      }
+    }
+
+    .utk-logo--smokey {
+      fill: #58595b;
+    }
+    
+    .utk-logo--white {
+      fill: white;
+    }
+    
+    .utk-logo--orange {
+      fill: #ff8200;
+    }
+  }
+
+  .libraries-link {
     padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
+    margin: 5px 3rem;
     display: flex;
     font-size: 1.2777rem;
-    line-height: 76px;
-    font-weight: 700 !important;
-    color: #58595b !important;
+    font-weight: 700;
+    color: $heading-grey;
     letter-spacing: -0.03em;
     transition: all 290ms ease-in-out;
     white-space: nowrap;
     font-family: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
+    letter-spacing: -0.03rem;
+
+    @include breakpoints(md, lg) {
+      align-items: center;
+      margin-left: 0;
+    }
+
+    @include breakpoints(xs, sm) {
+      margin-left: 3rem;
+    }
+  }
+
+  .utk-lib-links {
+    width: 100%;
+    display: flex;
+    margin: 5px 3rem 10px;
+    align-items: center;
+  
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      color: $heading-grey;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+
+      &:hover {
+        color: $heading-grey-darker;
+      }
+    }
+
+    @include breakpoints(md, lg) {
+      justify-content: flex-end;
+    }
+
+    @include breakpoints(xs, sm) {
+      justify-content: flex-start;
+    }
   }
 }
