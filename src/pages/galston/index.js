@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Yith from "../../components/yith/Yith"
-import UniversalHeader from "../../components/yith/UniversalHeader"
 
 const GalstonIndex = () => (
 
