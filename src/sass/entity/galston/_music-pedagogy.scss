@@ -3,6 +3,11 @@
   width: 100% !important;
   margin-left: 0 !important;
 
+  @include breakpoints(xs, sm) {
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .gift-to-musicians {
     flex: 1;
     padding-right: 2em;
@@ -52,6 +57,10 @@ section.exhibits-section .exhibits-blockquote {
 
 .music-pedagogy-yith {
   width: 38.2%;
+
+  @include breakpoints(xs, sm) {
+    width: 100%
+  }
 }
 
 .musical-interpretation-wrapper {
