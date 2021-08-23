@@ -1,7 +1,3 @@
-.concert-programs-columns {
-  display: grid;
-}
-
 .concert-programs-wrapper {
   background-color: #222;
   display: flex;
@@ -20,13 +16,67 @@
 
 .comparison-grid {
   display: flex;
+  justify-content: space-between;
+
+  @include breakpoints(xxs) {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   img {
-    max-width: 75px !important;
+    max-width: 75px;
     min-width: 75px;
+
+    @include breakpoints(xs) {
+      max-width: 150px;
+      min-width: 150px;
+    }
+
+    @include breakpoints(xxs) {
+      max-width: 200px;
+    }
   }
 
 .yith.yith-comparison {
-  margin: 0;
+  margin: 0 10px;
+  justify-content: center;
+
+    @include breakpoints(xs) {
+      width: 150px;;
+    }
+
+    @include breakpoints(xxs) {
+      width: 100%;
+    }
+  }
+
+  .yith-comparison-teaser {
+    @include breakpoints(xxs) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 1.5em;
+
+      .yith-expand {
+        @include breakpoints(xxs) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+
+    .yith-teaser {
+      width: 100%;
+
+      @include breakpoints(xs) {
+        height: 100%;
+      }
+
+      .yith-teaser-figure {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    }
   }
 }
