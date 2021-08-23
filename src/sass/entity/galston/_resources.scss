@@ -1,9 +1,10 @@
-a {
-  color: #be4d2a;
-}
-
 .resources-intro {
   display: flex;
+
+  @include breakpoints(xxs, xs, sm) {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   p {
     line-height: 1.6em;
@@ -59,5 +60,40 @@ a {
 }
 
 .resources-flex {
-  margin-right: 0 !important;
+  margin-right: 2em;
+
+  @include breakpoints(xxs, xs, sm) {
+    margin-right: 0 !important;
+  }
+}
+
+.yith-wrapper-resources {
+  .yith-figure {
+    .yith-figure--preview {
+      @include breakpoints(xxs, xs, sm) {
+        justify-content: center;
+      }
+    }
+  }
+
+  figcaption {
+    strong {
+      @include breakpoints(xxs, xs, sm) {
+        text-align: center;
+      }
+    }
+
+    em {
+      @include breakpoints(xxs, xs, sm) {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.yith-figure .yith-figure--preview .yith-figure--preview--inner a img, .yith-figure .yith-figure--preview .yith-figure--preview--inner a:visited img {
+  @include breakpoints(xxs, xs, sm) {
+    max-height: 500px;
+  }
 }
