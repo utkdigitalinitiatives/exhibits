@@ -68,11 +68,10 @@ const ResourcesPage = () => (
     </div>
     <div className="resources-wrapper">
       <div className="resources-list-bg">
-        <ul>
-          <h2 className="resources-heading resources-heading-small">
+      <h2 className="resources-heading resources-heading-small orange-border-finding-aids finding-aids">
             Finding Aids and Catalog
           </h2>
-
+        <ul className="findings-aids-and-catalog">
           <li>
             <a href="https://scout.lib.utk.edu/repositories/2/resources/4827">
               Gottfried Galston Music Collection and The Galston-Busoni Archive
@@ -100,8 +99,9 @@ const ResourcesPage = () => (
             , Knoxville: University of Tennessee Library, 1978.
           </li>
         </ul>
+        <br></br>
 
-        <h2 className="resources-heading resources-heading-small other-resources">
+        <h2 className="resources-heading resources-heading-small other-resources orange-border-other">
           Other Resources
         </h2>
         <ul class="other-resources-list">
@@ -109,7 +109,7 @@ const ResourcesPage = () => (
             Cassirer collection, M0287, Dept. of Special Collections, Stanford
             University Libraries, Stanford, California.{" "}
             <a href="https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/">
-              https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/
+              https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/ 
             </a>
             This collection provides more context about Cassirer, the publisher
             of the first edition of Galston's{" "}
@@ -149,9 +149,7 @@ const ResourcesPage = () => (
             Galston's Studienbuch.
           </li>
         </ul>
-      </div>
-
-      <div className="acknowledgements-bg">
+        <div className="acknowledgements-bg">
         <h2 className="resources-heading resources-heading-med">
           Acknowledgments
         </h2>
@@ -173,6 +171,7 @@ const ResourcesPage = () => (
           Transcription/translation of handwritten notes
         </h3>
         <p>Will Eakin; Kathryn Shepas; Jeff Mellor; Peter Hoeyng; David Lee</p>
+      </div>
       </div>
     </div>
   </Layout>
