@@ -109,7 +109,7 @@ const ResourcesPage = () => (
             Cassirer collection, M0287, Dept. of Special Collections, Stanford
             University Libraries, Stanford, California.{" "}
             <a href="https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/">
-              https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/
+              https://oac.cdlib.org/findaid/ark:/13030/tf538nb0pb/ 
             </a>
             This collection provides more context about Cassirer, the publisher
             of the first edition of Galston's{" "}
