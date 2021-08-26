@@ -46,8 +46,8 @@ class Comparison extends Component {
     for (const index of this.state.windows) {
       active.push(
         {
-          manifestId: this.props.sequence[index].manifest,
-          canvasId: this.props.sequence[index].canvas
+          manifestId: this.state.sequence[index].manifestId,
+          canvasId: this.state.sequence[index].canvasId
         }
       )
     }
