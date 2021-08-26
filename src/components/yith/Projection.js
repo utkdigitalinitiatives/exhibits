@@ -15,7 +15,8 @@ class Projection extends Component {
       slideMode: 'initial',
       minimized: false,
       contextLayout: 'default',
-      uuid: uuid()
+      uuid: uuid(),
+      region: null
     }
 
     this.showModal = this.showModal.bind(this);
@@ -31,7 +32,7 @@ class Projection extends Component {
       index: 0,
       loaded: false,
       autozoom: false,
-      region: null,
+      regions: null,
       interaction: 'toggle',
       slideMode: 'initial'
     });
@@ -163,6 +164,7 @@ class Projection extends Component {
   }
 
   getMirador = () => {
+    console.log(this.state.region)
     return (
       <Mirador
         config={{
@@ -186,8 +188,7 @@ class Projection extends Component {
         }}
         plugins={[]}
         manifest={this.props.sequence[this.state.index].manifest}
-        autozoom={this.state.autozoom}
-        region={this.state.region}
+        regions={[this.state.region]}
         mode={this.state.slideMode}
       />
     )

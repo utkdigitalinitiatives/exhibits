@@ -85,6 +85,16 @@ class Comparison extends Component {
     })
   }
 
+  determineRegions = () => {
+    return this.state.activeWindows.map((window, index) => {
+      let region = null
+      if (typeof this.state.sequence[index].region !== 'undefined') {
+        region = this.state.sequence[index].region
+      }
+      return region
+    });
+  }
+
   getAnnotationById = (id, manifest) => {
     let data = null
     if (manifest) {
@@ -180,6 +190,7 @@ class Comparison extends Component {
                   },
                 }}
                 plugins={[]}
+                regions={this.determineRegions()}
                 mode="nextManifest"
               />
             </div>
