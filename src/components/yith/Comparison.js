@@ -11,22 +11,8 @@ class Comparison extends Component {
     this.state ={
       windows: [0],
       uuid: uuid(),
-      activeWindows: [
-        {
-          manifestId: this.props.sequence[0].manifest,
-          canvasId: this.props.sequence[0].canvas
-        }
-      ],
-      sequence: [
-        {
-          manifestId: this.props.sequence[0].manifest,
-          canvasId: this.props.sequence[0].canvas
-        },
-        {
-          manifestId: this.props.sequence[1].manifest,
-          canvasId: this.props.sequence[1].canvas
-        }
-      ],
+      activeWindows: [],
+      sequence: [],
       data: []
     }
 
@@ -96,6 +82,51 @@ class Comparison extends Component {
           </figure>
         </a>
       )
+    })
+  }
+
+  getAnnotationById = (id, manifest) => {
+    let data = null
+    if (manifest) {
+      manifest.items.map((canvas, canvasIndex) => {
+        if (canvas.annotations) {
+          return canvas.annotations[0].items.map((annotation, annotationIndex) => {
+            if (annotation.id === id) {
+              let target = annotation.target.split('#xywh=');
+              data = {}
+              data.canvasId = target[0];
+              data.region = target[1];
+            }
+          });
+        }
+      });
+    }
+    return data
+  }
+
+  componentDidMount() {
+    const { sequence } = this.props
+    const items = sequence.map((item, index) => {
+      if (item.type === 'manifest') {
+        return {
+          manifestId: item.manifest,
+          canvasId: item.canvas
+        }
+      } else if (item.type === 'annotation') {
+        const data = this.getAnnotationById(item.annotation, this.props.data[index])
+        if (typeof data === 'object') {
+          return {
+            manifestId: item.manifest,
+            canvasId: data.canvasId,
+            region: data.region
+          }
+        }
+      }
+    })
+
+    this.setState({
+      activeWindows: [items[0]],
+      sequence: items
     })
   }
 

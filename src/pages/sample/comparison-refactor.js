@@ -23,7 +23,7 @@ const ComparisonRefactor = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/1">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
