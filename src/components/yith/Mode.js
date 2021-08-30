@@ -76,26 +76,28 @@ class Mode extends Component {
   }
 
   renderStructure = (structure, active, mode) => {
-    if (mode === 'chronology') {
-      return (
-        <Chronology sequence={this.state.sequence} description={this.props.description}  />
-      )
-    } else if (mode === 'comparison') {
-      return (
-        <div className={`yith-modal-wrapper yith-modal-${active}`}>
-          <Comparison data={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal}  />
-        </div>
-      )
-    } else if (mode === 'present') {
-      return (
-        <Present sequence={this.state.sequence} />
-      )
-    } else if (mode === 'projection' && this.state.data.length > 0) {
-      return (
-        <div className={`yith-modal-wrapper yith-modal-${active}`}>
-          <Projection manifests={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal} />
-        </div>
-      )
+    if (this.state.data.length === structure.length) {
+      if (mode === 'chronology') {
+        return (
+          <Chronology sequence={this.state.sequence} description={this.props.description}  />
+        )
+      } else if (mode === 'comparison') {
+        return (
+          <div className={`yith-modal-wrapper yith-modal-${active}`}>
+            <Comparison data={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal}  />
+          </div>
+        )
+      } else if (mode === 'present') {
+        return (
+          <Present sequence={this.state.sequence} />
+        )
+      } else if (mode === 'projection') {
+        return (
+          <div className={`yith-modal-wrapper yith-modal-${active}`}>
+            <Projection manifests={this.state.data} sequence={this.state.sequence} active={active} showModal={this.showModal} />
+          </div>
+        )
+      }
     }
   }
 
@@ -108,7 +110,11 @@ class Mode extends Component {
     })
       .then(response => response.json())
       .then((data) => {
-        this.state.data[index] = data
+        let currentData = this.state.data
+        currentData[index] = data
+        this.setState({
+          data: currentData
+        })
       })
       .catch(err => console.error(this.props.url, err.toString()));
     return null

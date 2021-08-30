@@ -80,8 +80,13 @@ class Yith extends Component {
 
       if (el.props.children !== undefined) {
         if (typeof el.props.children === 'object') {
+
           if (el.props.children.type === 'div' && el.props.children.props.class === 'yith-items') {
+
             let annotations = el.props.children.props.children
+            if (!Array.isArray(el.props.children.props.children)) {
+              annotations = [el.props.children.props.children]
+            }
 
             annotationsStructure = annotations.map(function (aEl) {
 
