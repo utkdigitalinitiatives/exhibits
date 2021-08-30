@@ -54,13 +54,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">October 19, 1919</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="304,768,5008,6640"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/14"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/2">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
         <Yith id="concert-programs-comparison-3"
