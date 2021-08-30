@@ -40,7 +40,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/1">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/1">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -62,7 +62,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/2">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/2">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -84,7 +84,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/3">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/3">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -106,7 +106,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/4">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/4">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -129,7 +129,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/5">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/5">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -152,7 +152,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/6">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/6">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -175,7 +175,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/7">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/7">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
@@ -198,7 +198,7 @@ const ConcertProgramsPage = () => (
                     data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
               <div class="yith-items">
                 <figure class="yith-annotation"
-                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/8">
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/8">
                   <figcaption>
                     <strong>string</strong>
                     <p>string</p>
