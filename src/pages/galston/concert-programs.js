@@ -213,13 +213,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">December 7, 1919</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="264,528,4816,6720"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/42"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/1">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -227,13 +236,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">December 14, 1919</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="312,464,4800,6736"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/46"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/2">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -241,13 +259,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">January 4, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="232,512,4880,6736"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/50"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/3">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -255,13 +282,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">January 11, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="256,552,4896,6688"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/54"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/4">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -269,13 +305,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">January 18, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="392,512,4816,6672"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/58"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/5">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -283,13 +328,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">January 25, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="312,624,4848,6704"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/62"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/6">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -297,13 +351,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">February 1, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="312,584,4832,6704"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/66"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/7">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -311,13 +374,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">February 8, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="88,616,4848,6720"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/70"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure className="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/8">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -325,13 +397,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">February 15, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="288,608,4848,6720"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/74"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/9">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
@@ -339,13 +420,22 @@ const ConcertProgramsPage = () => (
               mode="comparison">
           <a className="yith-expand" href="#">February 22, 1920</a>
           <div className="yith-structure">
-            <figure className="yith-manifest"
+            <figure class="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
                     data-region="312,648,4864,6704"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/78"></figure>
-            <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478"></figure>
+            <figure class="yith-manifest"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+              <div class="yith-items">
+                <figure class="yith-annotation"
+                        data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/478/annotations/10">
+                  <figcaption>
+                    <strong>string</strong>
+                    <p>string</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </figure>
           </div>
         </Yith>
 
