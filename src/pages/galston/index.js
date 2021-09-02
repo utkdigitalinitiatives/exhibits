@@ -13,7 +13,7 @@ const GalstonIndex = () => (
       <div>
         <h2>The Studienbuch</h2>
         <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - <Link to="/galston/studienbuch" activeClassName="active">Gottfried Galston’s <span className="studybook">Studienbuch</span></Link>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation. The bound volume includes several editorial changes -- handwritten by Galston -- later incorporated into the book's 2nd edition (1922).</p>
-        <p>In this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation and the hope that it may contribute to music pedagogy in the U.S. and beyond. </p>
+        <p>In this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation and the hope that it may contribute to music pedagogy in the U.S. and beyond.</p>
       </div>
       <div id="comparison-teaser-wrapper">
         <Yith id="studienbuch-translation"
@@ -38,22 +38,20 @@ const GalstonIndex = () => (
         <a className="yith-expand" href="#">Explore the Volume</a>
         <div className="yith-structure">
           <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch-guided-tour.json">
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
             <div class="yith-items">
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch</strong>
-                  <p>Purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin ipsum quam a
-                    nibh.</p>
+                  <strong>The Studienbuch: Front Cover</strong>
+                  <p>Front cover: the volume is three quarter bound with marbled boards.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/2">
                 <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
+                  <strong>The Studienbuch: Front Cover</strong>
+                  <p>Front cover: the volume is three quarter bound with marbled boards.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
