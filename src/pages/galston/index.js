@@ -57,37 +57,34 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/1">
                 <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
+                  <strong>The Studienbuch: Spine</strong>
+                  <p>The spine has raised bands, a decorative feature. In older bindings, these would have been a result
+                    of the bands of thread around the spine under the leather.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/2">
                 <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
+                  <strong>The Studienbuch: Spine</strong>
+                  <p>The spine has raised bands, a decorative feature. In older bindings, these would have been a result
+                    of the bands of thread around the spine under the leather.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/3">
                 <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/1">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
+                  <strong>The Studienbuch: Spine</strong>
+                  <p>"""Extra ill copy""
+                    Extra illustrated copy is a bookbinding term that refers to a book which has been rebound with
+                    interleaving pages. This was usually for the purpose of adding illustrations to a text, but in this
+                    case it is believed the intention was for Galston to provide editorial changes for the second
+                    edition of the Studienbuch."</p>
                 </figcaption>
               </figure>
             </div>
           </figure>
+
+
           <figure class="yith-manifest"
                   data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694">
             <figcaption>
