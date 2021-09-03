@@ -81,6 +81,20 @@ const GalstonIndex = () => (
                     edition of the Studienbuch."</p>
                 </figcaption>
               </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/1">
+                <figcaption>
+                  <strong>The Studienbuch: Inside Cover</strong>
+                  <p>The inside front cover bears the bookbinder's stamp on the lower right.</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/2">
+                <figcaption>
+                  <strong>The Studienbuch: Inside Cover</strong>
+                  <p>"K Ebert München <br/> This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
