@@ -95,6 +95,32 @@ const GalstonIndex = () => (
                   <p>"K Ebert München <br/> This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
                 </figcaption>
               </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
+                <figcaption>
+                  <strong>The Studienbuch: Information about Printer</strong>
+                  <p>The <em>Studienbuch</em> was printed by Breitkopf & Härtel in Leipzig. Founded in 1719 and still in business
+                    in the 21st century, the company is the oldest music publishing house.</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/1">
+                <figcaption>
+                  <strong>The Studienbuch: Front Cover</strong>
+                  <p>This first edition of Galston's Studienbuch was published in 1910 by Bruno Cassirer, a noted art
+                    publisher and gallery owner in Berlin. Cassirer's catalog was primarily art books, Galston's music
+                    study book being somewhat of an exception. The two men may have known each other through mutual
+                    artist friends or through the Jewish community.</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/2">
+                <figcaption>
+                  <strong>The Studienbuch: Front Cover</strong>
+                  <p>The publisher's mark at the front of the book is a decorative floral motif bearing the publisher's
+                    monogram, "BC."</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
