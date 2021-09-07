@@ -260,6 +260,24 @@ const GalstonIndex = () => (
                   <p>The motif depicts a man with a walking stick and carrying a basket on his back.</p>
                 </figcaption>
               </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/468/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Aphorism on Liszt</strong>
+                  <p>This handwritten note by Galston's friend and fellow pianist, Ferruccio Busoni, is described in
+                    Paulien Shaw Bayne's book, The Gottfried Galston Music Collection and the Galston-Busoni Archive,
+                    as "Busoni's "Aphorism" on Liszt."</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/443/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Page 210</strong>
+                  <p>The piece appears on page 210 in the Studienbuch's Appendices (Anhang). It was also published in
+                    Ferruccio Busoni's 1922 book, Von der Einheit der Musik (Of the Unity of Music). and was reportedly
+                    included in Busoni's Zurich program of April 1916.</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
