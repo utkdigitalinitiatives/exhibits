@@ -186,6 +186,68 @@ const GalstonIndex = () => (
             </div>
           </figure>
 
+          <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Chopin Section</strong>
+                  <p>Galston makes four editorial changes in the Chopin section. These changes can be seen in the 2nd
+                    edition of the Studienbuch, published in 1921.</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/2">
+                <figcaption>
+                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
+                  <p>"X Im übrigen gilt hier das zur fmoll Etüde (Trois nouvelles études  No 1) Angemerkte (Polyrythmik)
+                    ======
+                    X Otherwise what was noted (polyrhythmic) in regard to the f-minor etude (Trois nouvelles études  No 1 ) holds here."
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/161/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
+                  <p>"x Vor-Parallestudium (Transponieren durch mehrere Tonarten) zum Finale des hmoll Sonate!
+                    =======
+                    x Pre-parallel study (transposition through several keys) to the final of the b-minor sonata!"
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/164/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
+                  <p>"Dieses Studienmaterial mit den Komplexen der Etüde Op 10 No 2 amoll kombinieren. Technische Verwandtschaft
+                    x x x
+                    ============
+                    Combine this study material with the issues related to the étude Op 10 No 2 in a-minor. Technical relationship.
+                    x x x"
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/165/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
+                  <p>"Die charakteristischen technischen Laufgruppen (z.B. Takte 1-2, 29-32 u.s.w.) zu fortlaufenden
+                    Fingerüberungen durch alle 12 Tonarten benützen: Zur Befestigung und Ausbildung des 6 Pianistensinns
+                    des Distanzgefühls (in Spannung und Sprung) .
+                    x x x
+                    =======
+                    Use the characteristic technical runs (e.g. measures 1-2, 29-32 etc.) for extended fingering
+                    practice through all 12 keys: For the development and establishment of the 6th pianistic sense of
+                    distance (in tension and leap).
+                    x x x"
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
         </div>
       </Yith>
     </section>
