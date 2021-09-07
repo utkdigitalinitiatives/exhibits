@@ -128,20 +128,6 @@ const GalstonIndex = () => (
                   <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
                 </figcaption>
               </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
-                <figcaption>
-                  <strong>Godowsky postcard in the Studienbuch</strong>
-                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
-                <figcaption>
-                  <strong>Godowsky postcard in the Studienbuch</strong>
-                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
-                </figcaption>
-              </figure>
             </div>
           </figure>
 
@@ -153,6 +139,35 @@ const GalstonIndex = () => (
                 <figcaption>
                   <strong>Postcard from Godowsky - Address Side</strong>
                   <p>Postcard addressed to Galston's Berlin residence, postmarked 30 May 1908.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
+                <figcaption>
+                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <p>The postcard was sent to Galston from Leopold Godowsky [senior], and was written on Galston’s own stationery.
+                    The note concerns Godowsky's own interpretation of Chopin's études. It reads: <br/>
+                    My esteemed Mr. Galston,
+                    Having just returned from a journey, I found your valued lines. I am delighted that you have taken
+                    an interest in my work on the Chopin etudes. For chromatic sixths, I have only the following
+                    fingering to offer:
+                    With cordial greetings,
+                    Your devoted
+                    Leopold Godowsky
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
+                <figcaption>
+                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
                 </figcaption>
               </figure>
             </div>
