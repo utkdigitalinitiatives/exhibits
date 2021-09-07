@@ -38,7 +38,7 @@ const GalstonIndex = () => (
         <a className="yith-expand" href="#">Explore the Volume</a>
         <div className="yith-structure">
           <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch.json">
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
             <div class="yith-items">
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
