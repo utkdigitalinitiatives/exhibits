@@ -121,21 +121,21 @@ const GalstonIndex = () => (
                     monogram, "BC."</p>
                 </figcaption>
               </figure>
-              <figure className="yith-annotation"
+              <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/1">
                 <figcaption>
                   <strong>Godowsky postcard in the Studienbuch</strong>
                   <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
                 </figcaption>
               </figure>
-              <figure className="yith-annotation"
+              <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
                 <figcaption>
                   <strong>Godowsky postcard in the Studienbuch</strong>
                   <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
                 </figcaption>
               </figure>
-              <figure className="yith-annotation"
+              <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
                 <figcaption>
                   <strong>Godowsky postcard in the Studienbuch</strong>
@@ -145,74 +145,19 @@ const GalstonIndex = () => (
             </div>
           </figure>
 
-
           <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694">
-            <figcaption>
-              <strong>Galston</strong>
-              <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non sollicitudin
-                ipsum quam a nibh. Nullam et accumsan ligula.</p>
-            </figcaption>
-          </figure>
-          <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch-guided-tour.json">
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/galston_703.json">
             <div class="yith-items">
               <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/703/canvas/0/annotations/1">
                 <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/1">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/2">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/1">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
-                <figcaption>
-                  <strong>Proin in tincidunt leo</strong>
-                  <p>Curabitur ullamcorper, purus sit amet posuere pretium, velit est vulputate ante, non
-                    sollicitudin ipsum quam a nibh. Nullam et accumsan ligula.</p>
+                  <strong>Postcard from Godowsky - Address Side</strong>
+                  <p>Postcard addressed to Galston's Berlin residence, postmarked 30 May 1908.</p>
                 </figcaption>
               </figure>
             </div>
           </figure>
-          <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/703">
-            <figcaption>
-              <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
-            </figcaption>
-          </figure>
+
         </div>
       </Yith>
     </section>
