@@ -245,6 +245,21 @@ const GalstonIndex = () => (
                   </p>
                 </figcaption>
               </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/467/annotations/1">
+                <figcaption>
+                  <strong>Studienbuch: Tailpiece</strong>
+                  <p>This tailpiece is printed at the end of the Studienbuch, and also appears in other publications by
+                    Bruno Cassirer.</p>
+                </figcaption>
+              </figure>
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/467/annotations/2">
+                <figcaption>
+                  <strong>Studienbuch: Motif</strong>
+                  <p>The motif depicts a man with a walking stick and carrying a basket on his back.</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
