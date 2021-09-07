@@ -173,6 +173,19 @@ const GalstonIndex = () => (
             </div>
           </figure>
 
+          <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/galston_949.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/949/canvas/0/annotations/1">
+                <figcaption>
+                  <strong>Printed Table in Studienbuch</strong>
+                  <p>Godowsky's suggestion appears in the table on page 118 of the Studienbuch.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
         </div>
       </Yith>
     </section>
