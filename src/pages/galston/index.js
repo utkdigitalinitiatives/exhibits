@@ -121,6 +121,27 @@ const GalstonIndex = () => (
                     monogram, "BC."</p>
                 </figcaption>
               </figure>
+              <figure className="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/1">
+                <figcaption>
+                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
+                </figcaption>
+              </figure>
+              <figure className="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
+                <figcaption>
+                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
+                </figcaption>
+              </figure>
+              <figure className="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
+                <figcaption>
+                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
