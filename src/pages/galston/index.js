@@ -92,14 +92,14 @@ const GalstonIndex = () => (
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/2">
                 <figcaption>
                   <strong>The Studienbuch: Inside Cover</strong>
-                  <p>"K Ebert München <br/> This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
+                  <p>"K Ebert München. This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
                 <figcaption>
                   <strong>The Studienbuch: Information about Printer</strong>
-                  <p>The <em>Studienbuch</em> was printed by Breitkopf & Härtel in Leipzig. Founded in 1719 and still in business
+                  <p>The Studienbuch was printed by Breitkopf & Härtel in Leipzig. Founded in 1719 and still in business
                     in the 21st century, the company is the oldest music publishing house.</p>
                 </figcaption>
               </figure>
