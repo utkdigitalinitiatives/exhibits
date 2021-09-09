@@ -43,21 +43,21 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch: Front Cover</strong>
-                  <p>Front cover: the volume is three quarter bound with marbled boards.</p>
+                  <strong>Front cover of bound volume</strong>
+                  <p>The volume is three quarter bound with marbled boards.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/0/annotations/2">
                 <figcaption>
-                  <strong>The Studienbuch: Front Cover</strong>
-                  <p>Front cover: the volume is three quarter bound with marbled boards.</p>
+                  <strong>Front cover of bound volume</strong>
+                  <p>The volume is three quarter bound with marbled boards.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch: Spine</strong>
+                  <strong>Spine of bound volume</strong>
                   <p>The spine has raised bands, a decorative feature. In older bindings, these would have been a result
                     of the bands of thread around the spine under the leather.</p>
                 </figcaption>
@@ -65,7 +65,7 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/2">
                 <figcaption>
-                  <strong>The Studienbuch: Spine</strong>
+                  <strong>Spine of bound volume</strong>
                   <p>The spine has raised bands, a decorative feature. In older bindings, these would have been a result
                     of the bands of thread around the spine under the leather.</p>
                 </figcaption>
@@ -73,32 +73,31 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/498/annotations/3">
                 <figcaption>
-                  <strong>The Studienbuch: Spine</strong>
-                  <p>"""Extra ill copy""
-                    Extra illustrated copy is a bookbinding term that refers to a book which has been rebound with
+                  <strong>Extra ill copy</strong>
+                  <p>Extra illustrated copy is a bookbinding term that refers to a book which has been rebound with
                     interleaving pages. This was usually for the purpose of adding illustrations to a text, but in this
                     case it is believed the intention was for Galston to provide editorial changes for the second
-                    edition of the Studienbuch."</p>
+                    edition of the Studienbuch.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch: Inside Cover</strong>
+                  <strong>Inside cover of bound volume</strong>
                   <p>The inside front cover bears the bookbinder's stamp on the lower right.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/1/annotations/2">
                 <figcaption>
-                  <strong>The Studienbuch: Inside Cover</strong>
-                  <p>"K Ebert München. This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
+                  <strong>Bookbinder's stamp</strong>
+                  <p>"K Ebert München.</p><p>This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch: Information about Printer</strong>
+                  <strong>Printers</strong>
                   <p>The Studienbuch was printed by Breitkopf & Härtel in Leipzig. Founded in 1719 and still in business
                     in the 21st century, the company is the oldest music publishing house.</p>
                 </figcaption>
@@ -106,7 +105,7 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/1">
                 <figcaption>
-                  <strong>The Studienbuch: Front Cover</strong>
+                  <strong>The Studienbuch front cover</strong>
                   <p>This first edition of Galston's Studienbuch was published in 1910 by Bruno Cassirer, a noted art
                     publisher and gallery owner in Berlin. Cassirer's catalog was primarily art books, Galston's music
                     study book being somewhat of an exception. The two men may have known each other through mutual
@@ -116,7 +115,7 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10/annotations/2">
                 <figcaption>
-                  <strong>The Studienbuch: Front Cover</strong>
+                  <strong>Publisher's mark</strong>
                   <p>The publisher's mark at the front of the book is a decorative floral motif bearing the publisher's
                     monogram, "BC."</p>
                 </figcaption>
@@ -124,8 +123,24 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/1">
                 <figcaption>
-                  <strong>Godowsky postcard in the Studienbuch</strong>
+                  <strong>Postcard stuck in the Studienbuch</strong>
                   <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
+                </figcaption>
+              </figure>
+              <figure className="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
+                <figcaption>
+                  <strong>Postcard - message from Godowsky</strong>
+                  <p>The postcard was sent to Galston from Leopold Godowsky [senior], and was written on Galston’s own
+                    stationery.
+                    The note concerns Godowsky's own interpretation of Chopin's études. It reads:</p>
+                  <p>My esteemed Mr. Galston,</p>
+                  <p>Having just returned from a journey, I found your valued lines. I am delighted that you have taken
+                    an interest in my work on the Chopin etudes. For chromatic sixths, I have only the following</p>
+                  <p>fingering to offer:</p>
+                  <p>With cordial greetings,</p>
+                  <p>Your devoted</p>
+                  <p>Leopold Godowsky</p>
                 </figcaption>
               </figure>
             </div>
@@ -137,37 +152,8 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/703/canvas/0/annotations/1">
                 <figcaption>
-                  <strong>Postcard from Godowsky - Address Side</strong>
-                  <p>Postcard addressed to Galston's Berlin residence, postmarked 30 May 1908.</p>
-                </figcaption>
-              </figure>
-            </div>
-          </figure>
-
-          <figure class="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
-            <div class="yith-items">
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
-                <figcaption>
-                  <strong>Godowsky postcard in the Studienbuch</strong>
-                  <p>The postcard was sent to Galston from Leopold Godowsky [senior], and was written on Galston’s own stationery.
-                    The note concerns Godowsky's own interpretation of Chopin's études. It reads: <br/>
-                    My esteemed Mr. Galston,
-                    Having just returned from a journey, I found your valued lines. I am delighted that you have taken
-                    an interest in my work on the Chopin etudes. For chromatic sixths, I have only the following
-                    fingering to offer:
-                    With cordial greetings,
-                    Your devoted
-                    Leopold Godowsky
-                  </p>
-                </figcaption>
-              </figure>
-              <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/3">
-                <figcaption>
-                  <strong>Godowsky postcard in the Studienbuch</strong>
-                  <p>This postcard was glued into the Chopin section of the Studienbuch, following page 118.</p>
+                  <strong>Postcard - address side</strong>
+                  <p>The postcard is addressed to Galston's Berlin residence, postmarked 30 May 1908.</p>
                 </figcaption>
               </figure>
             </div>
@@ -179,7 +165,7 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/949/canvas/0/annotations/1">
                 <figcaption>
-                  <strong>Printed Table in Studienbuch</strong>
+                  <strong>Table in the Studienbuch</strong>
                   <p>Godowsky's suggestion appears in the table on page 118 of the Studienbuch.</p>
                 </figcaption>
               </figure>
@@ -192,7 +178,7 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Chopin Section</strong>
+                  <strong>The Studienbuch - Chopin section</strong>
                   <p>Galston makes four editorial changes in the Chopin section. These changes can be seen in the 2nd
                     edition of the Studienbuch, published in 1921.</p>
                 </figcaption>
@@ -200,55 +186,41 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/2">
                 <figcaption>
-                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
-                  <p>"X Im übrigen gilt hier das zur fmoll Etüde (Trois nouvelles études  No 1) Angemerkte (Polyrythmik)
-                    ======
-                    X Otherwise what was noted (polyrhythmic) in regard to the f-minor etude (Trois nouvelles études  No 1 ) holds here."
-                  </p>
+                  <strong>Handwritten note in Chopin section</strong>
+                  <p>Transcription:</p>
+                  <p>Im übrigen gilt hier das zur fmoll Etüde (Trois nouvelles études  No 1) Angemerkte (Polyrythmik)</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/161/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
-                  <p>"x Vor-Parallestudium (Transponieren durch mehrere Tonarten) zum Finale des hmoll Sonate!
-                    =======
-                    x Pre-parallel study (transposition through several keys) to the final of the b-minor sonata!"
-                  </p>
+                  <strong>Handwritten note in Chopin section</strong>
+                  <p>Transcription:</p>
+                  <p>Vor-Parallestudium (Transponieren durch mehrere Tonarten) zum Finale des hmoll Sonate!</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/164/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
-                  <p>"Dieses Studienmaterial mit den Komplexen der Etüde Op 10 No 2 amoll kombinieren. Technische Verwandtschaft
-                    x x x
-                    ============
-                    Combine this study material with the issues related to the étude Op 10 No 2 in a-minor. Technical relationship.
-                    x x x"
-                  </p>
+                  <strong>Handwritten note in Chopin section</strong>
+                  <p>Transcription:</p>
+                  <p>Dieses Studienmaterial mit den Komplexen der Etüde Op 10 No 2 amoll kombinieren. Technische Verwandtschaft</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/165/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Handwritten note in Chopin Section</strong>
-                  <p>"Die charakteristischen technischen Laufgruppen (z.B. Takte 1-2, 29-32 u.s.w.) zu fortlaufenden
+                  <strong>Handwritten note in Chopin section</strong>
+                  <p>Transcription:</p>
+                  <p>Die charakteristischen technischen Laufgruppen (z.B. Takte 1-2, 29-32 u.s.w.) zu fortlaufenden
                     Fingerüberungen durch alle 12 Tonarten benützen: Zur Befestigung und Ausbildung des 6 Pianistensinns
-                    des Distanzgefühls (in Spannung und Sprung) .
-                    x x x
-                    =======
-                    Use the characteristic technical runs (e.g. measures 1-2, 29-32 etc.) for extended fingering
-                    practice through all 12 keys: For the development and establishment of the 6th pianistic sense of
-                    distance (in tension and leap).
-                    x x x"
-                  </p>
+                    des Distanzgefühls (in Spannung und Sprung).</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/467/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Tailpiece</strong>
+                  <strong>Tailpiece</strong>
                   <p>This tailpiece is printed at the end of the Studienbuch, and also appears in other publications by
                     Bruno Cassirer.</p>
                 </figcaption>
@@ -256,14 +228,14 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/467/annotations/2">
                 <figcaption>
-                  <strong>Studienbuch: Motif</strong>
+                  <strong>Tailpiece</strong>
                   <p>The motif depicts a man with a walking stick and carrying a basket on his back.</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/468/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Aphorism on Liszt</strong>
+                  <strong>Busoni on Liszt</strong>
                   <p>This handwritten note by Galston's friend and fellow pianist, Ferruccio Busoni, is described in
                     Paulien Shaw Bayne's book, The Gottfried Galston Music Collection and the Galston-Busoni Archive,
                     as "Busoni's "Aphorism" on Liszt."</p>
@@ -272,10 +244,10 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/443/annotations/1">
                 <figcaption>
-                  <strong>Studienbuch: Page 210</strong>
-                  <p>The piece appears on page 210 in the Studienbuch's Appendices (Anhang). It was also published in
-                    Ferruccio Busoni's 1922 book, Von der Einheit der Musik (Of the Unity of Music). and was reportedly
-                    included in Busoni's Zurich program of April 1916.</p>
+                  <strong>The Studienbuch - Appendix</strong>
+                  <p>Busoni's piece appears on page 210 in the Studienbuch's Appendices (Anhang). It was also published
+                    in Ferruccio Busoni's 1922 book, Von der Einheit der Musik (Of the Unity of Music). and was
+                    reportedly included in Busoni's Zurich program of April 1916.</p>
                 </figcaption>
               </figure>
             </div>
