@@ -184,7 +184,7 @@ const GalstonIndex = () => (
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/2">
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/157/annotations/3">
                 <figcaption>
                   <strong>Handwritten note in Chopin section</strong>
                   <p>Transcription:</p>
@@ -192,7 +192,7 @@ const GalstonIndex = () => (
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/161/annotations/1">
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/161/annotations/2">
                 <figcaption>
                   <strong>Handwritten note in Chopin section</strong>
                   <p>Transcription:</p>
@@ -200,7 +200,7 @@ const GalstonIndex = () => (
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/164/annotations/1">
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/164/annotations/2">
                 <figcaption>
                   <strong>Handwritten note in Chopin section</strong>
                   <p>Transcription:</p>
@@ -208,7 +208,7 @@ const GalstonIndex = () => (
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
-                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/165/annotations/1">
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/165/annotations/2">
                 <figcaption>
                   <strong>Handwritten note in Chopin section</strong>
                   <p>Transcription:</p>
