@@ -252,6 +252,25 @@ const GalstonIndex = () => (
                   <p>The motif depicts a man with a walking stick and carrying a basket on his back.</p>
                 </figcaption>
               </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/max-liebermann-vor-dem-gemalde-schreitender-bauer-1894.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/static/iiif/max-liebermann-vor-dem-gemalde-schreitender-bauer-1894/annotations/1">
+                <figcaption>
+                  <strong>Max Liebermann</strong>
+                  <p>Liebermann, shown painting a similar piece in this photograph, was also the subject of books published by Bruno Cassirer.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
+                      data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
+            <div class="yith-items">
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/468/annotations/1">
                 <figcaption>
