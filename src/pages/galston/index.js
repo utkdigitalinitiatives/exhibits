@@ -250,6 +250,15 @@ const GalstonIndex = () => (
                     reportedly included in Busoni's Zurich program of April 1916.</p>
                 </figcaption>
               </figure>
+              <figure className="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/477/annotations/9">
+                <figcaption>
+                  <strong>Concert recitals</strong>
+                  <p>The last few pages of this unique volume contain lists, handwritten by Galston, of the 40 concerts
+                    he performed between 1919 and 1921. The printed programs for the 40 concert cycle are included in
+                    this digital exhibit.</p>
+                </figcaption>
+              </figure>
             </div>
           </figure>
 
