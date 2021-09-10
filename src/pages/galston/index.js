@@ -94,6 +94,26 @@ const GalstonIndex = () => (
                   <p>"K Ebert München.</p><p>This volume was bound by bookbinder Karl Ebert in Munich, Germany"</p>
                 </figcaption>
               </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/kebert.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/static/iiif/kebert/annotations/1">
+                <figcaption>
+                  <strong>Advertisement from 1917</strong>
+                  <p>"An advertisement for Karl Ebert's bookbinding services in Munich, Germany.</p>
+                  <p>From the Zeitschrift für bücherfreunde. ser. 2 v. 9:1, digitized by University of California, via HathiTrust.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
+                      data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">
+            <div class="yith-items">
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
                 <figcaption>
