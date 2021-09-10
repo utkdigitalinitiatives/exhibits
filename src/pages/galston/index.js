@@ -256,6 +256,19 @@ const GalstonIndex = () => (
           </figure>
 
           <figure class="yith-manifest"
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/schreitender-bauer.json">
+            <div class="yith-items">
+              <figure class="yith-annotation"
+                      data-annotation="https://digital.lib.utk.edu/static/iiif/schreitender-bauer/annotations/1">
+                <figcaption>
+                  <strong>Schtreidenter Bauer</strong>
+                  <p>The sketch appears to be related to works by Max Liebermann, Schtreidenter Bauer - Striding Farmer - painted between 1894-99.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </figure>
+
+          <figure class="yith-manifest"
                   data-manifest="https://digital.lib.utk.edu/static/iiif/max-liebermann-vor-dem-gemalde-schreitender-bauer-1894.json">
             <div class="yith-items">
               <figure class="yith-annotation"
