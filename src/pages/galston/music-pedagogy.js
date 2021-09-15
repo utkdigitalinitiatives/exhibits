@@ -49,7 +49,7 @@ const StudienbuchPage = () => (
           mode="present">
       <div className="yith-structure">
         <figure className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/949"
+                data-manifest="https://digital.lib.utk.edu/static/iiif/galston_949.json"
                 data-region="1136,232,6000,3920"></figure>
       </div>
     </Yith>
