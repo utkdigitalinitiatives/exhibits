@@ -22,6 +22,7 @@ const GalstonIndex = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-region="525,1616,3120,2496"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10">>
             </figure>
             <figure className="yith-manifest"
@@ -260,8 +261,8 @@ const GalstonIndex = () => (
               <figure class="yith-annotation"
                       data-annotation="https://digital.lib.utk.edu/static/iiif/schreitender-bauer/annotations/1">
                 <figcaption>
-                  <strong>Schtreidenter Bauer</strong>
-                  <p>The sketch appears to be related to works by Max Liebermann, Schtreidenter Bauer - Striding Farmer - painted between 1894-99.</p>
+                  <strong>Schreitender Bauer</strong>
+                  <p>The sketch appears to be related to works by Max Liebermann, Schreitender Bauer - Striding Farmer - painted between 1894-99.</p>
                 </figcaption>
               </figure>
             </div>
@@ -287,9 +288,7 @@ const GalstonIndex = () => (
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/468/annotations/1">
                 <figcaption>
                   <strong>Busoni on Liszt</strong>
-                  <p>This handwritten note by Galston's friend and fellow pianist, Ferruccio Busoni, is described in
-                    Paulien Shaw Bayne's book, The Gottfried Galston Music Collection and the Galston-Busoni Archive,
-                    as "Busoni's "Aphorism" on Liszt."</p>
+                  <p>This handwritten note by Galston's friend and fellow pianist, Ferruccio Busoni, is described in Pauline Shaw Bayne's book, The Gottfried Galston Music Collection and the Galston-Busoni Archive, as "Busoni's "Aphorism" on Liszt."</p>
                 </figcaption>
               </figure>
               <figure class="yith-annotation"
