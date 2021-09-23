@@ -22,7 +22,7 @@ const GalstonIndex = () => (
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
-                    data-region="525,1616,3120,2496"
+                    data-region="224,1152,4000,5952"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10">>
             </figure>
             <figure className="yith-manifest"
