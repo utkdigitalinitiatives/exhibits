@@ -188,3 +188,14 @@
 .studybook {
   font-style: italic;
 }
+
+.back-to-top {
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  text-decoration: none;
+  color: $primary;
+  padding: 5px;
+}

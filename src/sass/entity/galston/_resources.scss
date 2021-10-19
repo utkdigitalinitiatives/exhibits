@@ -28,14 +28,16 @@
 
   &.resources-heading-small {
     font-weight: normal;
+    font-size: 1.3rem;
   }
 
   &.resources-heading-med {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: -0.01em;
   }
 
   &.resources-heading-large {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     line-height: 1.1;
   }
 }
@@ -48,12 +50,9 @@
   margin-bottom: 2em;
 }
 
-.acknowledgements-bg {
-  background-color: white
-}
-
 .resources-flex {
   margin-right: 2em;
+  margin-bottom: 2em;
 
   @include breakpoints(xxs, xs, sm) {
     margin-right: 0 !important;
@@ -91,3 +90,46 @@
   }
 }
 
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 1rem 0;
+}
+
+.resources-flex1, .resources-flex2, .resources-flex3 {
+  width: 100%;
+  display: flex;
+
+  h2 {
+    width: 25%;
+  }
+
+  ul {
+    width: 75%;
+  }
+}
+
+.resources-headings {
+  width: 25%;
+  
+  h2 {
+    width: 100%;
+  }
+}
+
+.resources-flex3-container {
+  width: 70%;
+  margin-bottom: 3em;
+
+  h3 {
+    font-weight: normal;
+    font-size: 1.1em !important;
+  }
+
+  p {
+    margin-bottom: 1.7em;
+  }
+}

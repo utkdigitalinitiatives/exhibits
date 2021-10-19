@@ -8,8 +8,18 @@ import Yith from "../../components/yith/Yith"
 const ResourcesPage = () => (
   <Layout exhibit="galston">
     <Seo title="Available Resources" />
-    <h1 className="resources-heading resources-heading-large">Resources</h1>
-    <h2 className="resources-heading resources-heading-small">
+    <h1 className="resources-heading resources-heading-large resources-title">Resources</h1>
+
+    {/* <Yith id="studienbuch-present-test" mode="present">
+            <div className="yith-structure">
+              <figure
+                className="yith-manifest"
+                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/718"
+              ></figure>
+            </div>
+    </Yith> */}
+
+    <h2 className="resources-heading resources-heading-med">
       Gottfried Galston Collections at the University of Tennessee Libraries
     </h2>
 
@@ -55,19 +65,14 @@ const ResourcesPage = () => (
         </div>
 
         <div className="yith-wrapper-resources">
-          <Yith id="studienbuch-present-test" mode="present">
-            <div className="yith-structure">
-              <figure
-                className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/718"
-              ></figure>
-            </div>
-          </Yith>
+    
         </div>
       </div>
     </div>
     <div className="resources-wrapper">
       <div className="resources-list-bg">
+
+      <div className="resources-flex1">
       <h2 className="resources-heading resources-heading-small orange-border-finding-aids finding-aids">
             Finding Aids and Catalog
           </h2>
@@ -99,9 +104,11 @@ const ResourcesPage = () => (
             , Knoxville: University of Tennessee Library, 1978.
           </li>
         </ul>
+        </div>
         <br></br>
 
-        <h2 className="resources-heading resources-heading-small other-resources orange-border-other">
+        <div className="resources-flex2">
+        <h2 className="resources-heading resources-heading-small other-resources">
           Other Resources
         </h2>
         <ul class="other-resources-list">
@@ -149,29 +156,39 @@ const ResourcesPage = () => (
             Galston's Studienbuch.
           </li>
         </ul>
-        <div className="acknowledgements-bg">
-        <h2 className="resources-heading resources-heading-med">
-          Acknowledgments
-        </h2>
-        <h3 className="resources-heading resources-heading-small">
-          UT Project team
-        </h3>
-        <p>
-          Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore;
-          Meredith Hale; Nathalie Hristov; Colin Hudgins; Mat Jordan; Laura
-          Romans; Louisa Trott
-        </p>
+        </div>
 
-        <h3 className="resources-heading resources-heading-small">
-          English translation of the <span class="studybook">Studienbuch</span>
-        </h3>
-        <p>Rosemarie S. Greenman</p>
+        <div className="resources-flex3">
+  
+            <div className="resources-headings">
+              <h2 className="resources-heading resources-heading-med acknowledgments-header">
+                Acknowledgments
+              </h2>
+            </div>
 
-        <h3 className="resources-heading resources-heading-small">
-          Transcription/translation of handwritten notes
-        </h3>
-        <p>Will Eakin; Kathryn Shepas; Jeff Mellor; Peter Hoeyng; David Lee</p>
-      </div>
+            <div className="resources-flex3-container">
+              <h3 className="resources-heading resources-heading-small">
+                UT Project team
+              </h3>
+              <p>
+                Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore;
+                Meredith Hale; Nathalie Hristov; Colin Hudgins; Mat Jordan; Laura
+                Romans; Louisa Trott
+              </p>
+
+              <h3 className="resources-heading resources-heading-small">
+                English translation of the <span class="studybook">Studienbuch</span>
+              </h3>
+              <p>Rosemarie S. Greenman</p>
+
+              <h3 className="resources-heading resources-heading-small">
+                Transcription/translation of handwritten notes
+              </h3>
+              <p>Will Eakin; Kathryn Shepas; Jeff Mellor; Peter Hoeyng; David Lee</p>
+            </div>
+
+
+        </div>
       </div>
     </div>
   </Layout>

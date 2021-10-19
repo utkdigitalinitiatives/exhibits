@@ -8,7 +8,7 @@ import Yith from "../../components/yith/Yith"
 const ConcertProgramsPage = () => (
   <Layout exhibit="galston">
     <Seo title="Concert Programs" />
-    <h1>Concert Programs</h1>
+    <h1 className="concert-programs-title">Concert Programs</h1>
     <div>
       <div className="concert-programs-flex">
         <div className="concert-programs-description">
