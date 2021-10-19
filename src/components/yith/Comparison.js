@@ -56,6 +56,19 @@ class Comparison extends Component {
     })
   }
 
+  determine_label = (id) => {
+    console.log(id)
+    if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/1') {
+      return "Concert Program"
+    }
+    else if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/178') {
+      return "Handwritten Notes from Studienbuch"
+    }
+    else {
+      return ""
+    }
+  }
+
   renderNavigation = (activeWindows, sequence) => {
     return sequence.map((item, index) => {
 
@@ -79,7 +92,7 @@ class Comparison extends Component {
           <figure data-index={index}>
             <img data-index={index}
                   src={this.props.data[index].items[canvas].items[0].items[0].body[0].service['@id'] + '/full/!200,200/0/default.jpg'} alt={'Thumbnail for canvas from ' + this.props.data[index].label.en[0]} />
-            <figcaption className="yith-comparison-caption">Comparison from {this.props.data[index].label.en[0]}</figcaption>
+            <figcaption className="yith-comparison-caption">{this.determine_label(this.props.data[index].id)}</figcaption>
           </figure>
         </a>
       )
