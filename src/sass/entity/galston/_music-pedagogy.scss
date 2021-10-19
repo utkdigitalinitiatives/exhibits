@@ -8,11 +8,6 @@
     flex-direction: column;
   }
 
-  .gift-to-musicians {
-    flex: 1;
-    padding-right: 2em;
-  }
-
   .yith-figure figcaption p {
     display: none;
   }
@@ -39,10 +34,14 @@ section.exhibits-section .exhibits-blockquote {
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
+    font-style: italic;
+    color: #465866;
   }
 }
 
 .gift-to-musicians, .musical-interpretation, .confessions {
+  width: 70% !important;
+
   h2 {
     font-family: "DM Serif Display", Georgia, serif;
     font-weight: 400;
@@ -55,46 +54,21 @@ section.exhibits-section .exhibits-blockquote {
   }
 }
 
-.music-pedagogy-yith {
-  width: 38.2%;
-
-  @include breakpoints(xs, sm) {
-    width: 100%
-  }
-}
-
 .musical-interpretation-wrapper {
   display: flex;
-  width: 100% !important;
   margin-left: 0 !important;
-
-  .musical-interpretation {
-    flex: 1;
-  }
 
   p {
     font-family: "Gotham", sans-serif;
   }
 }
 
-.musical-intepretation-yith {
-  width: 38.2%;
-}
-
 .studybook {
   font-style: italic;
 }
 
-.yith-figure .yith-figure--preview .yith-figure--preview--inner a img, .yith-figure .yith-figure--preview .yith-figure--preview--inner a:visited img {
-  max-height: 250px;
-}
-
 .confessions-wrapper {
   display: flex;
-
-  .confessions {
-    width: 100% !important;
-  }
 
   p {
     line-height: 1.6em;
@@ -102,12 +76,10 @@ section.exhibits-section .exhibits-blockquote {
   }
 }
 
-section.exhibits-section:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
-  margin-left: 3em;
-  width: 38.2;
+.pedagogy-title {
+  font-size: 1.6rem;
 }
 
-section.exhibits-section:nth-child(2) {
-  padding: 0;
-  margin: 0;
+.gift-section {
+  margin-top: 2rem;
 }

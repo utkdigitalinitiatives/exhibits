@@ -18,7 +18,7 @@ class TeaserBackground extends Component {
 
     return (
       <div className="yith-teaser--background">
-        <img src={src} alt={alt} />
+        
       </div>
     )
 
