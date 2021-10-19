@@ -83,6 +83,10 @@
   }
 
   .yith-teaser-figure {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    
     @include breakpoints(xxs, xs) {
       display: flex;
       justify-content: center;
