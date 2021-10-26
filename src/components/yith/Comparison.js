@@ -85,6 +85,7 @@ class Comparison extends Component {
       }
 
       return (
+          <>
         <a href="#"
            className={active}
            data-index={index}
@@ -95,6 +96,8 @@ class Comparison extends Component {
             <figcaption className="yith-comparison-caption">{this.determine_label(this.props.data[index].id)}</figcaption>
           </figure>
         </a>
+        <p>{this.determine_label(this.props.data[index].id)}</p>
+          </>
       )
     })
   }
