@@ -43,11 +43,12 @@ section.exhibits-section .exhibits-blockquote {
   width: 70% !important;
 
   h2 {
-    font-family: "DM Serif Display", Georgia, serif;
+    font-family: "GOtham", sans-serif !important;
     font-weight: 400;
-    letter-spacing: -0.01em;
     margin-bottom: 0;
-    font-size: 1.3rem;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em !important;
     }
 
   p {

@@ -32,8 +32,10 @@
   }
 
   &.resources-heading-med {
-    font-size: 1.3rem;
-    letter-spacing: -0.01em;
+    font-size: 1rem;
+    letter-spacing: 0.1em !important;
+    font-family: "Gotham", sans-serif;
+    text-transform: uppercase;
   }
 
   &.resources-heading-large {
@@ -105,6 +107,10 @@ ul li {
 
   h2 {
     width: 25%;
+    font-family: "Gotham", sans-serif;
+    text-transform: uppercase;
+    font-size: 1em !important;
+    letter-spacing: 0.1em;
   }
 
   ul {
