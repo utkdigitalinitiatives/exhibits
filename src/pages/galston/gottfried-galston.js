@@ -107,8 +107,6 @@ const GalstonPage = () => (
         </figure>
       </div>
     </Yith>
-
-    <a href="http://localhost:8000/galston/gottfried-galston" className="back-to-top">Back to Start</a>
   </Layout>
 )
 
