@@ -21,9 +21,9 @@ class TeaserFigure extends Component {
     if (src === "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:219~datastream~JP2/full/!700,700/0/default.jpg") {
       return (
           <div className="yith-teaser-figure">
-            <img src={src} alt={alt} />
-            <img src={spine} alt={alt} />
-            <img src={srclast} alt={alt} />
+            <img className="studienbuch-preview" src={src} alt={alt} />
+            <img className="studienbuch-preview" src={spine} alt={alt} />
+            <img className="studienbuch-preview" src={srclast} alt={alt} />
           </div>
       )
     }

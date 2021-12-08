@@ -73,7 +73,7 @@ const ResourcesPage = () => (
       <div className="resources-list-bg">
 
       <div className="resources-flex1">
-      <h2 className="resources-heading resources-heading-small orange-border-finding-aids finding-aids">
+      <h2 className="resources-heading orange-border-finding-aids finding-aids">
             Finding Aids and Catalog
           </h2>
         <ul className="findings-aids-and-catalog">
@@ -108,7 +108,7 @@ const ResourcesPage = () => (
         <br></br>
 
         <div className="resources-flex2">
-        <h2 className="resources-heading resources-heading-small other-resources">
+        <h2 className="resources-heading other-resources">
           Other Resources
         </h2>
         <ul class="other-resources-list">
