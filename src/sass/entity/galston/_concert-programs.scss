@@ -25,16 +25,7 @@
 
   img {
     max-width: 250px;
-    min-width: 75px;
-
-    @include breakpoints(xs) {
-      max-width: 150px;
-      min-width: 150px;
-    }
-
-    @include breakpoints(xxs) {
-      max-width: 200px;
-    }
+    min-width: 250px;
   }
 
 .yith.yith-comparison {

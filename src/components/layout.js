@@ -54,7 +54,6 @@ const Layout = ({ exhibit, children }) => {
       <main>
         <article>{children}</article>
       </main>
-      <Footer />
     </>
   )
 }
