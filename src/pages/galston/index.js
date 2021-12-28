@@ -35,7 +35,7 @@ const GalstonIndex = () => {
   return (
 
       <Layout exhibit="galston">
-        <Seo title="Galston Studienbuch"/>
+        <Seo title="Galston Studienbuch" schemaMarkup={schema}/>
         <section className="exhibits-section">
           <div>
             <h2>The Studienbuch</h2>
