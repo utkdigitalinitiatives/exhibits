@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, useStaticQuery } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
@@ -8,7 +8,7 @@ import UTKLogo from "../../media/utk-logo.png"
 
 const GalstonIndex = () => {
   const {site} = useStaticQuery(
-      graphql`
+    graphql`
       query {
         site {
           siteMetadata {
