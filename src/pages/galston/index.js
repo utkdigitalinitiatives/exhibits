@@ -19,18 +19,27 @@ const GalstonIndex = () => {
       }
     `
   )
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "CollegeOrUniversity",
-    "name": "University of Tennessee, Knoxville. Libraries",
-    "url": "https://www.lib.utk.edu/",
-    "sameAs": [
-      "https://twitter.com/utklibraries",
-      "http://id.loc.gov/authorities/names/n87808088",
-    ],
-    "description": site.siteMetadata.description,
-    "logo": UTKLogo
-  }
+  const schema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Galston Studienbuch Exhibit",
+      "url": "https://exhibits.lib.utk.edu/galston",
+      "description": site.siteMetadata.description
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "University of Tennessee, Knoxville. Libraries",
+      "url": "https://www.lib.utk.edu/",
+      "sameAs": [
+        "https://twitter.com/utklibraries",
+        "http://id.loc.gov/authorities/names/n87808088",
+      ],
+      "description": site.siteMetadata.description,
+      "logo": UTKLogo
+    }
+  ]
 
   return (
 
