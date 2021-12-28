@@ -65,9 +65,9 @@ class Comparison extends Component {
       }
 
       let canvas = _.findIndex(this.props.data[index].items, function (o) {
-        return o.id == sequence[index].canvasId
+        return o.id === sequence[index].canvasId
       })
-      if (canvas == -1) {
+      if (canvas === -1) {
         canvas = 0
       }
 
