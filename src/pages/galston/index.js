@@ -30,7 +30,13 @@ const GalstonIndex = () => {
       "producer": {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "University of Tennessee, Knoxville. Libraries"
+        "name": "University of Tennessee, Knoxville. Libraries",
+        "url": "https://www.lib.utk.edu/",
+        "sameAs": [
+          "https://twitter.com/utklibraries",
+          "http://id.loc.gov/authorities/names/n87808088",
+        ],
+        "logo": UTKLogo
       }
     },
     {
