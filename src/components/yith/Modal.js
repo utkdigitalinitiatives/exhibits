@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Mirador from "./Mirador";
 import { v4 as uuid } from 'uuid';
-import _ from "lodash"
 
 class Modal extends Component {
 
