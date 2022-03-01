@@ -14,6 +14,7 @@ import "../sass/styles.scss"
 import { Helmet } from "react-helmet"
 import _ from "lodash"
 import UniversalHeader from "./UniversalHeader"
+import Footer from "./Footer"
 
 const Layout = ({ exhibit, children }) => {
 
@@ -53,7 +54,6 @@ const Layout = ({ exhibit, children }) => {
       <main>
         <article>{children}</article>
       </main>
-      <footer id="utk-lib-footer"></footer>
     </>
   )
 }

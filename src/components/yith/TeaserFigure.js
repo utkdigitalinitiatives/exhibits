@@ -15,12 +15,26 @@ class TeaserFigure extends Component {
 
     const src = data.items[canvasKey].items[0].items[0].body[0].service['@id'] + '/' + region + '/' + size + '/0/default.jpg'
     const alt = data.label.en[0]
+    const srclast = "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:191~datastream~JP2/full/!700,700/0/default.jpg"
+    const spine = "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:712~datastream~JP2/full/!700,700/1/default.jpg"
 
-    return (
-      <div className="yith-teaser-figure">
-        <img src={src} alt={alt} />
-      </div>
-    )
+    if (src === "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:219~datastream~JP2/full/!700,700/0/default.jpg") {
+      return (
+          <div className="yith-teaser-figure">
+            <img className="studienbuch-preview" src={src} alt={alt} />
+            <img className="studienbuch-preview" src={spine} alt={alt} />
+            <img className="studienbuch-preview" src={srclast} alt={alt} />
+          </div>
+      )
+    }
+    else {
+      return (
+          <div className="yith-teaser-figure">
+            <img src={src} alt={alt} />
+          </div>
+      )
+    }
+
 
   }
 
