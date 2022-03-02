@@ -81,11 +81,12 @@ class Comparison extends Component {
             if (canvas == -1) {
                 canvas = 0
             }
+            let anchor_class_names = `${active} yith-comparison-a`
 
             return (
                 <>
                     <a href="#"
-                       className={active}
+                       className={anchor_class_names}
                        data-index={index}
                        onClick={this.toggleWindow}>
                         <figure data-index={index}>
