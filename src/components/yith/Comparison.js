@@ -97,7 +97,6 @@ class Comparison extends Component {
                             </figcaption>
                         </figure>
                     </a>
-                    <p>{this.determine_label(this.props.data[index].id)}</p>
                 </>
             )
         })

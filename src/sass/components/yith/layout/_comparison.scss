@@ -4,6 +4,11 @@
   box-shadow: $box-shadow;
   display: flex;
 
+  .yith-comparison-caption {
+    text-decoration: none !important;
+    text-align: center
+  }
+
   .yith-comparison-teaser {
     position: relative;
     display: inline-flex;
