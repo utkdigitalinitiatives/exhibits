@@ -22,7 +22,7 @@
     &--inner {
       position: absolute;
       z-index: 1;
-      width: 50%;
+      width: 75%;
       margin-top: 6em;
 
       @include breakpoints(sm) {
@@ -167,6 +167,10 @@
 }
 
 #guided-tour {
+  .yith-projection-teaser--inner {
+    margin-top: 3em;
+  }
+
   @include breakpoints(sm) {
     .yith-description {
       width: 70%;

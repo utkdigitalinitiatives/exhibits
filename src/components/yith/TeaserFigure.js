@@ -22,8 +22,6 @@ class TeaserFigure extends Component {
       return (
           <div className="yith-teaser-figure">
             <img className="studienbuch-preview" src={src} alt={alt} />
-            <img className="studienbuch-preview" src={spine} alt={alt} />
-            <img className="studienbuch-preview" src={srclast} alt={alt} />
           </div>
       )
     }

@@ -67,8 +67,10 @@
 
 #guided-tour {
   .yith-teaser {
+    height: 300px;
+    
     @include breakpoints(xs) {
-      height: 600px;
+      height: 300px;
     }
 
     @include breakpoints(xxs) {
@@ -83,9 +85,9 @@
   }
 
   .yith-teaser-figure {
-    width: 50%;
+    width: 25%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     
     @include breakpoints(xxs, xs) {
       display: flex;
