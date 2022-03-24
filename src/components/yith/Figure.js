@@ -33,7 +33,7 @@ class Figure extends Component {
       label: manifest.label.en[0],
       requiredStatementLabel: manifest.requiredStatement.label.en[0],
       requiredStatementValue: manifest.requiredStatement.value.en[0],
-      media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!640,640/0/default.jpg'
+      media: manifest.items[0].items[0].items[0].body[0].service[0]['@id'] + '/' + region + '/!640,640/0/default.jpg'
     })
   }
 
