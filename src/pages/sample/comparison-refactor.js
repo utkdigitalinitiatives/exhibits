@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
@@ -16,7 +15,7 @@ const ComparisonRefactor = () => (
           <a className="yith-expand" href="#">October 12, 1919</a>
           <div className="yith-structure">
             <figure class="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/1"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
                     data-region="98,760,3198,4511"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/1/canvas/8"></figure>
             <figure class="yith-manifest"
