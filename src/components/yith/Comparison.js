@@ -57,7 +57,6 @@ class Comparison extends Component {
     }
 
     determine_label = (id) => {
-        console.log(id)
         if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/1') {
             return "Concert Program"
         } else if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/178') {
@@ -82,7 +81,6 @@ class Comparison extends Component {
                 canvas = 0
             }
             let anchor_class_names = `${active} yith-comparison-a`
-
             return (
                 <>
                     <a href="#"
