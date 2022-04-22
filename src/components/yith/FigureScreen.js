@@ -29,7 +29,7 @@ class FigureScreen extends Component {
       loaded: true,
       activeId: manifest.id,
       label: manifest.label.en[0],
-      media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!1200,1200/0/default.jpg'
+      media: manifest.items[0].items[0].items[0].body.service[0]['@id'] + '/' + region + '/!1200,1200/0/default.jpg'
     })
   }
 

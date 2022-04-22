@@ -91,7 +91,7 @@ class Comparison extends Component {
                        onClick={this.toggleWindow}>
                         <figure data-index={index}>
                             <img data-index={index}
-                                 src={this.props.data[index].items[canvas].items[0].items[0].body[0].service['@id'] + '/full/!200,200/0/default.jpg'}
+                                 src={this.props.data[index].items[canvas].items[0].items[0].body.service[0]['@id'] + '/full/!200,200/0/default.jpg'}
                                  alt={'Thumbnail for canvas from ' + this.props.data[index].label.en[0]}/>
                             <figcaption className="yith-comparison-caption">
                                 {this.determine_label(this.props.data[index].id)}

@@ -13,7 +13,7 @@ class TeaserFigure extends Component {
       canvasKey = findIndex(data.items, ['id', this.props.canvas]);
     }
 
-    const src = data.items[canvasKey].items[0].items[0].body[0].service['@id'] + '/' + region + '/' + size + '/0/default.jpg'
+    const src = data.items[canvasKey].items[0].items[0].body.service[0]['@id'] + '/' + region + '/' + size + '/0/default.jpg'
     const alt = data.label.en[0]
     const srclast = "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:191~datastream~JP2/full/!700,700/0/default.jpg"
     const spine = "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~galston:712~datastream~JP2/full/!700,700/1/default.jpg"
