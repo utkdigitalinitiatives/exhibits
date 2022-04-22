@@ -57,7 +57,7 @@ class Comparison extends Component {
     }
 
     determine_label = (id) => {
-        if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/1') {
+        if (id === 'https://digital.lib.utk.edu/static/iiif/galston_1.json') {
             return "Concert Program"
         } else if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/178') {
             return "Handwritten Notes from Studienbuch"
