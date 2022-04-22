@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
@@ -22,7 +21,7 @@ const StudienbuchPage = () => (
             mode="present">
         <div className="yith-structure">
           <figure className="yith-manifest"
-                  data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/701"></figure>
+                  data-manifest="https://digital.lib.utk.edu/static/iiif/galston_701.json"></figure>
         </div>
         </Yith>
       </div>
