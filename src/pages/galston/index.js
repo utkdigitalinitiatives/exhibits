@@ -21,12 +21,12 @@ const GalstonIndex = () => (
           <a className="yith-expand" href="#">Expand in Viewer</a>
           <div className="yith-structure">
             <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/178"
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/galston_178.json"
                     data-region="525,1616,3120,2496"
                     data-canvas="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/10">>
             </figure>
             <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/736"></figure>
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/galston_736.json"></figure>
           </div>
         </Yith>
       </div>
@@ -322,7 +322,7 @@ const GalstonIndex = () => (
               mode="present">
           <div className="yith-structure">
             <figure className="yith-manifest"
-                    data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/694"></figure>
+                    data-manifest="https://digital.lib.utk.edu/static/iiif/galston_694.json"></figure>
           </div>
         </Yith>
       </div>
