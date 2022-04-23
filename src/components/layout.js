@@ -14,7 +14,6 @@ import "../sass/styles.scss"
 import { Helmet } from "react-helmet"
 import _ from "lodash"
 import UniversalHeader from "./UniversalHeader"
-import Footer from "./Footer"
 
 const Layout = ({ exhibit, children }) => {
 
