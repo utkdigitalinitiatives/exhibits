@@ -61,7 +61,7 @@ class Projection extends Component {
     e.preventDefault();
 
     let last = this.props.sequence.length - 1
-    if (this.state.index != last) {
+    if (this.state.index !== last) {
       let nextIndex = this.state.index + 1;
       this.setState({
         index: nextIndex,
