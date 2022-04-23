@@ -43,7 +43,7 @@ class Projection extends Component {
     e.stopPropagation();
     e.preventDefault();
 
-    if (this.state.index != 0) {
+    if (this.state.index !== 0) {
       let nextIndex = this.state.index - 1;
       this.setState({
         index: nextIndex,
