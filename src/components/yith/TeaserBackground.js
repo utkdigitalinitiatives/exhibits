@@ -13,9 +13,6 @@ class TeaserBackground extends Component {
       canvasKey = findIndex(data.items, ['id', this.props.canvas]);
     }
 
-    const src = data.items[canvasKey].items[0].items[0].body[0].service['@id'] + '/' + region + '/' + size + '/0/default.jpg'
-    const alt = data.label.en[0]
-
     return (
       <div className="yith-teaser--background">
         
