@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TeaserFigure from "./TeaserFigure";
-import TeaserBackground from "./TeaserBackground"
 
 class Teaser extends Component {
 
@@ -52,7 +51,7 @@ class Teaser extends Component {
             return (
               <div className="yith-teaser yith-teaser-background">
                 <TeaserFigure data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
-                <TeaserBackground data={this.state.data[0]} canvas={this.props.sequence[0].canvas} region={region} size={size} />
+                <div className="yith-teaser--background"/>
               </div>
             )
           }
