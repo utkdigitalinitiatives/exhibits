@@ -2,10 +2,7 @@ import React, { Component } from "react"
 import {
   Link,
   Element,
-  Events,
-  animateScroll as scroll,
   scrollSpy,
-  scroller,
 } from "react-scroll"
 import Sticky from "react-sticky-el"
 
