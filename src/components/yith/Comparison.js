@@ -57,8 +57,7 @@ class Comparison extends Component {
     }
 
     determine_label = (id) => {
-        console.log(id)
-        if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/1') {
+        if (id === 'https://digital.lib.utk.edu/static/iiif/galston_1.json') {
             return "Concert Program"
         } else if (id === 'https://digital.lib.utk.edu/assemble/manifest/galston/178') {
             return "Handwritten Notes from Studienbuch"
@@ -76,13 +75,12 @@ class Comparison extends Component {
             }
 
             let canvas = _.findIndex(this.props.data[index].items, function (o) {
-                return o.id == sequence[index].canvasId
+                return o.id === sequence[index].canvasId
             })
-            if (canvas == -1) {
+            if (canvas === -1) {
                 canvas = 0
             }
             let anchor_class_names = `${active} yith-comparison-a`
-
             return (
                 <>
                     <a href="#"

@@ -12,7 +12,7 @@ class Yith extends Component {
 
   buildExpand(items) {
     let key = _.findIndex(items, function (o) {
-      return o.props.className == "yith-expand"
+      return o.props.className === "yith-expand"
     })
 
     if (key !== -1) {
@@ -29,7 +29,7 @@ class Yith extends Component {
 
     if (Array.isArray(items)) {
       let key = _.findIndex(items, function (o) {
-        return o.props.className == "yith-structure"
+        return o.props.className === "yith-structure"
       })
       children = items[key].props.children
     } else {

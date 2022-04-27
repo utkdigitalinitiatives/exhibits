@@ -1,24 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import Yith from "../../components/yith/Yith"
 
 const ResourcesPage = () => (
   <Layout exhibit="galston">
     <Seo title="Available Resources" />
     <h1 className="resources-heading resources-heading-large resources-title">Resources</h1>
-
-    {/* <Yith id="studienbuch-present-test" mode="present">
-            <div className="yith-structure">
-              <figure
-                className="yith-manifest"
-                data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/718"
-              ></figure>
-            </div>
-    </Yith> */}
-
     <h2 className="resources-heading resources-heading-med">
       Gottfried Galston Collections at the University of Tennessee Libraries
     </h2>
@@ -171,7 +158,7 @@ const ResourcesPage = () => (
                 UT Project team
               </h3>
               <p>
-                Mark Baggett; Paul Cummins; Chris Durman; Sarah Funk; Emily Gore;
+                Paul Cummins; Chris Durman; Sarah Funk; Emily Gore;
                 Meredith Hale; Nathalie Hristov; Colin Hudgins; Mat Jordan; Laura
                 Romans; Louisa Trott
               </p>

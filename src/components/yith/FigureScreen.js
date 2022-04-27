@@ -25,11 +25,15 @@ class FigureScreen extends Component {
       region = this.props.region
     }
 
+    let image_request = this.changeImageServerRequestIfInternetArchive(
+        manifest.items[0].items[0].items[0].body[0].service['@id'], region
+    );
+
     this.setState({
       loaded: true,
       activeId: manifest.id,
       label: manifest.label.en[0],
-      media: manifest.items[0].items[0].items[0].body[0].service['@id'] + '/' + region + '/!1200,1200/0/default.jpg'
+      media: image_request
     })
   }
 
@@ -61,6 +65,14 @@ class FigureScreen extends Component {
     this.setState(state => ({
       active: !state.active
     }));
+  }
+
+  changeImageServerRequestIfInternetArchive(image_request, region) {
+    if (image_request.includes('iiif.archivelab.org')) {
+      return image_request + '/' + region + '/full/0/default.jpg'
+    } else {
+      return image_request + '/' + region + '/!1200,1200/0/default.jpg'
+    }
   }
 
   render() {
