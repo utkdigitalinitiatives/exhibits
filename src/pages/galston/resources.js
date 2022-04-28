@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import {graphql, useStaticQuery} from "gatsby"
-import UTKLogo from "../../media/utk-logo.png";
+import UTKLogo from "../../media/utk-logo.png"
 
 const ResourcesPage = () => {
   const {site} = useStaticQuery(
