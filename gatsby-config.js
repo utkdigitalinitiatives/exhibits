@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: `Galston Studienbuch Exhibit`,
+    description: `The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), 
+    accompanied by a specially-commissioned--and previously unpublished--English translation.`,
+    author: `University of Tennessee Libraries`,
+    siteUrl: `https://exhibits.lib.utk.edu/`
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -36,5 +43,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://exhibits.lib.utk.edu',
+        sitemap: 'https://exhibits.lib.utk.edu/sitemap/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ],
 }
