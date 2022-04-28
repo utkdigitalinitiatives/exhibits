@@ -18,14 +18,13 @@ const GalstonPage = () => {
       }
     `
   )
-  const description = "Born in Vienna in 1879, Galston's musical training began in early childhood under the supervision of his governesses. At age seven, he began private lessons with various teachers in Vienna, including Professor Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor Leschetizky and his assistant, Malwine Bree."
   const schema = [
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Galston Studienbuch Exhibit",
       "url": "https://exhibits.lib.utk.edu/galston",
-      "description": description,
+      "description": site.siteMetadata.description,
       "producer": {
         "@context": "https://schema.org",
         "@type": "Organization",
