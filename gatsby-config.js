@@ -4,7 +4,7 @@ module.exports = {
     description: `The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), 
     accompanied by a specially-commissioned--and previously unpublished--English translation.`,
     author: `University of Tennessee Libraries`,
-    siteUrl: `https://exhibits.lib.utk.edu/`
+    siteUrl: `https://gatsby.lib.utk.edu`
   },
   plugins: [
     {
@@ -72,8 +72,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://exhibits.lib.utk.edu',
-        sitemap: 'https://exhibits.lib.utk.edu/sitemap/sitemap-index.xml',
+        host: 'https://gatsby.lib.utk.edu',
+        sitemap: 'https://gatsby.lib.utk.edu/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
