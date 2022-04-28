@@ -1,14 +1,56 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Yith from "../../components/yith/Yith"
+import UTKLogo from "../../media/utk-logo.png"
 
-const GalstonIndex = () => (
+const GalstonIndex = () => {
+  const {site} = useStaticQuery(
+      graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+          }
+        }
+      }
+    `
+  )
+  const description = "At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - Gottfried Galston’s Studienbuch. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation. The bound volume includes several editorial changes -- handwritten by Galston -- later incorporated into the book's 2nd edition (1922).\nIn this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation and the hope that it may contribute to music pedagogy in the U.S. and beyond"
+  const schema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Galston Studienbuch Exhibit",
+      "url": "https://exhibits.lib.utk.edu/galston",
+      "description": description,
+      "producer": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "University of Tennessee, Knoxville. Libraries"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "University of Tennessee, Knoxville. Libraries",
+      "url": "https://www.lib.utk.edu/",
+      "sameAs": [
+        "https://twitter.com/utklibraries",
+        "http://id.loc.gov/authorities/names/n87808088",
+      ],
+      "description": site.siteMetadata.description,
+      "logo": UTKLogo
+    }
+  ]
+
+return (
 
   <Layout exhibit="galston">
-    <Seo title="Galston Studienbuch" />
+    <Seo title="Galston Studienbuch" schemaMarkup={schema}/>
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
@@ -337,6 +379,6 @@ const GalstonIndex = () => (
     </section>
   </Layout>
 
-)
+)}
 
 export default GalstonIndex
