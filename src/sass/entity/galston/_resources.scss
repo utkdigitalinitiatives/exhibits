@@ -28,6 +28,10 @@
     font-weight: 400;
     line-height: 1.6em;
     margin: 0;
+
+    @include breakpoints(xxs, xs, sm) {
+      margin: 1em 0;
+    }
   }
 }
 

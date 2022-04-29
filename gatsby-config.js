@@ -1,5 +1,37 @@
 module.exports = {
+  siteMetadata: {
+    title: `Galston Studienbuch Exhibit`,
+    description: `The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), 
+    accompanied by a specially-commissioned--and previously unpublished--English translation.`,
+    author: `University of Tennessee Libraries`,
+    siteUrl: `https://exhibits.lib.utk.edu`
+  },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-5931387-33",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "utk.edu",
+        // defaults to false
+        enableWebVitalsTracking: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
@@ -36,5 +68,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://exhibits.lib.utk.edu',
+        sitemap: 'https://exhibits.lib.utk.edu/sitemap/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ],
 }

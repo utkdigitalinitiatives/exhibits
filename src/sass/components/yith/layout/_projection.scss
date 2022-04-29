@@ -45,6 +45,7 @@
       font-family: $serif;
       font-size: 2.5rem;
       line-height: 1.25em;
+      text-align: center;
     }
 
     .yith-expand {
@@ -178,7 +179,7 @@
 
   @include breakpoints(sm) {
     .yith-description {
-      font-size: 1.5rem;
+      font-size: 2rem;
       padding: 1rem 0 2rem 0;
       text-align: center;
       width: 100%;
@@ -199,5 +200,11 @@
         }
       }
     }
-  } 
+  }
+
+  @include breakpoints(xs) {
+    .yith-description {
+      font-size: 1.5rem;
+    }
+  }
 }

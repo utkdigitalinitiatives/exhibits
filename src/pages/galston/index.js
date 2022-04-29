@@ -1,14 +1,61 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Yith from "../../components/yith/Yith"
+import UTKLogo from "../../media/utk-logo.png"
 
-const GalstonIndex = () => (
+const GalstonIndex = () => {
+  const {site} = useStaticQuery(
+      graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+          }
+        }
+      }
+    `
+  )
+  const schema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Galston Studienbuch Exhibit",
+      "url": "https://exhibits.lib.utk.edu/galston",
+      "description": site.siteMetadata.description,
+      "producer": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "University of Tennessee, Knoxville. Libraries",
+        "url": "https://www.lib.utk.edu/",
+        "sameAs": [
+          "https://twitter.com/utklibraries",
+          "http://id.loc.gov/authorities/names/n87808088",
+        ],
+        "logo": UTKLogo
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "University of Tennessee, Knoxville. Libraries",
+      "url": "https://www.lib.utk.edu/",
+      "sameAs": [
+        "https://twitter.com/utklibraries",
+        "http://id.loc.gov/authorities/names/n87808088",
+      ],
+      "description": site.siteMetadata.description,
+      "logo": UTKLogo
+    }
+  ]
+
+return (
 
   <Layout exhibit="galston">
-    <Seo title="Galston Studienbuch" />
+    <Seo title="Galston Studienbuch" schemaMarkup={schema}/>
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
@@ -337,6 +384,6 @@ const GalstonIndex = () => (
     </section>
   </Layout>
 
-)
+)}
 
 export default GalstonIndex

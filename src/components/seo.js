@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
+function Seo({ description, lang, meta, title, schemaMarkup }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -34,6 +34,16 @@ function Seo({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      link={
+        [
+          {
+            'rel': 'icon',
+            "type": "image/png",
+            'sizes': '114x114',
+            'href': 'https://brand.utk.edu/wp-content/themes/ut-thehill/images/interface/icon-114x114.png'
+          }
+          ]
+      }
       meta={[
         {
           name: `description`,
@@ -68,7 +78,13 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      { schemaMarkup &&
+      <script type="application/ld+json">
+        {JSON.stringify(schemaMarkup)}
+      </script>
+      }
+    </Helmet>
   )
 }
 
