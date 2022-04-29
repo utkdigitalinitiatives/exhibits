@@ -5,7 +5,7 @@ import Seo from "../../components/seo"
 const ResourcesPage = () => (
   <Layout exhibit="galston">
     <Seo title="Available Resources" />
-    <h1 className="resources-heading resources-heading-large resources-title">Resources</h1>
+    <h1 className="resources-title">Resources</h1>
     <h2 className="resources-heading resources-heading-med">
       Gottfried Galston Collections at the University of Tennessee Libraries
     </h2>
