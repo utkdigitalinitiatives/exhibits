@@ -22,11 +22,14 @@
     &--inner {
       position: absolute;
       z-index: 1;
-      width: 50%;
       margin-top: 6em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
 
       @include breakpoints(sm) {
-        width: 70%;
         margin-top: 2rem;
       }
 
@@ -38,9 +41,9 @@
 
     .yith-description {
       color: $white;
-      padding: 0 3em 1em 0;
+      padding: 0 0 1em 0;
       font-family: $serif;
-      font-size: 2rem;
+      font-size: 2.5rem;
       line-height: 1.25em;
     }
 
@@ -168,17 +171,12 @@
 
 #guided-tour {
   @include breakpoints(sm) {
-    .yith-description {
-      width: 70%;
-      text-align: left;
-    }
-
     .yith-projection-teaser--inner {
       margin-top: 6em;
     }
   }
 
-  @include breakpoints(xxs, xs) {
+  @include breakpoints(sm) {
     .yith-description {
       font-size: 1.5rem;
       padding: 1rem 0 2rem 0;
