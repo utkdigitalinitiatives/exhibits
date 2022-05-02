@@ -67,18 +67,8 @@
 
 #guided-tour {
   .yith-teaser {
-    @include breakpoints(xs) {
-      height: 600px;
-    }
-
-    @include breakpoints(xxs) {
-      height: 550px;
-    }
-  }
-
-  .yith-teaser .yith-teaser-background {
-    @include breakpoints(xxs, xs, sm) {
-      height: 700px !important;
+    @include breakpoints(sm) {
+      height: 300px;
     }
   }
 
@@ -112,9 +102,4 @@
       }
     }
   }
-}
-
-.studienbuch-preview {
-  height: 250px !important;
-  margin: 4em 2em !important;
 }
