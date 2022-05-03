@@ -65,7 +65,7 @@ return (
       <div id="comparison-teaser-wrapper">
         <Yith id="studienbuch-translation"
               mode="comparison">
-          <a className="yith-expand" href="#">Expand in Viewer</a>
+          <button className="yith-expand">Expand in Viewer</button>
           <div className="yith-structure">
             <figure className="yith-manifest"
                     data-manifest="https://digital.lib.utk.edu/static/iiif/galston_178.json"
@@ -82,7 +82,7 @@ return (
     <section id="guided-tour">
       <Yith id="sample-projection" mode="projection"
             description="Explore features of UT’s unique bound volume of Galston’s <em>Studienbuch</em> (1910)">
-        <a className="yith-expand" href="#">Explore the Volume</a>
+        <button className="yith-expand">Explore the Volume</button>
         <div className="yith-structure">
           <figure class="yith-manifest"
                   data-manifest="https://digital.lib.utk.edu/static/iiif/studienbuch_not_paged_tour.json">

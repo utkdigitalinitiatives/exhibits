@@ -78,7 +78,7 @@ const ConcertProgramsPage = () => {
           <div className="comparison-grid">
             <Yith id="concert-programs-comparison-1"
                   mode="comparison">
-              <a className="yith-expand" href="#">October 12, 1919</a>
+              <button className="yith-expand">October 12, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -100,7 +100,7 @@ const ConcertProgramsPage = () => {
             </Yith>
             <Yith id="concert-programs-comparison-2"
                   mode="comparison">
-              <a className="yith-expand" href="#">October 19, 1919</a>
+              <button className="yith-expand">October 19, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -122,7 +122,7 @@ const ConcertProgramsPage = () => {
             </Yith>
             <Yith id="concert-programs-comparison-3"
                   mode="comparison">
-              <a className="yith-expand" href="#">October 26, 1919</a>
+              <button className="yith-expand">October 26, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -144,7 +144,7 @@ const ConcertProgramsPage = () => {
             </Yith>
             <Yith id="concert-programs-comparison-4"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 2, 1919</a>
+              <button className="yith-expand">November 2, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -167,7 +167,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-5"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 9, 1919</a>
+              <button className="yith-expand">November 9, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -190,7 +190,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-6"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 16, 1919</a>
+              <button className="yith-expand">November 16, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -213,7 +213,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-7"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 23, 1919</a>
+              <button className="yith-expand">November 23, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -236,7 +236,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-8"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 30, 1919</a>
+              <button className="yith-expand">November 30, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -259,7 +259,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-9"
                   mode="comparison">
-              <a className="yith-expand" href="#">December 7, 1919</a>
+              <button className="yith-expand">December 7, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -282,7 +282,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-10"
                   mode="comparison">
-              <a className="yith-expand" href="#">December 14, 1919</a>
+              <button className="yith-expand">December 14, 1919</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -305,7 +305,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-11"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 4, 1920</a>
+              <button className="yith-expand">January 4, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -328,7 +328,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-12"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 11, 1920</a>
+              <button className="yith-expand">January 11, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -351,7 +351,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-13"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 18, 1920</a>
+              <button className="yith-expand">January 18, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -374,7 +374,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-14"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 25, 1920</a>
+              <button className="yith-expand">January 25, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -397,7 +397,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-15"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 1, 1920</a>
+              <button className="yith-expand">February 1, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -420,7 +420,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-16"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 8, 1920</a>
+              <button className="yith-expand">February 8, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -443,7 +443,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-17"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 15, 1920</a>
+              <button className="yith-expand">February 15, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -466,7 +466,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-18"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 22, 1920</a>
+              <button className="yith-expand">February 22, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -489,7 +489,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-19"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 29, 1920</a>
+              <button className="yith-expand">February 29, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -512,7 +512,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-20"
                   mode="comparison">
-              <a className="yith-expand" href="#">March 7, 1920</a>
+              <button className="yith-expand">March 7, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -535,7 +535,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-21"
                   mode="comparison">
-              <a className="yith-expand" href="#">March 14, 1920</a>
+              <button className="yith-expand">March 14, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -558,7 +558,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-22"
                   mode="comparison">
-              <a className="yith-expand" href="#">March 21, 1920</a>
+              <button className="yith-expand">March 21, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -581,7 +581,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-23"
                   mode="comparison">
-              <a className="yith-expand" href="#">March 28, 1920</a>
+              <button className="yith-expand">March 28, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -604,7 +604,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-24"
                   mode="comparison">
-              <a className="yith-expand" href="#">April 4, 1920</a>
+              <button className="yith-expand">April 4, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -627,7 +627,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-25"
                   mode="comparison">
-              <a className="yith-expand" href="#">April 11, 1920</a>
+              <button className="yith-expand">April 11, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -650,7 +650,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-26"
                   mode="comparison">
-              <a className="yith-expand" href="#">April 18, 1920</a>
+              <button className="yith-expand">April 18, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -673,7 +673,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-27"
                   mode="comparison">
-              <a className="yith-expand" href="#">April 25, 1920</a>
+              <button className="yith-expand">April 25, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -696,7 +696,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-28"
                   mode="comparison">
-              <a className="yith-expand" href="#">May 2, 1920</a>
+              <button className="yith-expand">May 2, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -719,7 +719,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-29"
                   mode="comparison">
-              <a className="yith-expand" href="#">May 9, 1920</a>
+              <button className="yith-expand">May 9, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -742,7 +742,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-30"
                   mode="comparison">
-              <a className="yith-expand" href="#">May 16, 1920</a>
+              <button className="yith-expand">May 16, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -765,7 +765,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-31"
                   mode="comparison">
-              <a className="yith-expand" href="#">September 12, 1920</a>
+              <button className="yith-expand">September 12, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -788,7 +788,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-32"
                   mode="comparison">
-              <a className="yith-expand" href="#">September 26, 1920</a>
+              <button className="yith-expand">September 26, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -811,7 +811,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-33"
                   mode="comparison">
-              <a className="yith-expand" href="#">October 10, 1920</a>
+              <button className="yith-expand">October 10, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -834,7 +834,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-34"
                   mode="comparison">
-              <a className="yith-expand" href="#">October 31, 1920</a>
+              <button className="yith-expand">October 31, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -857,7 +857,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-35"
                   mode="comparison">
-              <a className="yith-expand" href="#">November 21, 1920</a>
+              <button className="yith-expand">November 21, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -880,7 +880,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-36"
                   mode="comparison">
-              <a className="yith-expand" href="#">December 5, 1920</a>
+              <button className="yith-expand">December 5, 1920</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -903,7 +903,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-37"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 16, 1921</a>
+              <button className="yith-expand">January 16, 1921</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -926,7 +926,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-38"
                   mode="comparison">
-              <a className="yith-expand" href="#">January 30, 1921</a>
+              <button className="yith-expand">January 30, 1921</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -949,7 +949,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-39"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 13, 1921</a>
+              <button className="yith-expand">February 13, 1921</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"
@@ -972,7 +972,7 @@ const ConcertProgramsPage = () => {
 
             <Yith id="concert-programs-comparison-40"
                   mode="comparison">
-              <a className="yith-expand" href="#">February 20, 1921</a>
+              <button className="yith-expand">February 20, 1921</button>
               <div className="yith-structure">
                 <figure class="yith-manifest"
                         data-manifest="https://digital.lib.utk.edu/static/iiif/galston_1.json"

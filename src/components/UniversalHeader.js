@@ -46,16 +46,18 @@ class UniversalHeader extends Component {
           <a
             href="https://utk.primo.exlibrisgroup.com/discovery/login?vid=01UTN_KNOXVILLE:01UTK&lang=en"
             target="_blank"
+            rel="noreferrer"
           >
             My Account
           </a>
           <a
             href="https://utk.primo.exlibrisgroup.com/discovery/search?vid=01UTN_KNOXVILLE:01UTK&lang=en"
             target="_blank"
+            rel="noreferrer"
           >
             <span>Search</span>
           </a>
-          <a href="https://lib.utk.edu" target="_blank">
+          <a href="https://lib.utk.edu" target="_blank" rel="noreferrer">
             Home
           </a>
         </div>

@@ -1,7 +1,5 @@
 import * as React from "react"
-import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import Navigation from "./navigation"
 
 const Header = ({ structure }) => (
