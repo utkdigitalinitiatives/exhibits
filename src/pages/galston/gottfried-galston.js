@@ -171,7 +171,7 @@ const GalstonPage = () => {
                 className="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_697.json"
                 data-label="Munich"
-                data-region="591,591,4395,5896"
+                data-region="591,607,4395,2695"
             >Upon completion of the monumental concert series, Galston explored other artistic outlets. He began
               painting, and befriended Bauhaus artists such as Paul Klee, Lyonel Feininger, and Wassily Kandinsky. In
               1921, the second edition of the Studienbuch was published by O. Halbreiter in Munich, with minor edits by
