@@ -59,7 +59,7 @@ const GalstonPage = () => {
                 className="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_710.json"
                 data-label="Childhood"
-                data-region="1338,1238,2902,3479"
+                data-region="1415,1111,3566,2591"
             >Born in Vienna in 1879, Galston's musical training began in early childhood under the supervision of his
               governesses. At age seven, he began private lessons with various teachers in Vienna, including Professor
               Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor
