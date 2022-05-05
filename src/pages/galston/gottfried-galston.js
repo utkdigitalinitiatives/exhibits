@@ -59,7 +59,7 @@ const GalstonPage = () => {
                 className="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_710.json"
                 data-label="Childhood"
-                data-region="1338,1238,2902,3479"
+                data-region="1415,1111,3566,2591"
             >Born in Vienna in 1879, Galston's musical training began in early childhood under the supervision of his
               governesses. At age seven, he began private lessons with various teachers in Vienna, including Professor
               Schenner at the Vienna Conservatory. At high school in 1894, Galston began lessons with Theodor
@@ -171,7 +171,7 @@ const GalstonPage = () => {
                 className="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_697.json"
                 data-label="Munich"
-                data-region="591,591,4395,5896"
+                data-region="591,607,4395,2695"
             >Upon completion of the monumental concert series, Galston explored other artistic outlets. He began
               painting, and befriended Bauhaus artists such as Paul Klee, Lyonel Feininger, and Wassily Kandinsky. In
               1921, the second edition of the Studienbuch was published by O. Halbreiter in Munich, with minor edits by
@@ -182,7 +182,7 @@ const GalstonPage = () => {
                 className="yith-manifest"
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_686.json"
                 data-label="Move to US"
-                data-region="1599,2006,2551,3652"
+                data-region="1597,1982,2587,1774"
             >Galston moved to St. Louis, Missouri, in 1927, where he was appointed Professor and Artist-in-Residence at
               the St. Louis Institute of Music. Over the next 20 years, he performed more than 1,000 recitals in
               addition to teaching a full studio of talented young pianists. Galston married his second wife, Helen. On
