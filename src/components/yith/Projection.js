@@ -95,7 +95,6 @@ class Projection extends Component {
       const data = this.props.manifests[slide.mIndex]
       if (slide.type === 'annotation') {
         data.items.map((canvas, canvasIndex) => {
-          console.log(canvas);
           if (canvas.annotations) {
             canvas.annotations[0].items.map((annotation, annotationIndex) => {
               if (annotation.id === slide.annotation) {
