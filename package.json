@@ -20,7 +20,9 @@
     "gatsby-source-filesystem": "^3.6.0",
     "gatsby-transformer-json": "^3.7.0",
     "gatsby-transformer-sharp": "^3.6.0",
+    "immer": "9.0.6",
     "lodash": "^4.17.21",
+    "minimist": "1.2.6",
     "mirador": "^3.2.0",
     "node-sass": "^6.0.0",
     "prop-types": "^15.7.2",
@@ -31,6 +33,7 @@
     "react-scroll": "^1.8.2",
     "react-scrolling-nav": "^1.1.5",
     "react-sticky-el": "^2.0.9",
+    "url-parse": "1.5.9",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
