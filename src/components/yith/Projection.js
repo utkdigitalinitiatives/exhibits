@@ -195,7 +195,6 @@ class Projection extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props);
     this.handleSlide()
   }
 
