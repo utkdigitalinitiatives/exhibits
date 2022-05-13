@@ -91,9 +91,9 @@ class Projection extends Component {
 
   handleSlide = () => {
     if (!this.state.loaded) {
-      let slide = this.props.sequence[this.state.index]
-      const data = this.props.manifests[slide.mIndex]
-      if (slide.type === 'annotation') {
+      let slide = this.props.sequence[this.state.index];
+      const data = this.props.manifests[slide.mIndex];
+      if (slide.type === 'annotation' && typeof data !== 'undefined') {
         data.items.map((canvas, canvasIndex) => {
           if (canvas.annotations) {
             canvas.annotations[0].items.map((annotation, annotationIndex) => {
@@ -195,6 +195,7 @@ class Projection extends Component {
   }
 
   componentDidMount() {
+    console.log(this.props);
     this.handleSlide()
   }
 
