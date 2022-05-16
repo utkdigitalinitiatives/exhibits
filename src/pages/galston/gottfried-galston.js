@@ -72,9 +72,9 @@ const GalstonPage = () => {
                 data-region="368,259,2364,1757"
             >Galston entered the Leipzig Conservatory in 1899, studying theory and composition with Carl Reinecke and
               Salomon Jadassohn. Galston's training with renowned pianist-composer teachers developed his ability to
-              analyze music in such a way that he could easily discern a composer’s intention from a complex and heavily
+              analyze music in such a way that he could easily discern a composer's intention from a complex and heavily
               textured musical score. After graduating from the Conservatory, Galston performed his first professional
-              debut in Leipzig’s Gewandhaus Hall.
+              debut in Leipzig's Gewandhaus Hall.
             </figure>
             <figure
                 className="yith-manifest"
@@ -101,7 +101,7 @@ const GalstonPage = () => {
                 data-region="351,359,3474,4506"
             >Around this time, Galston began a life-long friendship with Berlin-based pianist, composer, teacher,
               Ferruccio Busoni, taking the form of a mentor-protégé relationship. The respect and admiration for each
-              other is well-documented in their correspondence, their dedication of compostions to each other, and
+              other is well-documented in their correspondence, their dedication of compositions to each other, and
               Galston's collection of Busoni-related materials, all of which form part of the Galston-Busoni Collection
               at the University of Tennessee.
             </figure>
@@ -110,7 +110,7 @@ const GalstonPage = () => {
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_696.json"
                 data-label="Concert Series"
                 data-region="2168,729,3947,2732"
-            >Galston’s performance career was launched to new heights with a series of concerts that included some of
+            >Galston's performance career reached new heights with a series of concerts that included some of
               the most monumental piano works by Bach, Beethoven, Chopin, Liszt, and Brahms. In just eight weeks from
               January to March 1907, Galston performed ten concerts in London and Paris, followed by concerts in Berlin,
               Vienna, and Amsterdam later that year and early 1908.
@@ -123,10 +123,9 @@ const GalstonPage = () => {
                 data-label="Honors"
                 data-region="559,439,4710,5978"
             >In 1909, following the successful concert series in Europe, the faculty of the Imperial Conservatory at St.
-              Petersburg--headed by Alexander Glazunov--offered Galston the honor of Professor Extraordinaire, a title
+              Petersburg—headed by Alexander Glazunov—offered Galston the honor of Professor Extraordinaire, a title
               conferred by Imperial "ukase" (decree), which he accepted as an honorary post.
-              Galston was invited, without having applied, to perform at the Conservory in Paris, March 7-14, 1909. In
-              recognition of the concerts' outstanding success a special silver medal was cast for him.
+              Galston was invited to perform at the Conservatory in Paris, March 7-14, 1909. A special silver medal was cast for him in recognition of the concerts' outstanding success.”
             </figure>
             <figure
                 className="yith-manifest"
@@ -135,7 +134,7 @@ const GalstonPage = () => {
                 data-region="1000,1135,3576,2550"
             >The first edition of Galston's Studienbuch was published by Bruno Cassirer, Berlin.
               Based on his 1907-1908 concert series, the book intricately describes Galston's journey through his
-              interpretative processes, analyzing the five composers’ texts to capture the true character of each work.
+              interpretative processes, analyzing the five composers' texts to capture the true character of each work.
             </figure>
             <figure
                 className="yith-manifest"
@@ -144,7 +143,7 @@ const GalstonPage = () => {
                 data-region="1135,400,1850,2318"
             >Throughout 1912 and 1913, Galston undertook a coast to coast tour of the United States, accompanied by
               symphony orchestras including Chicago, Detroit, San Francisco, and St Louis. During this tour, Galston
-              visited Wilcox & White in Meridien, Connecticut, to record paino rolls for the Artrio-Angelus and Voltem
+              visited Wilcox &amp; White in Meridien, Connecticut, to record paino rolls for the Artrio-Angelus and Voltem
               player pianos and organs.
             </figure>
             <figure
@@ -154,7 +153,7 @@ const GalstonPage = () => {
                 data-region="352,447,2968,4295"
             >From 1915 until the end of World War I, Galston served as a lieutenant in the Austrian cavalry. During this
               time, Galston had no access to a piano, and feared the loss of dexterity in his fingers. He endeavored to
-              maintain dexterity in his fingers by practicing on any surface he could find. He also found that drawing
+              maintain dexterity by practicing on any surface he could find. He also found that drawing
               objects with intricate details helped keep his fingers nimble. In 1918, Galston's marriage with Droucker
               ended.
             </figure>
@@ -172,11 +171,8 @@ const GalstonPage = () => {
                 data-manifest="https://digital.lib.utk.edu/static/iiif/galston_697.json"
                 data-label="Munich"
                 data-region="591,607,4395,2695"
-            >Upon completion of the monumental concert series, Galston explored other artistic outlets. He began
-              painting, and befriended Bauhaus artists such as Paul Klee, Lyonel Feininger, and Wassily Kandinsky. In
-              1921, the second edition of the Studienbuch was published by O. Halbreiter in Munich, with minor edits by
-              Galston. During this year, Galston left Munich to live in Berlin. Early in 1926, he made his 11th and
-              final tour of Russia.
+            >Upon completion of the monumental concert series, Galston explored other artistic outlets. He began painting, and befriended Bauhaus artists such as Paul Klee, Lyonel Feininger, and Wassily Kandinsky. 
+            In 1921, O. Halbreiter in Munich, began publishing second editions of the five individual sections of the <span className="studybook">Studienbuch</span>, incorporating minor edits by Galston. Early in 1926, Galston made his 11th and final tour of Russia. 
             </figure>
             <figure
                 className="yith-manifest"
