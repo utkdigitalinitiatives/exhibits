@@ -68,7 +68,7 @@ const StudienbuchPage = () => {
                         for generations to come.</p>
                     <p>Galston's impetus to publish the <span className="studybook">Studienbuch</span> was his
                         recognition of "the great value in what is said about the works of a composer, or what is
-                        inspired, felt, and expressed by these works." (<span className="studybook">Studienbuch</span>, Foreward, p.VII)</p>
+                        inspired, felt, and expressed by these works." (<span className="studybook">Studienbuch</span>, Foreword, p.VII)</p>
                 </div>
                 <div className="music-pedagogy-yith">
                     <Yith id="studienbuch-present-test"
