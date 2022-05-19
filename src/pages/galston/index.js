@@ -59,8 +59,9 @@ return (
     <section className="exhibits-section">
       <div>
         <h2>The Studienbuch</h2>
-        <p>At the heart of this exhibit is a unique, bound volume of a groundbreaking publication in music pedagogy - Gottfried Galston’s <span className="studybook">Studienbuch</span>. The exhibit features the first edition of the Austrian-born pianist’s German-language book (1910), accompanied by a specially-commissioned--and previously unpublished--English translation. The bound volume includes several editorial changes -- handwritten by Galston -- later incorporated into the book's 2nd edition (1922).</p>
-        <p>In this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Liszt, Brahms, and Chopin. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation and the hope that it may contribute to music pedagogy in the U.S. and beyond.</p>
+        <p>At the heart of this exhibit is a unique bound volume of a groundbreaking publication in music pedagogy, Gottfried Galston's <span className="studybook">Studienbuch</span>. The exhibit features the first edition of the Austrian-born pianist's German-language book (1910), accompanied by a specially-commissioned, and previously unpublished, English translation. The bound volume includes several editorial changes, handwritten by Galston, and later incorporated into the book's second edition, which was published in the 1920s in five separate sections.</p>
+        
+        <p>In this pioneering studybook, Galston provides a thorough record of his thought processes and musical interpretations for the works of five composers - Bach, Beethoven, Chopin, Liszt, and Brahms. Widely used in German-speaking countries, the studybook is made available here for the first time with an English translation, and with the hope that it may contribute to music pedagogy in the U.S. and beyond.</p>
       </div>
       <div id="comparison-teaser-wrapper">
         <Yith id="studienbuch-translation"
@@ -81,7 +82,7 @@ return (
 
     <section id="guided-tour">
       <Yith id="sample-projection" mode="projection"
-            description="Explore features of UT’s unique bound volume of Galston’s <em>Studienbuch</em> (1910)">
+            description="Explore features of UT's unique bound volume of Galston's <em>Studienbuch</em> (1910)">
         <button className="yith-expand">Explore the Volume</button>
         <div className="yith-structure">
           <figure class="yith-manifest"
@@ -165,7 +166,7 @@ return (
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/7/annotations/1">
                 <figcaption>
                   <strong>Printers</strong>
-                  <p>The Studienbuch was printed by Breitkopf & Härtel in Leipzig. Founded in 1719 and still in business
+                  <p>The Studienbuch was printed by Breitkopf &amp; Härtel in Leipzig. Founded in 1719 and still in business
                     in the 21st century, the company is the oldest music publishing house.</p>
                 </figcaption>
               </figure>
@@ -198,7 +199,7 @@ return (
                       data-annotation="https://digital.lib.utk.edu/assemble/manifest/galston/178/canvas/260/annotations/2">
                 <figcaption>
                   <strong>Postcard - message from Godowsky</strong>
-                  <p>The postcard was sent to Galston from Leopold Godowsky [senior], and was written on Galston’s own
+                  <p>The postcard was sent to Galston from Leopold Godowsky [senior], and was written on Galston's own
                     stationery.
                     The note concerns Godowsky's own interpretation of Chopin's études. It reads:</p>
                   <p>My esteemed Mr. Galston,</p>
@@ -375,10 +376,11 @@ return (
       </div>
       <div>
         <h2>Gottfried Galston</h2>
-        <p>A preeminent concert pianist of the early twentieth century, Gottfried Galston (1879-1950) studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances, but also by an innovative and insightful approach to piano pedagogy. His remarkable series of concert performances enthralled audiences around the world and were highly acclaimed by critics with the highest of praise, "[...] his superb playing [...] has been thoroughly artistic, without even being dry or pedantic, exquitite in tone, and well nigh perfect in technique." (Daily Telegraph, London, February 22, 1907) Galston's Studienbuch received an equally acclamatory response, "Galston's tremendous intellectual and musical grasp is evidenced this book [...]" (Musical Courier, July 3, 1912)</p>
-        <p>Galston taught at several notable institutions in Germany and toured extensively internationally, performing in Europe, Australasia, and the United States, where he later settled and taught at the St. Louis Institute of Music. More about Galston's life and career, and the signicance of his Studienbuch in music pedagogy can be found in this exhibit.</p>
+        <p>A preeminent concert pianist of the early twentieth century, Gottfried Galston (1879-1950) studied with leading pedagogues in Austria and Germany before embarking on a career distinguished not only by his virtuosic performances but also by an innovative and insightful approach to piano pedagogy. His remarkable series of concert performances enthralled audiences around the world and were highly acclaimed by critics with the highest of praise: "[H]is superb playing [...] has been thoroughly artistic, without even being dry or pedantic, exquisite in tone, and well nigh perfect in technique." (<span className="studybook">Daily Telegraph</span>, London, February 22, 1907) Galston's <span className="studybook">Studienbuch</span> received an equally acclamatory response: "Galston's tremendous intellectual and musical grasp is evidenced throughout his book" (<span className="studybook">Musical Courier</span>, July 3, 1912)</p>
+
+        <p>Galston taught at several notable institutions in Germany and toured extensively internationally, performing in Europe, Australasia, and the United States, where he later settled and taught at the St. Louis Institute of Music. More about Galston's life and career, and the significance of his <span className="studybook">Studienbuch</span> in music pedagogy can be found in this exhibit.</p>
         <div className="call-to-action--wrapper">
-          <div className="call-to-action"><Link to="/galston/gottfried-galston">Galston's Life & Career</Link></div>
+          <div className="call-to-action"><Link to="/galston/gottfried-galston">Galston's Life &amp; Career</Link></div>
         </div>
       </div>
     </section>

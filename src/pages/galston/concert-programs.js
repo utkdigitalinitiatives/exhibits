@@ -60,19 +60,9 @@ const ConcertProgramsPage = () => {
                 recitals. The performances encompassed an impressive representation of works by the most celebrated
                 composers as well as works by Galston's contemporaries. The concert programs state that the entirety of
                 significant piano literature from the beginning to the present is covered by these 40 concerts. By the
-                end
-                of the series, Galston had performed over 200 works in just over 70 weeks. </p>
-              <p>This volume of individual printed programs was likely bound especially for Galston, and bears his “Ex
-                Libris” plate on the inside front cover. The composers and works detailed in this volume match the list
-                of
-                concerts written in Galston's hand at the end of the <span class="studybook">Studienbuch</span>. These
-                handwritten lists include a few additional details, for example, about arrangers, but it is not known
-                why
-                Galston transcribed the concert series in detail at the back of the <span
-                    class="studybook">Studienbuch</span> bound volume; the list was not included in subsequent editions
-                of
-                the <span class="studybook">Studienbuch</span>.
-              </p>
+                end of the series, Galston had performed over 200 works in just over 70 weeks.</p>
+
+              <p>This volume of individual printed programs was likely bound especially for Galston, and bears his <a href="https://digital.lib.utk.edu/collections/islandora/object/galston%3A177">“Ex Libris” bookplate</a> on the inside front cover. The composers and works detailed in this volume match the list of concerts written in Galston's hand at the end of the <span className="studybook">Studienbuch</span>. These handwritten lists include a few additional details, for example, about arrangers, but it is not known why Galston transcribed the concert series in detail at the back of the <span className="studybook">Studienbuch</span> bound volume; the list was not printed in subsequent editions of the <span className="studybook">Studienbuch</span>.</p>
             </div>
           </div>
           <div className="comparison-grid">
