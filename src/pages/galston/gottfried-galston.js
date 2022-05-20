@@ -173,9 +173,7 @@ const GalstonPage = () => {
                 data-region="591,607,4395,2695"
             >Upon completion of the monumental concert series, Galston explored other artistic outlets. He began painting, 
             and befriended Bauhaus artists such as Paul Klee, Lyonel Feininger, and Wassily Kandinsky.
-            In 1921, O. Halbreiter in Munich, began publishing second editions of the five individual sections of the 
-            <span className="studybook">Studienbuch</span>, incorporating minor edits by Galston. Early in 1926, Galston 
-            made his 11th and final tour of Russia.
+            In 1921, O. Halbreiter in Munich, began publishing second editions of the five individual sections of the Studienbuch, incorporating minor edits by Galston. Early in 1926, Galston made his 11th and final tour of Russia.
             </figure>
             <figure
                 className="yith-manifest"
