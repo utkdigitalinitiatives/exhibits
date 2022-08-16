@@ -63,7 +63,7 @@ const ResourcesPage = () => {
 
               <p>Professor Patricia Carter was instrumental in bringing Galston's archives to UT in the 1970s, and has been a driving force in efforts to make the materials available to the widest possible audience. She and her late husband, professor William Carter, encouraged Helen Galston Tibbe, Galston's widow, to consider entrusting her late husband's archives to the University of Tennessee Libraries. Recognizing the importance of the <span className="studybook">Studienbuch</span>, professor Patricia Carter commissioned Rosemarie S. Greenman to translate it into English, and later proposed that UT Libraries' Newfound Press publish the translation online alongside the original German text. Professor Carter shared extensive information about Galston's life and career with music librarians Chris Durman and Nathalie Hristov, who wrote the preface and introduction to the Newfound Press publication, from which much of the text for this digital exhibit has been drawn.</p>
 
-              <p>A downloadable e-publication of Galston's <span className="studybook">Studienbuch</span> and its English translation will be published by UT Libraries' Newfound Press in summer 2022.</p>
+              <p>A downloadable e-publication of Galston's <span className="studybook">Studienbuch</span> and its English translation is available from Newfound Press at <a href="https://trace.tennessee.edu/utk_newfound-ebooks/20/">https://trace.tennessee.edu/utk_newfound-ebooks/20/</a>.</p>
             </div>
 
             <div className="yith-wrapper-resources">
