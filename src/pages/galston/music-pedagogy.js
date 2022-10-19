@@ -148,7 +148,7 @@ const StudienbuchPage = () => {
                               mode="present">
                             <div className="yith-structure">
                                 <figure className="yith-manifest"
-                                        data-manifest="https://digital.lib.utk.edu/assemble/manifest/galston/948"></figure>
+                                        data-manifest="https://digital.lib.utk.edu/static/iiif/galston_948.json"></figure>
                             </div>
                         </Yith>
                     </div>
