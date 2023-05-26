@@ -81,22 +81,5 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          "UA-5931387-33", // Google Analytics / GA
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: true,
-          anonymize_ip: true,
-          respectDNT: true,
-        },
-      },
-    },
   ],
 }
