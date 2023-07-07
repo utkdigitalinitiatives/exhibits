@@ -8,31 +8,35 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-5931387-33",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Defers execution of google analytics script after page load
-        defer: false,
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "utk.edu",
-        // defaults to false
-        enableWebVitalsTracking: true,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-DN6TP2L65T",
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        // gtagConfig: {
+        //   optimize_id: "OPT_CONTAINER_ID",
+        //   anonymize_ip: true,
+        //   cookie_expires: 0,
+        // },
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+          // Setting this parameter is also optional
+          respectDNT: true,
+          // Avoids sending pageview hits from custom paths
+          exclude: [],
+          // Defaults to https://www.googletagmanager.com
+          origin: "YOUR_SELF_HOSTED_ORIGIN",
+          // Delays processing pageview events on route update (in milliseconds)
+          delayOnRouteUpdate: 0,
+        },
       },
     },
-    `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     {
@@ -76,23 +80,6 @@ module.exports = {
         sitemap: 'https://exhibits.lib.utk.edu/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          "UA-5931387-33", // Google Analytics / GA
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: true,
-          anonymize_ip: true,
-          respectDNT: true,
-        },
-      },
     },
   ],
 }
